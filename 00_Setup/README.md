@@ -4,23 +4,6 @@
 먼저 루트 README의 [시작하기] 섹션에서 설정을 완료했는지 확인합니다(.../README.md#Getting-started)
 그런 다음 필요한 SDK 설치, Brock 연결 및 모델 호출 방법을 보여주는 노트북 [bedrock_boto3_setup.ipynb](bedrock_boto3_setup.ipynb)을 살펴볼 준비가 됩니다.
 
-# 대화형 프롬프트 엔지니어링 가이드(AWS 계정 불필요)
-PartyRock 은 Amazon Bedrock 기반의 플레이그라운드에서 AI 생성 앱을 제작하고 사용할 수 있는 공간입니다. 생성형 AI에 대해 빠르고 재미있게 배울 수 있는 방법입니다. AWS 계정이 없어도 시작할 수 있습니다. Amazon.com, Apple 또는 Google의 소셜 로그인을 사용하여 프로필을 생성하면 누구나 파티록을 실험해 볼 수 있습니다.
+이번 실습은 Amazon Bedrock, LangChain 및 Streamlit에 대한 경험이 없다고 가정 합니다. 이번 실습에서 파운데이션 모델과 함께 작업하기 위한 핵심 패턴을 소개할 것 입니다. 워크샵의 모든 실습은 이러한 패턴을 기반으로 진행 됩니다.
 
-코드와 명령줄 도구를 사용하지 않고도 생성형 AI로 작업하는 방법을 배우고 싶은 분들을 위해 프롬프트 엔지니어링 가이드는 PartyRock을 통해 다음 챕터를 무료로 제공합니다:
-
-* [Prompt Engineering Introduction] 
-* [Content Creation]
-* [Providing Context to Reduce Hallucinations]
-* [Targeting Your Questions] 
-* [Repurposing Content] 
-* [Summarizing Long Content] 
-* [Language Translation] 
-* [Analyzing Customer Communication] 
-* [Information Extraction] 
-* [Prompting to Create and Understand Code] 
-* [Doing More with Generative AI] 
-기술 전문가는 [Amazon Bedrock & LangChain labs]을 선호할 수 있습니다.
-
-PartyRock에 대해 자세히 알아보기
-PartyRock 에 대한 자세한 내용은 [PartyRock과 Amazon Bedrock으로 AI 앱 구축하기](https://aws.amazon.com/ko/blogs/aws/build-ai-apps-with-partyrock-and-amazon-bedrock/)  또는 [PartyRock 가이드](https://partyrock.aws/guide/getStarted) 를 참조하세요.
+이러한 패턴은 몇 가지 기본적인 실제 사용 사례를 해결하는데 사용될 수 있습니다. 이러한 실습은 Bedrock API call 이외에 추가 인프라나 통합과 같은 과정을 필요로 하지 않습니다.
