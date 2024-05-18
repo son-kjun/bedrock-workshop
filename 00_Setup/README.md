@@ -23,4 +23,4 @@ Doing More with Generative AI
 기술 전문가는 Amazon Bedrock & LangChain labs을 선호할 수 있습니다.
 
 PartyRock에 대해 자세히 알아보기
-PartyRock(https://aws.amazon.com/ko/blogs/aws/build-ai-apps-with-partyrock-and-amazon-bedrock/)에 대한 자세한 내용은 PartyRock과 Amazon Bedrock으로 AI 앱 구축하기  또는 PartyRock 가이드 를 참조하세요.
+[PartyRock](https://aws.amazon.com/ko/blogs/aws/build-ai-apps-with-partyrock-and-amazon-bedrock/) 에 대한 자세한 내용은 PartyRock과 Amazon Bedrock으로 AI 앱 구축하기  또는 PartyRock 가이드 를 참조하세요.
