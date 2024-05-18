@@ -8,4 +8,4 @@
 
 이러한 패턴은 몇 가지 기본적인 실제 사용 사례를 해결하는데 사용될 수 있습니다. 이러한 실습은 Bedrock API call 이외에 추가 인프라나 통합과 같은 과정을 필요로 하지 않습니다.
 
-![Stable Diffusion Architecture](./images/sd.png)
+![Bedrock-Logo](https://github.com/son-kjun/bedrock-workshop/blob/main/02_Image_Generation/images/bedrock.jpg)
