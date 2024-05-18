@@ -64,4 +64,14 @@ Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성�
 - 02_Bedrock Stable Diffusion XL.ipynb
     - Amazon Bedrock API 로 Text-To-Image, Image-To-Image 를 실습 합니다.
 
+## Amazom Bedrock, LangChain 그리고 Streamlit의 개요
+Amazon Bedrock 은 파운데이션 모델을 사용하기 위한 완전 관리형 서비스입니다. 이를 통해 텍스트 생성 및 이미지 생성을 위한 단일 API 세트를 사용하여 Amazon 및 타사의 모델에 액세스할 수 있습니다.
+
+이 워크샵에서는 LangChain을 사용하여 Amazon Bedrock으로 생성형 AI 프로토타입을 구축합니다. 초급부터 중급까지 다양한 기술 수준을 목표로 하는 일련의 실습을 진행합니다. 라이브러리와 모델의 기능을 사용하여 다양한 사용 사례를 위한 프로토타입을 구축하는 방법을 배웁니다.
+
+LangChain  은 Amazon Bedrock의 모델 및 벡터 데이터베이스와 같은 관련 서비스와 상호 작용할 수 있는 편리한 기능을 제공합니다. LangChain은 파이썬과 자바스크립트 라이브러리를 제공합니다. 이 워크샵에서는 파이썬 버전의 LangChain을 사용합니다.
+
+Streamlit  을 사용하면 프론트엔드 개발 기술 없이도 파이썬 코드의 웹 프론트엔드를 빠르게 만들 수 있습니다. Streamlit은 기술자와 비기술자 모두에게 보여줄 수 있는 개념 증명(PoC)을 만드는 데 유용합니다.
+
+전제 조건 섹션을 완료한 후에는 순서와 상관없이 실습을 완료할 수 있습니다.
 
