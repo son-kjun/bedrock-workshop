@@ -25,7 +25,7 @@ o 이 구문을 사용하면 AWS boto3 라이브러리를 사용하여 Amazon Be
 o 아래 상자의 복사 버튼을 사용하면 해당 코드를 자동으로 복사할 수 있습니다:
 
 
-~~~
+~~~python
 import json
 import boto3
 ~~~
