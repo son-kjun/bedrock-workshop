@@ -1,7 +1,7 @@
 # 실습 1: Bedrock Console
 ## 실습 소개
 이 실습에서는 Amazon Bedrock 콘솔의 몇 가지 주요 기능에 대해 살펴보겠습니다.
-![bedrock-welcome](images/bedrock-welcome.jpg)
+![bedrock-welcome](images/bedrock-welcome.png)
  
 
 Amazon Bedrock에 액세스할 수 있는 계정에 로그인하고 적절한 리전을 선택한 다음 Amazon Bedrock 콘솔로 이동합니다.
