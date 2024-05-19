@@ -11,12 +11,26 @@ App in use
 
  
 
-Python script 생성
+## Python script 생성
  
 
 workshop/labs/api 폴더로 이동하여 bedrock_api_kr.py 파일을 엽니다.
 Illustration of the file browser
 
+```ruby
+code block
+```
+
+~~~
+fenced code block
+~~~
+
+~~~javascript
+function syntaxHighlight(code, lang) {
+   var foo = 'rhio';
+   var bar = 33;
+}
+~~~
  
 
 import 구문을 추가합니다.
