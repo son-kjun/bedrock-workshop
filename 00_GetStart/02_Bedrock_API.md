@@ -21,7 +21,7 @@ Illustration of the file browser
 
 import 구문을 추가합니다.
 
-'''python
+'''
 import json
 import boto3
 '''
