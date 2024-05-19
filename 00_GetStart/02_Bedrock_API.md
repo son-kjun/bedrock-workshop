@@ -1,7 +1,6 @@
-실습 2: Bedrock API
-이 실습을 시작하기 전에 전제 조건 섹션을 완료하세요.
+# 실습 2: Bedrock API
 
-실습 소개
+## 실습 소개
 최종 결과물:
 
 App in use
@@ -22,11 +21,10 @@ Illustration of the file browser
 
 import 구문을 추가합니다.
 
-이 구문을 사용하면 AWS boto3 라이브러리를 사용하여 Amazon Bedrock을 호출할 수 있습니다.
-아래 상자의 복사 버튼을 사용하면 해당 코드를 자동으로 복사할 수 있습니다:
+'''python
 import json
 import boto3
-
+'''
  
 
 Bedrock client 라이브러리를 초기화합니다.
