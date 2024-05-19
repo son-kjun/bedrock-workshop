@@ -16,11 +16,13 @@ Stable Diffusion은 텍스트 프롬프트에서 이미지를 생성합니다. �
   - 웹사이트, 이메일 등을 위한 사용자 지정 이미지 생성.
   - 다양한 미디어 형식의 컨셉 아트 제작
 
+
 ## 아키텍처
 ![architecture.png](images/architecture.png)
 
 
 이 애플리케이션은 두 개의 파일로 구성되어 있는데, 하나는 Streamlit front-end 용 파일이고 다른 하나는 Bedrock을 호출하기 위한 지원 라이브러리용 파일 입니다.
+
 
  
 ## 라이브러리 스크립트 만들기
@@ -82,6 +84,7 @@ def get_image_response(prompt_content): #text-to-text 클라이언트 함수
 
 환상적입니다! 백앤드 라이브러리가 완성되었습니다. 이제 front-end 애플리케이션을 만들어보겠습니다.
 
+
  
 ## Streamlit front-end 앱 만들기
 **1. lib 파일과 같은 폴더에서 image_app_kr.py 파일을 엽니다.**
@@ -129,6 +132,7 @@ with col2: #이 with 블록의 모든 내용은 컬럼 2에 배치됩니다
  
 **6. 파일을 저장합니다.**
 **훌륭합니다! 이제 애플리케이션을 실행할 준비가 되었습니다!**
+
 
  
 ## Streamlit 앱 실행
