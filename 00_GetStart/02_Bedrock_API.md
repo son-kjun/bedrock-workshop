@@ -20,6 +20,9 @@ Illustration of the file browser
  
 
 import 구문을 추가합니다.
+o 이 구문을 사용하면 AWS boto3 라이브러리를 사용하여 Amazon Bedrock을 호출할 수 있습니다.
+o 아래 상자의 복사 버튼을 사용하면 해당 코드를 자동으로 복사할 수 있습니다:
+
 
 '''
 import json
