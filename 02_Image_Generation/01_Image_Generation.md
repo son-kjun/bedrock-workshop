@@ -84,16 +84,16 @@ def get_image_response(prompt_content): #text-to-text 클라이언트 함수
 
  
 ## Streamlit front-end 앱 만들기
-1. lib 파일과 같은 폴더에서 image_app_kr.py 파일을 엽니다.
+**1. lib 파일과 같은 폴더에서 image_app_kr.py 파일을 엽니다.**
 
-2. import 구문을 추가 합니다.
+**2. import 구문을 추가 합니다.**
 - 이 구문을 사용하면 백킹 라이브러리 스크립트에서 Streamlit 요소를 사용하고 함수를 호출할 수 있습니다.
 ~~~python
 import streamlit as st #모든 streamlit 명령은 "st" 별칭을 통해 사용할 수 있습니다
 import image_lib_kr as glib #로컬 라이브러리 스크립트 참조
 ~~~
  
-3.페이지 제목, 구성 및 열 레이아웃을 추가합니다.
+**3.페이지 제목, 구성 및 열 레이아웃을 추가합니다.**
 - 여기서는 실제 페이지의 페이지 제목과 브라우저 탭에 표시되는 제목을 설정하고 있습니다. 왼쪽에 입력을 받고 오른쪽에 출력을 표시하기 위해 두 개의 열을 만들고 있습니다.
 ~~~python
 st.set_page_config(layout="wide", page_title="Image Generation") #컬럼을 위해 페이지 너비를 더 넓게 설정
@@ -103,7 +103,7 @@ st.title("Image Generation") #페이지 제목
 col1, col2 = st.columns(2) #2개 컬럼 생성
 ~~~
 
-4. 입력 요소를 추가합니다.
+**4. 입력 요소를 추가합니다.**
 - 첫 번쨰 열에는 여러 줄의 텍스트 상자와 버튼을 만들어 사용자의 프롬프트를 가져와서 Bedrock으로 전송합니다.
 ~~~python
 with col1: #이 with 블록의 모든 내용이 컬럼 1에 배치됨
@@ -114,7 +114,7 @@ with col1: #이 with 블록의 모든 내용이 컬럼 1에 배치됨
     process_button = st.button("Run", type="primary") #기본 버튼 표시
 ~~~
 
-5. 출력 요소를 추가합니다.
+**5. 출력 요소를 추가합니다.**
 - 두 번째 열에서는 if 블록을 사용해 버튼 클릭을 처리합니다. 백킹 함수가 호출되는 동안 스피너를 표시한 다음 웹 페이지에 출력을 씁니다.
 ~~~python
 with col2: #이 with 블록의 모든 내용은 컬럼 2에 배치됩니다
@@ -127,31 +127,32 @@ with col2: #이 with 블록의 모든 내용은 컬럼 2에 배치됩니다
         st.image(generated_image) #생성된 이미지를 표시합니다
 ~~~
  
-6. 파일을 저장합니다.
+**6. 파일을 저장합니다.**
 **훌륭합니다! 이제 애플리케이션을 실행할 준비가 되었습니다!**
 
  
 ## Streamlit 앱 실행
-1. AWS Cloud9 혹은 EC2에서 bash terminal을 선택하고 디렉토리를 변경합니다.
+**1. AWS Cloud9 혹은 EC2에서 bash terminal을 선택하고 디렉토리를 변경합니다.**
 ~~~bash
 cd ~/environment/workshop/labs/image
 ~~~
  
-2. 터미널에서 streamlit 명령을 실행합니다.
+**2. 터미널에서 streamlit 명령을 실행합니다.**
 ~~~bash
 streamlit run image_app_kr.py --server.port 8080
 ~~~
 Streamlit 명령에 의해 표시되는 Network URL 및 External URL 링크를 무시합니다. 대신 AWS Cloud9의 프리뷰 기능을 사용하겠습니다.
 
-3. AWS Cloud9에서 Preview -> Preview Running Application을 선택합니다.
+**3. AWS Cloud9에서 Preview -> Preview Running Application을 선택합니다.**
 ![cloud9-preview.png](images/cloud9-preview.png)
 
 아래와 같은 웹 페이지가 표시됩니다:
 app.png
 
-4. 몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.
+**4. 몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.**
 - A cat and a person, in the style of Picasso
 - a beautiful mountain landscape
 ![app-in-use-ko.png](images/app-in-use-ko.png)
 
-5. AWS Cloud9에서 미리보기 탭을 닫습니다. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.
+**5. AWS Cloud9에서 미리보기 탭을 닫습니다.**
+**6. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.**
