@@ -17,20 +17,7 @@ App in use
 workshop/labs/api 폴더로 이동하여 bedrock_api_kr.py 파일을 엽니다.
 Illustration of the file browser
 
-```ruby
-code block
-```
 
-~~~
-fenced code block
-~~~
-
-~~~javascript
-function syntaxHighlight(code, lang) {
-   var foo = 'rhio';
-   var bar = 33;
-}
-~~~
  
 
 import 구문을 추가합니다.
@@ -38,10 +25,10 @@ o 이 구문을 사용하면 AWS boto3 라이브러리를 사용하여 Amazon Be
 o 아래 상자의 복사 버튼을 사용하면 해당 코드를 자동으로 복사할 수 있습니다:
 
 
-'''
+~~~
 import json
 import boto3
-'''
+~~~
  
 
 Bedrock client 라이브러리를 초기화합니다.
