@@ -47,7 +47,7 @@ session = boto3.Session()
 bedrock = session.client(service_name='bedrock-runtime')  #베드락 클라이언트를 생성
 
 bedrock_model_id = "stability.stable-diffusion-xl-v1" #Stable Diffusion 모델 사용
-
+~~~
  
 **4. 이미지 변환 함수를 추가합니다.**
 - 이 함수는 반환된 페이로드에서 이미지 데이터를 추출하여 Streamlit에서 사용할 수 있는 형식으로 변환합니다.
@@ -59,6 +59,7 @@ def get_response_image_from_payload(response): #모델 응답 페이로드에서
     image_data = base64.b64decode(images[0].get('base64')) #이미지 디코딩
 
     return BytesIO(image_data) #클라이언트 앱 소비를 위한 BytesIO 객체 반환
+~~~
 
 **5. 이 함수를 추가하여 Bedrock을 호출합니다.**
 - Streamlit front-end 애플리케이션에서 호출할 수 있는 함수를 만들고 있습니다. 이 함수는 입력 콘텐츠를 Bedrock에 전달하고 이미지를 반환합니다.
@@ -75,6 +76,7 @@ def get_image_response(prompt_content): #text-to-text 클라이언트 함수
     output = get_response_image_from_payload(response) #응답 페이로드를 클라이언트가 소비할 수 있도록 BytesIO 객체로 변환
     
     return output
+~~~
 
 **6. 파일을 저장합니다.**
 
