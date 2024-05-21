@@ -170,11 +170,11 @@ app.png
 **5. AWS Cloud9에서 미리보기 탭을 닫습니다.**
 **6. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.**
 
-<p>
+<aside>
 <a href="README.md" class="btn--primary">Previous/</a>  <a href="01_Image_Generation.md" class="btn--warning">Next/</a>  
-[Previous](#README.md){: .btn .btn--primary}
+[Previous](README.md){: .btn .btn--primary}
 <a href="#" class="btn btn--primary">Default Button</a>
-</p>
+</aside>
 
 
 <aside class="go_to_top_butten">
