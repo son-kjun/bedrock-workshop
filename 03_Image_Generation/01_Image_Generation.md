@@ -172,4 +172,4 @@ app.png
 
 
 [![Previous](images/previous.png)](README.md) [![Next](images/next.png)](01_Image_Generation.md)
-<img src="images/previous.png" width="100px" height="50px">[Previous](README.md)</img>
+<input type="button">
