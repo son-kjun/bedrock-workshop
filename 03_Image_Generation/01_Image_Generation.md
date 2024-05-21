@@ -182,3 +182,16 @@ app.png
 </aside>
 
 <input type="button" value="Next"/>
+
+<div class="page-control">
+	<div>
+		{% if page.previous.url %}
+		<a id="prev" class="button" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+		{% endif %}
+	</div>
+	<div>
+		{% if page.next.url %}
+		<a id="next" class="button" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+		{% endif %}
+	</div>
+</div>
