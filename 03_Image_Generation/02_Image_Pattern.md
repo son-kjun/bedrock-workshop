@@ -121,3 +121,11 @@ def get_image_from_model(prompt_content, negative_prompt=None):
 |Element added|Prompt|Image|Note|
 |------|---|---|---|
 |Subject|Doctor|![subject.png](images/subject.png)|일반적으로 사진과 같은 이미지로 기본 설정됩니다.|
+|Medium|Painting of a doctor|![medium.png](images/medium.png)|생성할 아트 유형 (기타 예: 다게레오타입, 연필 스케치, 수채화, 3D 만화 등)|
+|Style|Painting of a doctor, Impressionist style
+|![style.png](images/style.png)|생성할 예술의 스타일 또는 테마(기타 예: 다다이스트 스타일, 르네상스 스타일 등)|
+|Shot type/angle|Painting of a doctor, Impressionist style, low-angle shot|![angle.png](images/angle.png)|이미지의 각도 또는 거리(기타 예: 와이드 샷, 클로즈업 등)|
+|Light|Painting of a doctor, Impressionist style, low-angle shot, dim lighting|![lighting.png](images/lighting.png)|이미지의 조명 구성표(기타 예: 골든 아워, 스튜디오 조명 등)|
+|Color scheme|Painting of a doctor, Impressionist style, low-angle shot, dim lighting, blue and purple color scheme|![color.png](images/color.png)|이미지의 색 구성표(기타 예: 파스텔 색상, 네온 색상, 그레이 스케일 등)|
+|Negative prompt|(Use the What shoud not be in the image field) Stethoscope|![negative.png](images/negative.png)|이미지에 포함하지 말아야 할 항목|
+|Text|Painting of a doctor, Impressionist style, low-angle shot, dim lighting, blue and purple color scheme, sign reading "The Doctor is in"|![text.png](images/text.png)|Titan Image Generator의 경우 텍스트는 큰따옴표로 묶어야 합니다. 생성된 이미지에 오타가 있을 수 있습니다.|
