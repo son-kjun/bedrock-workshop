@@ -171,3 +171,5 @@ app.png
 **6. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.**
 
 [![Previous](images/previous.png)](README.md) [![Next](images/next.png)](01_Image_Generation.md)
+
+[Default Button](#){: .btn .btn--primary }
