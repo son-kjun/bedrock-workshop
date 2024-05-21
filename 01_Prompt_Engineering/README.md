@@ -114,6 +114,7 @@ Amazon Bedrock에서는 AWS 콘솔을 이용해서 Bedrock FMs를 선택해서 �
 
 다음은 Python 언어를 이용해서 Llama 2 Chat 13B 모델을 호출하는 예를 보여줍니다. 
 
+~~~python
 import boto3
 import json
 bedrock = boto3.client(service_name='bedrock-runtime', region_name='us-east-1')
@@ -133,7 +134,7 @@ response = bedrock.invoke_model(body=body, modelId=modelId, accept=accept, conte
 
 response_body = json.loads(response.get('body').read())
 print(response_body)
-
+~~~
 
 # 4. Text Playground 사용해보기 : Few-shot 프롬프트
 
