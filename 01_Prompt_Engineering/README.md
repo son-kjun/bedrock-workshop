@@ -87,13 +87,13 @@ Amazon Bedrock에서는 AWS 콘솔을 이용해서 Bedrock FMs를 선택해서 �
 4. Apply 버튼을 클릭합니다. 
 5. 다음 내용을 입력하고 > Run 버튼을 클릭해서 결과를 확인합니다. 
 
-
 [프롬프트 내용]
+~~~
 이 문장들의 감정은 무엇입니까? 
 1. 아 정말 넌 도대체 말이 안통하는구나. 
 2. 밥 사줘서 고마워. 앞으로도 친하게 지내자 
 3. 매일 밤새서 일하니 너무 신난다. 내일도 밤 새야지
-
+~~~
 
 
 1. Configurations의 값을 수정하고 Run 실행을 해봅니다. 어떻게 결과가 달라지는지 확인해 봅니다.
@@ -151,24 +151,25 @@ Gen AI를 사용해서 원하는 결과를 얻기 위해서는 프롬프트를 �
 4. Apply 버튼을 클릭합니다. 
 5. 다음 내용을 입력하고 > Run 버튼을 클릭해서 결과를 확인합니다. 
 
-
 [프롬프트 내용]
+~~~
 [INST]You are a very intelligent bot with exceptional language skills[/INST]
 A "lemurwhat" is a small, furry animal native to Tanzania. An example of a sentence that uses
 the word lemurwhat is:
 We were traveling in Africa and we saw these very cute lemurwhats
 To do a "cuteduddle" means to jump up and down really fast. An example of a sentence that uses 
 the word cuteduddle is:
-
+~~~
 
 
 다음은 Few-shot 프롬프팅의 다른 예입니다.
 
+~~~
 멋지다! // 긍정
 나빠! // 부정
 그 영화는 굉장했어! // 긍정
 이 얼마나 끔찍한 공연인가! //
-
+~~~
 
 이 외에도 Chain-of-Thought, Tree of Thoughts, RAG(Retrieval Augemented Generation, Self-Consistency, Directional Stimulus 등) 다양한 프롬프트 기법이 있는데, 이에 대한 상세한 내용은 아래 사이트를 참고하시기 바랍니다.
 
