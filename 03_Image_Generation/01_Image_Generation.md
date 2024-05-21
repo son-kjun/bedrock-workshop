@@ -172,4 +172,4 @@ app.png
 
 
 [![Previous](images/previous.png)](README.md) [![Next](images/next.png)](01_Image_Generation.md)
-<body><button style="background-color:red; border-color:blue; color:white">Button Text</button>Previous</button></body>body>
+<button style="background-color:red; border-color:blue; color:white">Previous</button>
