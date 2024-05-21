@@ -180,3 +180,5 @@ app.png
 <aside class="go_to_top_butten">
     <a href="#site-nav"><button title="Go to top">TOP</button></a>
 </aside>
+
+<input type="button" value="Next"/>
