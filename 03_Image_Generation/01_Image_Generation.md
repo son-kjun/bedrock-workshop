@@ -172,7 +172,7 @@ app.png
 
 <p>
 <a href="README.md" class="btn--primary">Previous/</a>  <a href="01_Image_Generation.md" class="btn--warning">Next/</a>  
-[Previous](README.md){: .btn .btn--primary }
+[Previous](#README.md){: .btn .btn--primary}
 <a href="#" class="btn btn--primary">Default Button</a>
 </p>
 
