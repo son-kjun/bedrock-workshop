@@ -171,27 +171,5 @@ app.png
 **6. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.**
 
 
-<a href="README.md" class="btn--primary">Previous/</a>  <a href="01_Image_Generation.md" class="btn--warning">Next/</a>  
-[Previous](README.md){: .btn .btn--primary}
-<a href="#" class="btn btn--primary">Default Button</a>
-
-
-
-<aside class="go_to_top_butten">
-    <a href="#site-nav"><button title="Go to top">TOP</button></a>
-</aside>
-
-<input type="button" value="Next"/>
-
-<div class="page-control">
-	<div>
-		{% if page.previous.url %}
-		<a id="prev" class="button" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
-		{% endif %}
-	</div>
-	<div>
-		{% if page.next.url %}
-		<a id="next" class="button" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
-		{% endif %}
-	</div>
-</div>
+[![Previous](images/previous.png)](README.md) [![Next](images/next.png)](01_Image_Generation.md)
+<img src="images/previous.png" width="10" height="20">[Previous](README.md)</img>
