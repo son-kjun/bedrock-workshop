@@ -171,4 +171,4 @@ app.png
 **6. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.**
 
 
-<a href="README.md" class="btn btn--primary">Previous/</a>  <a href="01_Image_Generation.md" class="btn btn--warning">Next/</a>  
+<a href="README.md" class="btn--primary">Previous/</a>  <a href="01_Image_Generation.md" class="btn--warning">Next/</a>  
