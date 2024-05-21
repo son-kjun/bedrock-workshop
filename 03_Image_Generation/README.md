@@ -73,4 +73,4 @@ Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성�
 - 02_Bedrock Stable Diffusion XL.ipynb
     - Amazon Bedrock API 로 Text-To-Image, Image-To-Image 를 실습 합니다.
 
-[Next](
+![Next](images/next.png)
