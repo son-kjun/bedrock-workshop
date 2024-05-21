@@ -173,4 +173,4 @@ app.png
 
 [![Previous](images/previous.png)](README.md) [![Next](images/next.png)](01_Image_Generation.md)
 <button style="background-color:red; border-color:blue; color:white">Previous</button>
-<input type="button" text="previous"/>
+<input type="button" value="previous">
