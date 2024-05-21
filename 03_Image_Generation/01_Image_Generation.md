@@ -171,4 +171,4 @@ app.png
 **6. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.**
 
 
-[![Next](images/next.png)](01_Image_Generation.md)
+[![Next](images/next.png)](02_Image_Pattern.md)
