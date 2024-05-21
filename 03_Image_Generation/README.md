@@ -1,4 +1,4 @@
-# Lab 2 - 이미지 생성
+# Lab 3 - 이미지 생성
 
 ## Amazom Bedrock, LangChain 그리고 Streamlit의 개요
 [Amazon Bedrock](https://aws.amazon.com/ko/bedrock/) 은 파운데이션 모델을 사용하기 위한 완전 관리형 서비스입니다. 이를 통해 텍스트 생성 및 이미지 생성을 위한 단일 API 세트를 사용하여 Amazon 및 타사의 모델에 액세스할 수 있습니다.

@@ -1,4 +1,4 @@
-# Lab 1 - Text Generation
+# Lab 2 - Text Generation
 
 ## Overview
 
