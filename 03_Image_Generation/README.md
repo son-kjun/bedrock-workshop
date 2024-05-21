@@ -75,5 +75,4 @@ Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성�
 
 [![Next](images/next.png)](01_Image_Generation.md)
 
-|Previous|Next|
-|--------|---|
+
