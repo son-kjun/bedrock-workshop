@@ -20,7 +20,7 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 
 <BR><BR><BR><BR>
 
-## Bedrock Console Platground를 통한 테스트 ( Model = Titan Image Generator )
+## Bedrock Console Playground를 통한 테스트 ( Model = Titan Image Generator )
 몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.
 - daguerreotype of robot and cowboy standing side-by-side, directly facing the camera, steampunk, western town in the background, long shot, sepia tone
 - photograph of a calico cat, cyberpunk, futuristic cityscape in the background, low angle, long shot, neon sign on building "CALICO CORP", Epic, photorealistic, 4K
