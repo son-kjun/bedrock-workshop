@@ -183,9 +183,9 @@ Streamlit 명령에 의해 표시되는 Network URL 및 External URL 링크를 �
 아래와 같은 웹 페이지가 표시됩니다:
 ![app.png](images/app.png)
 
-
-##<Font color="red">코드 없이 직접 테스트 할수 있게 demo를 미리 준비하였습니다 (아래 데모를 클릭하세요) </Font>
-<a href="https://bit.ly/my-bedrock" target="_blank"> https://bit.ly/my-bedrock </a>
+<BR><BR><BR><BR>
+## 코드 없이 직접 테스트 할수 있게 demo를 미리 준비하였습니다 (아래 데모를 클릭하세요)
+<a href="https://bit.ly/my-bedrock" target="_blank"> **https://bit.ly/my-bedrock** </a>
 
 <BR><BR><BR><BR> 
 **4. 몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.**
