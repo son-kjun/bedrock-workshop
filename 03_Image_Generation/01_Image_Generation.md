@@ -17,7 +17,7 @@ Stable Diffusion은 텍스트 프롬프트에서 이미지를 생성합니다. �
 <BR><BR>
 <BR><BR>
 
-## Bedrock Console Platground를 통한 테스트
+## Bedrock Console Playground를 통한 테스트
 몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.
 - A cat and a person, in the style of Picasso
 - a beautiful mountain landscape
