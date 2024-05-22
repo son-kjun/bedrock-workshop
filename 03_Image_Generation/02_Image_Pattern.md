@@ -222,4 +222,4 @@ Streamlit 명령에 의해 표시되는 Network URL 및 External URL 링크를 �
 ## 도전과제 
 ![challenge02](images/challenge02.png)
 
-[![Next](images/next.png)](02_Image_Pattern.md)
+[![Next](images/next.png)](03_Advanced_Pattern.md)
