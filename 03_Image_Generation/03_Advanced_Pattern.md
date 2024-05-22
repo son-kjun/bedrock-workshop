@@ -183,7 +183,10 @@ streamlit run image_replacement_app_kr.py --server.port 8501 --server.enableXsrf
 
 **7. 선택 사항으로 256x256에서 1024x1024 사이의 크기와 인치당 72픽셀의 해상도를 가진 이미지를 업로드합니다.**
 
-** 8. 대체할 개체와 대체할 내용을 설정해야 합니다. Generate 버튼을 클릭하여 결과를 확인합니다.**
+**8. 대체할 개체와 대체할 내용을 설정해야 합니다. Generate 버튼을 클릭하여 결과를 확인합니다.**
 
+<BR><BR><BR><BR>
+## 도전과제 
+![challenge02](images/challenge02.png)
 
 
