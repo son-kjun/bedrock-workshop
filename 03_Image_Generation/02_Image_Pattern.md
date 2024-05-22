@@ -184,9 +184,10 @@ Streamlit 명령에 의해 표시되는 Network URL 및 External URL 링크를 �
 ![app.png](images/app.png)
 
 
-<span style="color:red;background-color:#fff5b1"> 코드 없이 직접 테스트 할수 있게 demo를 미리 준비하였습니다 (아래 데모를 클릭하세요) </span>
+##<Font color="red">코드 없이 직접 테스트 할수 있게 demo를 미리 준비하였습니다 (아래 데모를 클릭하세요) </Font>
 <a href="https://bit.ly/my-bedrock" target="_blank"> https://bit.ly/my-bedrock </a>
 
+<BR><BR><BR><BR> 
 **4. 몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.**
 - daguerreotype of robot and cowboy standing side-by-side, directly facing the camera, steampunk, western town in the background, long shot, sepia tone
 - photograph of a calico cat, cyberpunk, futuristic cityscape in the background, low angle, long shot, neon sign on building "CALICO CORP", Epic, photorealistic, 4K
