@@ -6,8 +6,7 @@
 이번 실습에서도 마찬가지로 Claude v2 모델을 사용합니다.
 
 이번 실습에서 전처리를 할 데이터는 미국 인플레이션 파일(united-states-inflation-rate-cpi.csv)입니다.</br>
-데이터는 전반적으로 아래와 같은 형태입니다. 이대로는 분석을 진행할 수 없어서
-,데이터 분석을 위한 첫번째 과정인 Data Pre Processing 작업을 해볼 것입니다.</br>Python경험이 없어도 괜찮습니다. Bedrock에게 물어보면 됩니다.
+데이터는 전반적으로 아래와 같은 형태입니다. 이대로는 분석을 진행하기에 데이터가 적합하지 않습니다. 이를 위해 데이터 분석을 위한 첫번째 과정인 Data Pre Processing 작업을 해볼 것입니다.</br>Python경험이 없어도 괜찮습니다. Bedrock에게 물어보면 됩니다.
 
 ![alt text](images/image-3.png)
 </br>
@@ -30,7 +29,7 @@ jupyter 에서 sed를 활용하여, ./united-states-inflation-rate-cpi.csv 파�
  ./united-states-inflation-rate-cpi.csv파일을 dataframe으로 로드해줘
 ```
 어떤 라이브러리를 import해야하는 지 부터해서 코드를 생성하고 각 메서드에 대해 해석합니다. 
-![alt text](46944067-539D-4657-BE00-24AFA467ACFA.jpeg)
+![alt text](images/46944067-539D-4657-BE00-24AFA467ACFA.jpeg)
 <br/> 
 <br/> 
 
@@ -114,25 +113,26 @@ df 데이터 기반으로 시간에 따른 변화율을 보여주는 차트를 �
 
 
 <br/>
+<br/>
 
 ## SageMaker Jupyter Notebook에서 코드 실행해보기
 
-본 Bedrock 을 통해 생성한 Code들을 옮겨서, ipnyb 파일로 미리 생성해 두었습니다.
-<br/> Bedrock이 알려준 코드로 데이터 전처리 작업이 가능한지 실습 해 보겠습니다.
+본 Bedrock 을 통해 생성한 Code들을 옮겨서, Jupyter notebook에서 실행가능한 ipnyb 파일로 미리 생성해 두었습니다.
+<br/> Bedrock이 알려준 코드로, 실제 데이터 전처리 작업이 가능한지 실습 해 보겠습니다.
 
 Download here: (다운로드 링크 추가 예정)
 
 콘솔에서 SageMaker 메뉴에 접속합니다
-https://us-west-2.console.aws.amazon.com/sagemaker/home?region=us-west-2#/getting-started
+바로가기: https://us-west-2.console.aws.amazon.com/sagemaker/home?region=us-west-2#/getting-started
 
 좌측 패널 메뉴의 Notebook > Notebook instances > 'Create notebook instance' 버튼을 클릭합니다.
-![alt text](02BE88CB-C124-4959-8366-209941B4CD65_4_5005_c.jpeg)
+![alt text](images/02BE88CB-C124-4959-8366-209941B4CD65_4_5005_c.jpeg)
 
 <br/>
 
 노트북 인스턴스명을 지정하고,(예제에서는 datascientist로 지정하였습니다)
 <br>나머지 옵션은 그대로 두고, IAM Role도 기존에 생성되어있는 Role로 선택합니다(Use existing role).
-![alt text](CCB047AF-8AC2-457D-96BB-2DF4650F7526.jpeg)
+![alt text](images/CCB047AF-8AC2-457D-96BB-2DF4650F7526.jpeg)
 
 
 인스턴스 상태(Status)가 InService 일 때, 'Open Jupyter'를 눌러 노트북 인스턴스를 실행시킵니다. 
@@ -156,4 +156,4 @@ Jupyter Notebook 단축키(shift + enter)를 눌러서
 [이미지 추가 예정]
 
 
-## Demo. Amazon Q Developer로 이 작업을 해보면 어떨까요?
+## Demo. Amazon Q Developer를 활용한 Code Generation
