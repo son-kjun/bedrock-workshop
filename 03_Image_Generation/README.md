@@ -14,7 +14,7 @@
 
 이 실습에서는 Amazon Bedrock에서 사용할 수 있는 기반 모델을 사용하여 이미지를 생성하고 기존 이미지를 수정하는 방법을 살펴보겠습니다.
 
-
+<BR><BR><BR><BR>
 ## 2. 이미지 프롬프팅 (Image prompting)
 
 좋은 프롬프트를 작성하는 것은 때로는 예술이 될 수 있습니다. 특정 프롬프트가 주어진 모델에 대해 만족스러운 이미지를 생성할지 여부를 예측하는 것은 종종 어렵습니다. 그러나 작동하는 것으로 관찰된 특정 템플릿이 있습니다. 
@@ -40,6 +40,7 @@
 
 동일한 프롬프트가 여러 번 제공되더라도 모델은 다른 이미지를 생성합니다. 따라서 여러 이미지를 생성하고 애플리케이션에 가장 적합한 이미지를 선택할 수 있습니다.
 
+<BR><BR><BR><BR>
 ## 3. 파운데이션 모델 (Foundation Model)
 
 이 기능을 제공하기 위해 Amazon Bedrock은 Stability AI의 이미지 생성을 위한 독점 기반 모델인 [Stable Diffusion XL](https://stability.ai/stablediffusion)을 지원합니다. Stable Diffusion은 확산 원리에 따라 작동하며 각각 다른 목적을 가진 여러 모델로 구성됩니다.
@@ -53,6 +54,7 @@ Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성�
 작동 방식은 다음 아키텍처로 설명할 수 있습니다:
 ![Stable Diffusion Architecture](./images/sd.png)
 
+<BR><BR><BR><BR>
 ## 4. 패턴
 이 워크숍에서는 Amazon Bedrock을 사용하여 이미지 생성에 대한 다음 패턴을 배울 수 있습니다.
 
@@ -61,7 +63,7 @@ Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성�
 2. Image to Image (In-paiting)
     ![Text to Image](./images/72-img-2-img.png)
 
-
+<BR><BR><BR><BR>
 ## 5. Amazom Bedrock, LangChain 그리고 Streamlit의 개요
 [Amazon Bedrock](https://aws.amazon.com/ko/bedrock/) 은 파운데이션 모델을 사용하기 위한 완전 관리형 서비스입니다. 이를 통해 텍스트 생성 및 이미지 생성을 위한 단일 API 세트를 사용하여 Amazon 및 타사의 모델에 액세스할 수 있습니다.
 
