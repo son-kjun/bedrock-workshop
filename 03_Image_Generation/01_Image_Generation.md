@@ -1,5 +1,6 @@
 # 실습 1: 이미지 생성
 
+[![Next](images/next.png)](02_Image_Pattern.md)
 ## 실습 소개
 **최종 결과물:**
 ![app-in-use-ko.png](images/app-in-use-ko.png)
