@@ -11,7 +11,7 @@
 </br>
 </br>
 
-**1. sed는 streamlined editor로 문자열/파일을 수정(치환, 삭제, 삽입 등) 하여 출력해주는 기능을 제공합니다.<br/>
+**1. sed는 streamlined editor로 문자열/파일을 수정(치환, 삭제, 삽입 등) 하여 출력해주는 기능을 제공합니다.**<br/>
 이를 활용하여, united-states-inflation-rate-cpi.csv(출처: https://www.macrotrends.net/global-metrics/countries/USA/united-states/inflation-rate-cpi) 파일의 첫 14 레코드를 지우는 방법을 물어보겠습니다.
 
 ```
@@ -20,9 +20,9 @@ jupyter 에서 sed를 활용하여, ./united-states-inflation-rate-cpi.csv 파�
 </br>
 </br>
 
-2. data frame(데이터 프레임) 이란 파이썬에서 데이터 분석 시 가장 중요하게 사용하는 #데이터 구조# 객체입니다. 열은 각각의 변수를, 행은 각각의 관측치를 나타냅니다. 
+**2. data frame(데이터 프레임) 이란 파이썬에서 데이터 분석 시 가장 중요하게 사용하는 #데이터 구조# 객체입니다. 열은 각각의 변수를, 행은 각각의 관측치를 나타냅니다. 
 이는 열과 행으로 이루어진 데이터 구조로, 우리가 흔히 아는 DB 테이블과 동일하다고 생각하시면 됩니다.이를 생성하기 위해서는 pandas 라이브러리를 사용할 수 있습니다. 일반적으로 데이터 분석 작업 시, raw 데이터를 data frame 구조로 변환하여 데이터를 핸들링하게 됩니다.
-이에 대한 방법을 Bedrock에게 질문해 보겠습니다.
+이에 대한 방법을 Bedrock에게 질문해 보겠습니다.**
 
 ```
  ./united-states-inflation-rate-cpi.csv파일을 dataframe으로 로드해줘
@@ -32,70 +32,70 @@ jupyter 에서 sed를 활용하여, ./united-states-inflation-rate-cpi.csv 파�
 <br/> 
 <br/> 
 
-3. df에 데이터가 제대로 들어갔는지 확인하는 방법을 Bedrock에게 질문해 보겠습니다.
+**3. df에 데이터가 제대로 들어갔는지 확인하는 방법을 Bedrock에게 질문해 보겠습니다.**
 ```
 df에 처음 5개 레코드를 보여줘 
 ```
 <br/> 
 <br/> 
 
-4) 전처리 되지 않은 데이터에 NaN 값이 있을 수 있어, 이 값을 0으로 변환시키는 방법을 Bedrock에게 질문해 보겠습니다.
+**4. 전처리 되지 않은 데이터에 NaN 값이 있을 수 있어, 이 값을 0으로 변환시키는 방법을 Bedrock에게 질문해 보겠습니다.**
 ```
 NaN 값을 0으로 대체해줘
 ```
 <br/> 
 <br/> 
 
-5) 해당 data frame을 좀더 활용하기 좋게, data frame에 열 이름을 지정하는 법을 질문해 보겠습니다.
+**5. 해당 data frame을 좀더 활용하기 좋게, data frame에 열 이름을 지정하는 법을 질문해 보겠습니다.**
 ```
 df의 레코드 첫 행을 열 이름으로 사용해줘
 ```
 <br/> 
 <br/> 
 
-6) df에 열 이름이 생기면서, 데이터와 중복되는 부분이 있을테니 이를 지우는 법을 물어보겠습니다.
+**6. df에 열 이름이 생기면서, 데이터와 중복되는 부분이 있을테니 이를 지우는 법을 물어보겠습니다.**
 ```
  df에서 첫 행은 지워줘
 ```
 <br/> 
 <br/> 
 
-7) df의 대략적인 통계정보가 궁금해져서 이를 확인하는 방법을 물어보겠습니다.
+**7. df의 대략적인 통계정보가 궁금해져서 이를 확인하는 방법을 물어보겠습니다.**
 ```
 df 데이터에 대해 요약해줘
 ```
 <br/> 
 <br/> 
 
-8) 이제는 문자열로 되어있는 Inflation Rate (%) 열을 숫자타입으로 변경해달라고 해보겠습니다.
+**8. 이제는 문자열로 되어있는 Inflation Rate (%) 열을 숫자타입으로 변경해달라고 해보겠습니다.**
 ```
  Inflation Rate (%) 열의 type을 numeric으로 설정해줘
 ```
 <br/> 
 <br/> 
 
-9) 이제는 data frame의 데이터를 가지고 그래프를 만들어 달라고 요청해보겠습니다.
+**9. 이제는 data frame의 데이터를 가지고 그래프를 만들어 달라고 요청해보겠습니다.**
 ```
 df 데이터 기반으로 시간에 따른 변화율을 보여주는 차트를 만들어줘
 ```
 <br/> 
 <br/> 
 
-10)  Annual Change의 숫자값들을 그래프에 활용할 수 있도록 타입변경을 해달라고 해보겠습니다.
+**10.  Annual Change의 숫자값들을 그래프에 활용할 수 있도록 타입변경을 해달라고 해보겠습니다.**
 ```
  Annual Change 열을 numeric으로 설정해줘
 ```
 <br/> 
 <br/> 
 
-11. 이제는 조금 더 그래프에 다양한 옵션을 다는 방법을 질문해 보겠습니다.
+**11. 이제는 조금 더 그래프에 다양한 옵션을 다는 방법을 질문해 보겠습니다.**
 ```
 인플레이션 비율과 연관 변화율을 시간에 따라 보여주는 차트를 show 해줘. 그리고 타이틀도 달아주고, 레이블과 제목도 추가해줘
 ```
 <br/> 
 <br/> 
 
-12. 전처리를 마치고 df로 전환된 데이터를 다시 활용할 수 있도록 csv 파일로 저장해달라고 해보겠습니다.
+**12. 전처리를 마치고 df로 전환된 데이터를 다시 활용할 수 있도록 csv 파일로 저장해달라고 해보겠습니다.**
 ```
 이 df 를 inflation_rate_updated 라는 이름의 csv파일로 저장해줘
 ```
@@ -137,7 +137,7 @@ https://us-west-2.console.aws.amazon.com/sagemaker/home?region=us-west-2#/gettin
 
 
 
-Uploade를 눌러 다운로드 경로에서 preprocessing_by_bedrock.ipynb 파일을 찾아 노트북 인스턴스에 업로드 하고, 업로드된 파일을 더블클릭하여  실행시킵니다. 
+Upload를 눌러 다운로드 경로에서 preprocessing_by_bedrock.ipynb 파일을 찾아 노트북 인스턴스에 업로드 하고, 업로드된 파일을 더블클릭하여  실행시킵니다. 
 
 
 Jupyter Notebook 단축키(shift + enter)를 눌러서 
