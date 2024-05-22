@@ -6,7 +6,7 @@
 이번 실습에서도 마찬가지로 Claude v2 모델을 사용합니다.
 
 이번 실습에서 전처리를 할 데이터는 미국 인플레이션 파일(united-states-inflation-rate-cpi.csv)입니다.</br>
-데이터는 전반적으로 아래와 같은 형태입니다. 이대로는 분석을 진행하기에 데이터가 적합하지 않습니다. 이를 위해 데이터 분석을 위한 첫번째 과정인 Data Pre Processing(전처리) 작업을 해볼 것입니다.</br>Python경험이 없어도 괜찮습니다. Bedrock에게 물어보면 됩니다.
+데이터는 전반적으로 아래와 같은 형태입니다. 이대로는 분석을 진행하기에 데이터가 적합하지 않습니다. 이를 위해 데이터 분석을 위한 첫번째 과정인 Data Pre Processing(전처리) 작업을 해볼 것입니다.</br>Python경험이 없어도 괜찮습니다. Bedrock Playground에서 Claude에게 물어보면 됩니다.
 
 ![alt text](images/image-3.png)
 </br>
@@ -105,7 +105,8 @@ df 데이터 기반으로 시간에 따른 변화율을 보여주는 차트를 �
 이 파일을 향후 다른 서비스에서도 이용할 수 있게 나의 S3 버켓에 복제해달라고 해보겠습니다.
 <br/> 아래로 접속하시면 여러분의 S3 버켓명을 확인하실 수 있습니다. 아래 prompt의 버켓명을 나의 버켓명으로 대체합니다.
 <br/> https://us-west-2.console.aws.amazon.com/s3/buckets?region=us-west-2
-<br/>![alt text](FD2039BE-E406-4057-A079-CCE7B1831B9D.jpeg)
+<br/>
+![alt text](images/FD2039BE-E406-4057-A079-CCE7B1831B9D.jpeg)
 ```
 새로운 csv 파일을 S3 버켓 genai-workshop-studio-s3bucket-xxxxxxxxxxx 에 복사해줘
 ```
@@ -143,7 +144,8 @@ Uploade를 눌러 다운로드 경로에서 preprocessing_by_bedrock.ipynb 파�
 
 Jupyter Notebook 단축키(shift + enter)를 눌러서 
 각 셀들이 실행되는 과정을 확인합니다. 
-![alt text](CD6F7221-998E-43CB-BD0E-9AA47BF47BC4.jpeg)
+<br>
+![alt text](images/CD6F7221-998E-43CB-BD0E-9AA47BF47BC4.jpeg)
 
 전처리한 파일이 노트북 인스턴스 로컬에 저장됩니다.
 
