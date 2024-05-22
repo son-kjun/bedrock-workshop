@@ -3,18 +3,9 @@
 오늘 이미지 생성 HoL은 Amazon Bedrock 콘솔을 통해 어떤 프롬프트와 추론 파라미터, 그리고 모델을 사용할수 있는지를 먼저 배워보고,
 실제로 API 방식의 코드 데모를 사용하여 향후에 어떤식으로 활용될수 있는지 사용자 경험을 가져가시는 것을 목표로 하고 있습니다.
 
-## Amazom Bedrock, LangChain 그리고 Streamlit의 개요
-[Amazon Bedrock](https://aws.amazon.com/ko/bedrock/) 은 파운데이션 모델을 사용하기 위한 완전 관리형 서비스입니다. 이를 통해 텍스트 생성 및 이미지 생성을 위한 단일 API 세트를 사용하여 Amazon 및 타사의 모델에 액세스할 수 있습니다.
-
-이 워크샵에서는 LangChain을 사용하여 Amazon Bedrock으로 생성형 AI 프로토타입을 구축합니다. 초급부터 중급까지 다양한 기술 수준을 목표로 하는 일련의 실습을 진행합니다. 라이브러리와 모델의 기능을 사용하여 다양한 사용 사례를 위한 프로토타입을 구축하는 방법을 배웁니다.
-
-[LangChain](https://python.langchain.com/v0.2/docs/introduction/) 은 Amazon Bedrock의 모델 및 벡터 데이터베이스와 같은 관련 서비스와 상호 작용할 수 있는 편리한 기능을 제공합니다. LangChain은 파이썬과 자바스크립트 라이브러리를 제공합니다. 이 워크샵에서는 파이썬 버전의 LangChain을 사용합니다.
-
-[Streamlit](https://streamlit.io/) 을 사용하면 프론트엔드 개발 기술 없이도 파이썬 코드의 웹 프론트엔드를 빠르게 만들 수 있습니다. Streamlit은 기술자와 비기술자 모두에게 보여줄 수 있는 개념 증명(PoC)을 만드는 데 유용합니다.
-
-전제 조건 섹션을 완료한 후에는 순서와 상관없이 실습을 완료할 수 있습니다.
 
 
+<BR><BR><BR><BR>
 # 이미지 생성 ( Image Generation )
 ## 1. 개요
 
@@ -35,16 +26,24 @@
 세 부분으로 크게 나눌 수 있습니다 . 세 부분을 각각 개별적으로 변경하여 이미지 변형을 생성할 수 있습니다. <font color="red">형용사</font>는 이미지 생성 과정에서 중요한 역할을 하는 것으로 알려져 있습니다. 또한 더 많은 세부 정보를 추가하면 생성 과정에 도움이 됩니다. 
 
 사실적인 이미지를 생성하려면  
-- “a photo of”, “a photograph of”, “realistic” or “hyper realistic” 과 같은 문구를 사용할 수 있습니다. 
+~~~
+- “a photo of”, “a photograph of”, “realistic” or “hyper realistic” 과 같은 문구를 사용할 수 있습니다.
+~~~
 
 아티스트의 이미지를 생성하려면 
-- “by Pablo Piccaso” or “oil painting by Rembrandt” or “landscape art by Frederic Edwin Church” or “pencil drawing by Albrecht Dürer”과 같은 문구를 사용할 수 있습니다. 
+~~~
+- “by Pablo Piccaso” or “oil painting by Rembrandt” or “landscape art by Frederic Edwin Church” or “pencil drawing by Albrecht Dürer”과 같은 문구를 사용할 수 있습니다.
+~~~
 
 다양한 아티스트를 결합할 수도 있습니다. 카테고리별로 예술적인 이미지를 생성하려면 
-- “lion on a beach, abstract”. Some other categories include “oil painting”, “pencil drawing, “pop art”, “digital art”, “anime”, “cartoon”, “futurism”, “watercolor”, “manga” 등이 포함됩니다. 
+~~~
+- “lion on a beach, abstract”. Some other categories include “oil painting”, “pencil drawing, “pop art”, “digital art”, “anime”, “cartoon”, “futurism”, “watercolor”, “manga” 등이 포함됩니다.
+~~~
 
 또한 다음과 같은 세부정보를 포함할 수도 있습니다. 
+~~~
 - lighting or camera lens such as 35mm wide lens or 85mm wide lens and details about the framing (portrait/landscape/close up etc.).
+~~~
 
 
 동일한 프롬프트가 여러 번 제공되더라도 모델은 다른 이미지를 생성합니다. 따라서 여러 이미지를 생성하고 애플리케이션에 가장 적합한 이미지를 선택할 수 있습니다.
@@ -69,6 +68,18 @@ Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성�
     ![Text to Image](./images/71-txt-2-img.png)
 2. Image to Image (In-paiting)
     ![Text to Image](./images/72-img-2-img.png)
+
+
+## 5. Amazom Bedrock, LangChain 그리고 Streamlit의 개요
+[Amazon Bedrock](https://aws.amazon.com/ko/bedrock/) 은 파운데이션 모델을 사용하기 위한 완전 관리형 서비스입니다. 이를 통해 텍스트 생성 및 이미지 생성을 위한 단일 API 세트를 사용하여 Amazon 및 타사의 모델에 액세스할 수 있습니다.
+
+이 워크샵에서는 LangChain을 사용하여 Amazon Bedrock으로 생성형 AI 프로토타입을 구축합니다. 초급부터 중급까지 다양한 기술 수준을 목표로 하는 일련의 실습을 진행합니다. 라이브러리와 모델의 기능을 사용하여 다양한 사용 사례를 위한 프로토타입을 구축하는 방법을 배웁니다.
+
+[LangChain](https://python.langchain.com/v0.2/docs/introduction/) 은 Amazon Bedrock의 모델 및 벡터 데이터베이스와 같은 관련 서비스와 상호 작용할 수 있는 편리한 기능을 제공합니다. LangChain은 파이썬과 자바스크립트 라이브러리를 제공합니다. 이 워크샵에서는 파이썬 버전의 LangChain을 사용합니다.
+
+[Streamlit](https://streamlit.io/) 을 사용하면 프론트엔드 개발 기술 없이도 파이썬 코드의 웹 프론트엔드를 빠르게 만들 수 있습니다. Streamlit은 기술자와 비기술자 모두에게 보여줄 수 있는 개념 증명(PoC)을 만드는 데 유용합니다.
+
+전제 조건 섹션을 완료한 후에는 순서와 상관없이 실습을 완료할 수 있습니다.
 
 [![Next](images/next.png)](01_Image_Generation.md)
 
