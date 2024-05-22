@@ -22,6 +22,7 @@ Stable Diffusion은 텍스트 프롬프트에서 이미지를 생성합니다. �
 - A cat and a person, in the style of Picasso
 - a beautiful mountain landscape
 - 추가적인 프롬프트를 창의적으로 만들어 보세요(영문만 가능합니다.)
+<BR><BR>
 ![picasso.png](images/picasso.png)
 
 <BR><BR><BR><BR>
