@@ -8,7 +8,7 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 
 아래 코드 스니펫을 복사하여 지정된 Python 파일에 붙여넣으면 애플리케이션 코드를 작성할 수 있습니다.
 
-
+<BR><BR><BR><BR>
 **사용 사례**
 
 이미지 생성 패턴은 다음과 같은 사용 사례에 적합합니다:
@@ -18,11 +18,13 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 
 이 애플리케이션은 두 개의 파일로 구성됩니다: 하나는 Streamlit 프런트엔드용이고 다른 하나는 Bedrock을 호출하기 위한 지원 라이브러리용입니다.
 
- 
+<BR><BR><BR><BR>
 ## 라이브러리 스크립트 만들기
 
 먼저 Streamlit 프론트엔드와 Bedrock 백엔드를 연결하기 위한 지원 라이브러리를 생성합니다.
+
 **1. AWS Cloud9에서 workshop/labs/image_prompts 폴더로 이동하여 image_prompts_lib_kr.py 파일을 엽니다.**
+
 
 **2.import 구문을 추가합니다.**
 - 이 명령문을 통해 LangChain을 사용하여 FAISS 데이터베이스를 관리하고 Boto3를 사용하여 Bedrock을 호출 할 수 있습니다.
@@ -112,7 +114,7 @@ def get_image_from_model(prompt_content, negative_prompt=None):
 - daguerreotype of robot and cowboy standing side-by-side, directly facing the camera, steampunk, western town in the background, long shot, sepia tone
 - photograph of a calico cat, cyberpunk, futuristic cityscape in the background, low angle, long shot, neon sign on building "CALICO CORP", Epic, photorealistic, 4K
 
-
+<BR><BR><BR><BR>
 **8. 다양한 요소를 사용하여 작성된 몇 가지 예시 프롬프트는 아래 표를 참조하세요.**
 
 |Element added|Prompt|Image|Note|
