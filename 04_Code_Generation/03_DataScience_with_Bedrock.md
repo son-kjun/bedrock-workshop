@@ -27,6 +27,7 @@ jupyter 에서 sed를 활용하여, ./united-states-inflation-rate-cpi.csv 파�
 ```
  ./united-states-inflation-rate-cpi.csv파일을 dataframe으로 로드해줘
 ```
+<br>
 Claude는 어떤 라이브러리를 import해야하는지 알려주고, 동시에 코드를 생성할뿐만 아니라 각 메서드에 대해 해석합니다. 
 ![alt text](images/46944067-539D-4657-BE00-24AFA467ACFA.jpeg)
 <br/> 
@@ -156,5 +157,10 @@ Jupyter Notebook 단축키(shift + enter)를 눌러서
 전처리한 파일이 S3 버켓에 저장됩니다. 
 [이미지 추가 예정]
 
+<br>
+<br>
 
 ## Demo. Amazon Q Developer를 활용한 Code Generation
+<br>
+<br>
+
