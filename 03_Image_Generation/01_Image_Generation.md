@@ -19,11 +19,9 @@ Stable Diffusion은 텍스트 프롬프트에서 이미지를 생성합니다. �
 
 ## Bedrock Console Platground를 통한 테스트
 몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.
-~~~
 - A cat and a person, in the style of Picasso
 - a beautiful mountain landscape
 - 추가적인 프롬프트를 창의적으로 만들어 보세요(영문만 가능합니다.)
-~~~
 ![picasso.png](images/picasso.png)
 
 <BR><BR><BR><BR>
@@ -171,11 +169,9 @@ Streamlit 명령에 의해 표시되는 Network URL 및 External URL 링크를 �
 ![app.png](images/app.png)
 
 **4. 몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.**
-~~~
 - A cat and a person, in the style of Picasso
 - a beautiful mountain landscape
 - 추가적인 프롬프트를 창의적으로 만들어 보세요(영문만 가능합니다.)
-~~~
 ![app-in-use-ko.png](images/app-in-use-ko.png)
 
 
