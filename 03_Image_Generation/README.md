@@ -26,24 +26,16 @@
 세 부분으로 크게 나눌 수 있습니다 . 세 부분을 각각 개별적으로 변경하여 이미지 변형을 생성할 수 있습니다. <font color="red">형용사</font>는 이미지 생성 과정에서 중요한 역할을 하는 것으로 알려져 있습니다. 또한 더 많은 세부 정보를 추가하면 생성 과정에 도움이 됩니다. 
 
 사실적인 이미지를 생성하려면  
-'''
 - “a photo of”, “a photograph of”, “realistic” or “hyper realistic” 과 같은 문구를 사용할 수 있습니다.
-'''
 
 아티스트의 이미지를 생성하려면 
-~~~
 - “by Pablo Piccaso” or “oil painting by Rembrandt” or “landscape art by Frederic Edwin Church” or “pencil drawing by Albrecht Dürer”과 같은 문구를 사용할 수 있습니다.
-~~~
 
 다양한 아티스트를 결합할 수도 있습니다. 카테고리별로 예술적인 이미지를 생성하려면 
-~~~
 - “lion on a beach, abstract”. Some other categories include “oil painting”, “pencil drawing, “pop art”, “digital art”, “anime”, “cartoon”, “futurism”, “watercolor”, “manga” 등이 포함됩니다.
-~~~
 
 또한 다음과 같은 세부정보를 포함할 수도 있습니다. 
-~~~
 - lighting or camera lens such as 35mm wide lens or 85mm wide lens and details about the framing (portrait/landscape/close up etc.).
-~~~
 
 
 동일한 프롬프트가 여러 번 제공되더라도 모델은 다른 이미지를 생성합니다. 따라서 여러 이미지를 생성하고 애플리케이션에 가장 적합한 이미지를 선택할 수 있습니다.
