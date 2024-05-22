@@ -172,7 +172,7 @@ app.png
 **6. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.**
 
 ## 코드 없이 직접 테스트 할수 있게 demo를 미리 준비하였습니다 (아래 데모를 클릭하세요)
-[SDXL 이미지 생성 데모](https://bit.ly/my-bedrock)
+[SDXL 이미지 생성 데모](https://bit.ly/my-bedrock](https://bit.ly/my-bedrock)){:target="_blank"}
 
 ## 도전과제 
 ![challenge01](images/challenge01.png)
