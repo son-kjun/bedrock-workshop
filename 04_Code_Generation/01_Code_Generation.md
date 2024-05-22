@@ -1,22 +1,28 @@
 # 실습 1: Bedrock CodeGeneration
 ## 실습 소개
-이 실습에서는 Amazon Bedrock 에서 CodeGeneration 모델을 활용하여, Code Generation을 실습해봅니다.
+이 실습에서는 Amazon Bedrock 에서 CodeGeneration을 위한 Claude v2 모델을 활용하여, Code Generation을 실습해봅니다.
  
 
-**이 실습을 실행하려면 aws account가 Claude을 구독하고 있어야 합니다. Bedrock 콘솔을 통해 구독할 수 있습니다.**
+**이 실습을 실행하려면 aws account가 Claude v2을 구독하고 있어야 합니다. Bedrock 콘솔을 통해 구독할 수 있습니다.**
+<BR>
+<BR>
+<BR>
 
 
 ## Bedrock PlayGround에서 코드 생성 실습하기
 #### 1. Amazon Bedrock 콘솔 > Example에서 'Code Generation'을  검색하여, Claude v2를 선택합니다.
-![alt text](27433F29-4210-435F-804F-BE83159130E8.jpeg)
+![alt text](images/27433F29-4210-435F-804F-BE83159130E8.jpeg)
 
 Promt와 Response의 예제를 확인하고 내가 찾던 모델인지 확인해봅니다.
 ![alt text](images/0C88DB09-95F3-4105-83D2-1C7546805CFF.jpeg)
 
 실습을 위해 'Open in Playground'를 클릭하여 실습 환경을 생성합니다.
+<BR>
+<BR>
+<BR>
 
 ## Text2Python
-#### 1. 다음과 같이 Single-line 코드 생성을 실습해봅니다.
+**1. 다음과 같이 Single-line 코드 생성을 실습해봅니다.**
 
 ~~~
 create the python program to create sales.csv file
@@ -29,9 +35,11 @@ Bedrock의 답변을 확인해봅니다.
 ![alt text](image-1.png) 
 
 이와 같은 방법으로 여러가지 코드 생성을 테스트 해보겠습니다.
-#### 4. 다음과 같이 Full function 코드 생성을 실습해봅니다.
-* 버그가 없을 것, 표준 라이브라리를 쓸 것 등에 대한 요청사항을 추가해봅니다.
-```
+
+**2. 다음과 같이 Full function 코드 생성을 실습해봅니다.** 
+
+- 버그가 없을 것, 표준 라이브라리를 쓸 것 등에 대한 요청사항을 추가해봅니다.
+~~~
 You have a CSV, sales.csv, with columns:
 - date (YYYY-MM-DD)
 - product_id
@@ -43,16 +51,19 @@ Create a python program to analyze the sales data from a CSV file. The program s
 - The date with the highest revenue
 - Visualize monthly sales using a bar chart
 Ensure the code is syntactically correct, bug-free, optimized, not span multiple lines unnessarily, and prefer to use standard libraries. Return only python code without any surrounding text, explanation or context.
-```
- <!-- **Temperature** 매개변수를 사용하면 응답을 구성할 때 모델이 보다 "창의적"으로 응답할 수 있습니다. 온도가 0이면 무작위성이 없으며 매번 가장 가능성이 높은 단어가 선택됩니다. 응답의 다양성을 높이려면 Temperature 값을 더 높게 설정하고 동일한 요청을 여러 번 실행할 수 있습니다.
-**Response length** 매개변수는 응답에 반환할 토큰의 수를 결정합니다. 이를 사용하여 모델에서 반환되는 콘텐츠의 양을 줄이거나 늘릴 수 있습니다. 길이를 너무 낮게 설정하면 응답이 완료되기 전에 끊어질 수 있습니다.
-**Info** 링크를 통해 각 파라미터에 대한 설명을 확인할 수 있습니다.-->
+~~~
+<BR>
+<BR>
+<BR>
 
-## Text2SQL
+## Text2SQL : 대화로 DB를 검색하기
  
-5. 다음과 같이 SQL Query Generation 코드 생성을 실습해봅니다.</br>
-![alt text](1529F259-5D25-4E91-BF46-B30DF6D73B5B.jpeg)
-```
+ Code Generation 을 통해 우리는 Python 과 같은 일반 프로그래밍 언어를 작성할 수 있을 뿐만 아니라 SQL 도 생성할 수 있습니다. 한 마디로 우리는 이제 대화로 DataBase를 검색할 수 있게 되었습니다. 이 섹션에서는  SQL Query Generation을 실습해 보겠습니다.
+
+
+
+**1.어느 회사의 영업데이터(sales_data)에서, 2023년 Top5 제품을 알려주는 쿼리와, 2023년 평균 월별 영업 통계를 계산해달라고 요청해봅시다.** </br> 
+~~~
 AnyCompany has a database with a table named sales_data containing sales records. The table has following columns:
 - date (YYYY-MM-DD)
 - product_id
@@ -61,17 +72,21 @@ AnyCompany has a database with a table named sales_data containing sales records
 Can you generate SQL queries for the below: 
 - Identify the top 5 best selling products by total sales for the year 2023
 - Calculate the monthly average sales for the year 2023
-```
+~~~
 
-어느 병원의 환자 관리 시스템의 테이블 스키마를 알려주고, 2023년 4월 1일에 5개 이상의 서로 다른 약을 처방받은 모든 환자를 가져오는 SQL 쿼리를 작성해달라고 해보겠습니다. 
+예) ![alt text](images/1529F259-5D25-4E91-BF46-B30DF6D73B5B.jpeg)
 
-```
+
+**2.어느 병원의 환자 관리 시스템의 테이블 스키마를 알려주고, 2023년 4월 1일에 5개 이상의 서로 다른 약을 처방받은 모든 환자를 가져오는 SQL 쿼리를 작성해달라고 해보겠습니다.**
+
+
+~~~
 You're provided with a database schema representing any hospital's patient management system.
 The system holds records about patients, their prescriptions, doctors, and the medications prescribed.
 
 Here's the schema:
 
-```sql
+sql
 CREATE TABLE Patients (
     PatientID int,
     FirstName varchar(50),
@@ -114,16 +129,28 @@ CREATE TABLE PrescriptionDetails (
 
 
 Write a SQL query that fetches all the patients who were prescribed more than 5 different medications on 2023-04-01.
-```
+~~~
 
-![alt text](5A42CCBC-63F5-4BD3-A591-2C41B7AF0885.jpeg)
+Claude가 어떻게 SQL을 작성해 주는지 확인해보겠습니다. <br>
 
+예) 
+![alt text](images/5A42CCBC-63F5-4BD3-A591-2C41B7AF0885.jpeg)
+
+<br>
+<br>
+<br>
 
 ## Code Intepretation
-6. 이번에는 코드에 대한 해석/설명을 시도해 보겠습니다.
-무언가 잘못되어있거나, best practice가 아니면 알려달라고도 추가해보겠습니다.
 
-```
+Code Generation을 이야기 할 때, 우리는 단순히 코드의 생성 뿐 아니라 코드를 이해할 수 있게되었다고 말할 수 있습니다. 개발자에게 프로그래밍이란 단순히 어떤 기능을 만드는데 그치지 않고, Best Practice를 준수하는 코딩을 하는 능력뿐만 아니라 동시에 다른 사람의 코드를 이해하는 능력도 못지않게 중요합니다. CodeLLM 이 가진 Code Intepretation 기능이 강조되는 이유입니다. 이번 실습에서는 Code Intepretation을 실습해 보겠습니다. 
+
+**1.이번에는 코드에 대한 해석/설명을 시도해 보겠습니다.
+무언가 잘못되어있거나, best practice가 아니면 알려달라고 이야기 해보겠습니다.** </br> 
+
+
+
+
+~~~python
 explain below code and highlight if any red flags or not following best practices.
 
 #include <iostream>
@@ -205,7 +232,7 @@ int main() {
 
     return 0;
 }
-```
+~~~
 
 몇 가지 개선포인트가 있지만 전반적으로 코드 디자인이 괜찮다고 알려줍니다.
-![alt text](4B8704A1-759B-42BA-8A07-9964FBA1A9A2.jpeg)
+![alt text](images/4B8704A1-759B-42BA-8A07-9964FBA1A9A2.jpeg)
