@@ -164,15 +164,16 @@ with col2:
 **6. 파일을 저장합니다.**
 탁월합니다! 이제 애플리케이션을 실행할 준비가 되었습니다!
 
+<BR><BR><BR><BR> 
 ## Streamlit 앱 실행
 **1. AWS Cloud9 혹은 EC2에서 bash terminal을 선택하고 디렉토리를 변경합니다.**
 ~~~bash
-cd ~/environment/workshop/labs/image
+cd ~/environment/workshop/labs/image_prompts
 ~~~
  
 **2. 터미널에서 streamlit 명령을 실행합니다.**
 ~~~bash
-streamlit run image_app_kr.py --server.port 8080
+streamlit run image_prompts_app_kr.py --server.port 8501
 ~~~
 Streamlit 명령에 의해 표시되는 Network URL 및 External URL 링크를 무시합니다. 대신 AWS Cloud9의 프리뷰 기능을 사용하겠습니다.
 
