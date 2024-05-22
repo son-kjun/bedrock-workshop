@@ -110,12 +110,68 @@ def get_image_from_model(prompt_content, negative_prompt=None):
 환상적입니다! 백킹 라이브러리가 완성되었습니다. 이제 프론트엔드 애플리케이션을 만들어 보겠습니다.
 
 
-**7. 몇 가지 프롬프트를 시도해보고 결과를 확인하세요.**
+<BR><BR><BR><BR> 
+## Streamlit 프론트엔드 앱 만들기
+**1. lib 파일과 같은 폴더에서 image_prompts_app_kr.py 파일을 엽니다.**
+
+**2. import 구문을 추가 합니다.**
+이 구문을 사용하면 백킹 라이브러리 스크립트에서 Streamlit 요소를 사용하고 함수를 호출할 수 있습니다.
+~~~python
+import streamlit as st
+import image_prompts_lib_kr as glib
+~~~
+ 
+**3. 페이지 제목, 구성 및 열 레이아웃을 추가합니다.**
+여기서는 실제 페이지의 페이지 제목과 브라우저 탭에 표시되는 제목을 설정하고 있습니다. 왼쪽에 입력을 수집하고 오른쪽에 출력을 표시하기 위해 두 개의 열을 만들고 있습니다.
+
+~~~python
+st.set_page_config(layout="wide", page_title="Image Generation")
+
+st.title("Image Generation")
+
+col1, col2 = st.columns(2)
+~~~
+ 
+
+**4. 입력 요소를 추가합니다.**
+첫 번째 열에는 사용자의 프롬프트를 가져와서 Bedrock으로 전송하는 멀티라인 텍스트 상자와 버튼을 만들고 있습니다.
+~~~python
+with col1:
+    st.subheader("Image parameters")
+    
+    prompt_text = st.text_area("What you want to see in the image:", height=100, help="The prompt text")
+    negative_prompt = st.text_input("What shoud not be in the image:", help="The negative prompt")
+
+    generate_button = st.button("Generate", type="primary")
+~~~
+ 
+**5. 출력 요소를 추가합니다.**
+두 번째 열에서는 if 블록을 사용하여 버튼 클릭을 처리합니다. 백킹 함수가 호출되는 동안 스피너를 표시한 다음 웹 페이지에 출력을 씁니다.
+~~~python
+with col2:
+    st.subheader("Result")
+
+    if generate_button:
+        with st.spinner("Drawing..."):
+            generated_image = glib.get_image_from_model(
+                prompt_content=prompt_text, 
+                negative_prompt=negative_prompt,
+            )
+        
+        st.image(generated_image)
+~~~
+ 
+**6. 파일을 저장합니다.**
+탁월합니다! 이제 애플리케이션을 실행할 준비가 되었습니다!
+
+
+
+**1. 몇 가지 프롬프트를 시도해보고 결과를 확인하세요.**
 - daguerreotype of robot and cowboy standing side-by-side, directly facing the camera, steampunk, western town in the background, long shot, sepia tone
 - photograph of a calico cat, cyberpunk, futuristic cityscape in the background, low angle, long shot, neon sign on building "CALICO CORP", Epic, photorealistic, 4K
 
 <BR><BR><BR><BR>
-**8. 다양한 요소를 사용하여 작성된 몇 가지 예시 프롬프트는 아래 표를 참조하세요.**
+**2. 다양한 요소를 사용하여 작성된 몇 가지 예시 프롬프트는 아래 표를 참조하세요.**
 
 |Element added|Prompt|Image|Note|
 |------|---|---|---|
