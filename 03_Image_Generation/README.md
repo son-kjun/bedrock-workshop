@@ -54,6 +54,9 @@ Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성�
 작동 방식은 다음 아키텍처로 설명할 수 있습니다:
 ![Stable Diffusion Architecture](./images/sd.png)
 
+## 3-1. 이미지 생성 모델에는 Stability.ai의 SDXL 이외에도 Amazon Titan Image Generator를 사용해볼수도 있습니다.
+![titan.png](images/titan.png)
+
 <BR><BR><BR><BR>
 ## 4. 패턴
 이 워크숍에서는 Amazon Bedrock을 사용하여 이미지 생성에 대한 다음 패턴을 배울 수 있습니다.
