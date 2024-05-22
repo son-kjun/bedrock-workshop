@@ -166,8 +166,14 @@ app.png
 - a beautiful mountain landscape
 ![app-in-use-ko.png](images/app-in-use-ko.png)
 
+
 **5. AWS Cloud9에서 미리보기 탭을 닫습니다.**
+
 **6. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.**
+
+
+## 도전과제 
+![challenge01](images/challenge01.png)
 
 
 [![Next](images/next.png)](02_Image_Pattern.md)
