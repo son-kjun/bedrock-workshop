@@ -1,5 +1,8 @@
 # Lab 3 - 이미지 생성
 
+오늘 이미지 생성 HoL은 Amazon Bedrock 콘솔을 통해 어떤 프롬프트와 추론 파라미터, 그리고 모델을 사용할수 있는지를 먼저 배워보고,
+실제로 API 방식의 코드 데모를 사용하여 향후에 어떤식으로 활용될수 있는지 사용자 경험을 가져가시는 것을 목표로 하고 있습니다.
+
 ## Amazom Bedrock, LangChain 그리고 Streamlit의 개요
 [Amazon Bedrock](https://aws.amazon.com/ko/bedrock/) 은 파운데이션 모델을 사용하기 위한 완전 관리형 서비스입니다. 이를 통해 텍스트 생성 및 이미지 생성을 위한 단일 API 세트를 사용하여 Amazon 및 타사의 모델에 액세스할 수 있습니다.
 
@@ -25,9 +28,9 @@
 
 좋은 프롬프트를 작성하는 것은 때로는 예술이 될 수 있습니다. 특정 프롬프트가 주어진 모델에 대해 만족스러운 이미지를 생성할지 여부를 예측하는 것은 종종 어렵습니다. 그러나 작동하는 것으로 관찰된 특정 템플릿이 있습니다. 
 대체로 프롬프트는 
-- (i) 이미지 유형 (photograph/sketch/painting etc.)
-- (ii) 설명 (subject/object/environment/scene etc.) 
-- (iii) 스타일의  (realistic/artistic/type of art etc.)
+1. 이미지 유형 (photograph/sketch/painting etc.)
+2. 설명 (subject/object/environment/scene etc.) 
+3. 스타일의  (realistic/artistic/type of art etc.)
 
 세 부분으로 크게 나눌 수 있습니다 . 세 부분을 각각 개별적으로 변경하여 이미지 변형을 생성할 수 있습니다. <font color="red">형용사</font>는 이미지 생성 과정에서 중요한 역할을 하는 것으로 알려져 있습니다. 또한 더 많은 세부 정보를 추가하면 생성 과정에 도움이 됩니다. 
 
@@ -66,12 +69,6 @@ Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성�
     ![Text to Image](./images/71-txt-2-img.png)
 2. Image to Image (In-paiting)
     ![Text to Image](./images/72-img-2-img.png)
-
-## 5. 관련 노트북
-- 01_UX_Bedrock Stable Diffusion XL.ipynb
-    - Amazon Bedrock Image Playground 에서 프롬프트를 넣고 실습을 합니다.
-- 02_Bedrock Stable Diffusion XL.ipynb
-    - Amazon Bedrock API 로 Text-To-Image, Image-To-Image 를 실습 합니다.
 
 [![Next](images/next.png)](01_Image_Generation.md)
 
