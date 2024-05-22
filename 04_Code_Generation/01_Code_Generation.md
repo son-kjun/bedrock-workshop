@@ -29,10 +29,10 @@ create the python program to create sales.csv file
 create the python program to write date to sales.csv
 ~~~
 
-![alt text](image.png)
+![alt text](/images/image.png)
  
 Bedrock의 답변을 확인해봅니다.
-![alt text](image-1.png) 
+![alt text](images/image-1.png) 
 
 이와 같은 방법으로 여러가지 코드 생성을 테스트 해보겠습니다.
 
@@ -76,6 +76,9 @@ Can you generate SQL queries for the below:
 
 예) ![alt text](images/1529F259-5D25-4E91-BF46-B30DF6D73B5B.jpeg)
 
+<br>
+<br>
+<br>
 
 **2.어느 병원의 환자 관리 시스템의 테이블 스키마를 알려주고, 2023년 4월 1일에 5개 이상의 서로 다른 약을 처방받은 모든 환자를 가져오는 SQL 쿼리를 작성해달라고 해보겠습니다.**
 
