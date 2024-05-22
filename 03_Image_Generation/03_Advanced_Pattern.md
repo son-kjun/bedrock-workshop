@@ -172,6 +172,11 @@ streamlit run image_replacement_app_kr.py --server.port 8501 --server.enableXsrf
 ~~~
 ![rep-app-01.png](images/rep-app-01.png)
 
+<BR><BR><BR><BR>
+## 코드 없이 직접 테스트 할수 있게 demo를 미리 준비하였습니다 (아래 데모를 클릭하세요)
+<a href="https://bit.ly/my-bedrock" target="_blank"> **https://bit.ly/my-bedrock** </a>
+
+<BR><BR><BR><BR>
 **5. Generate 버튼을 클릭하여 미리 로드된 이미지에서 커튼 부분을 교체합니다.**
 ![rep-app-02.png](images/rep-app-02.png)
 
@@ -185,6 +190,20 @@ streamlit run image_replacement_app_kr.py --server.port 8501 --server.enableXsrf
 
 **8. 대체할 개체와 대체할 내용을 설정해야 합니다. Generate 버튼을 클릭하여 결과를 확인합니다.**
 
+<BR><BR><BR><BR>
+## (2) 이미지 생성 모델의 다양한 활용
+- [이미지 검색](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-image-search)
+- [아웃페인팅](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-image-extension)
+- [이미지이해](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-image-understanding)
+
+## Advanced 도전과제
+- [멀티모달 챗봇](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-multimodal-chatbot)
+<BR><BR><BR><BR>
+## (3) 이미지 스타일
+다음의 프롬프트를 작성하고 style을 적용해보세요.
+-
+-
+-
 <BR><BR><BR><BR>
 ## 도전과제 
 ![challenge02](images/challenge02.png)
