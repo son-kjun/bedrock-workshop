@@ -19,6 +19,15 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 이 애플리케이션은 두 개의 파일로 구성됩니다: 하나는 Streamlit 프런트엔드용이고 다른 하나는 Bedrock을 호출하기 위한 지원 라이브러리용입니다.
 
 <BR><BR><BR><BR>
+
+## Bedrock Console Platground를 통한 테스트 ( Model = Titan Image Generator )
+몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.
+~~~
+- daguerreotype of robot and cowboy standing side-by-side, directly facing the camera, steampunk, western town in the background, long shot, sepia tone
+- photograph of a calico cat, cyberpunk, futuristic cityscape in the background, low angle, long shot, neon sign on building "CALICO CORP", Epic, photorealistic, 4K
+- 추가적인 프롬프트를 창의적으로 만들어 보세요(영문만 가능합니다.)
+~~~
+
 ## 라이브러리 스크립트 만들기
 
 먼저 Streamlit 프론트엔드와 Bedrock 백엔드를 연결하기 위한 지원 라이브러리를 생성합니다.
