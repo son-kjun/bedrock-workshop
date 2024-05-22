@@ -1,6 +1,6 @@
 # Lab 2. 이미지 패턴 실습
-## (1) 이미지 프롬프팅
-실습소개
+## 1. 이미지 프롬프팅
+**실습소개**
 ![app-in-use.png](images/app-in-use.png)
 이 실습에서는 Amazon Titan Image Generator, Amazon Bedrock, Streamlit을 사용하여 기본 이미지 생성기를 구축하겠습니다. LangChain은 주로 텍스트 생성 모델을 지원하므로, Titan Image Generator와 상호 작용하기 위해 Boto3 라이브러리를 사용할 것입니다.
 
@@ -9,7 +9,7 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 아래 코드 스니펫을 복사하여 지정된 Python 파일에 붙여넣으면 애플리케이션 코드를 작성할 수 있습니다.
 
 
-사용 사례
+**사용 사례**
 
 이미지 생성 패턴은 다음과 같은 사용 사례에 적합합니다:
 
@@ -19,15 +19,12 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 이 애플리케이션은 두 개의 파일로 구성됩니다: 하나는 Streamlit 프런트엔드용이고 다른 하나는 Bedrock을 호출하기 위한 지원 라이브러리용입니다.
 
  
-라이브러리 스크립트 만들기
+## 라이브러리 스크립트 만들기
 
 먼저 Streamlit 프론트엔드와 Bedrock 백엔드를 연결하기 위한 지원 라이브러리를 생성합니다.
+**1. AWS Cloud9에서 workshop/labs/image_prompts 폴더로 이동하여 image_prompts_lib_kr.py 파일을 엽니다.**
 
- 
-
-1. AWS Cloud9에서 workshop/labs/image_prompts 폴더로 이동하여 image_prompts_lib_kr.py 파일을 엽니다.
-
-2.import 구문을 추가합니다.
+**2.import 구문을 추가합니다.**
 - 이 명령문을 통해 LangChain을 사용하여 FAISS 데이터베이스를 관리하고 Boto3를 사용하여 Bedrock을 호출 할 수 있습니다.
 - 아래 상자의 복사 버튼을 사용하면 해당 코드를 자동으로 복사할 수 있습니다:
 ~~~python
@@ -39,7 +36,7 @@ from io import BytesIO
 from random import randint
 ~~~
 
-3. Request body 빌더 함수를 추가합니다.
+**3. Request body 빌더 함수를 추가합니다.**
 - 이 함수는 Bedrock에 제출할 요청 페이로드를 준비합니다:
 ~~~python
 #InvokeModel API 호출에 대한 문자열화된 리퀘스트 바디를 가져옵니다.
@@ -67,7 +64,7 @@ def get_titan_image_generation_request_body(prompt, negative_prompt=None):
 ~~~
 
 
-4. 이미지 변환 기능을 추가합니다.
+**4. 이미지 변환 기능을 추가합니다.**
 - 이 함수는 반환된 페이로드에서 이미지 데이터를 추출하여 Streamlit에서 사용할 수 있는 형식으로 변환합니다.
 ~~~python
 #Titan Image Generator 응답에서 BytesIO 객체를 가져옵니다.
@@ -83,7 +80,7 @@ def get_titan_response_image(response):
 ~~~
 
 
-5. 이 함수를 추가하여 Bedrock을 호출합니다.
+**5. 이 함수를 추가하여 Bedrock을 호출합니다.**
 - Streamlit 프론트엔드 애플리케이션에서 호출할 수 있는 함수를 만들고 있습니다. 이 함수는 입력 콘텐츠를 Bedrock에 전달하고 이미지를 반환합니다.
 ~~~python
 #Amazon Titan Image Generator를 사용하여 이미지 생성
@@ -107,16 +104,16 @@ def get_image_from_model(prompt_content, negative_prompt=None):
     return output
 ~~~
 
-6.파일을 저장합니다.
+**6.파일을 저장합니다.**
 환상적입니다! 백킹 라이브러리가 완성되었습니다. 이제 프론트엔드 애플리케이션을 만들어 보겠습니다.
 
 
-7. 몇 가지 프롬프트를 시도해보고 결과를 확인하세요.
+**7. 몇 가지 프롬프트를 시도해보고 결과를 확인하세요.**
 - daguerreotype of robot and cowboy standing side-by-side, directly facing the camera, steampunk, western town in the background, long shot, sepia tone
 - photograph of a calico cat, cyberpunk, futuristic cityscape in the background, low angle, long shot, neon sign on building "CALICO CORP", Epic, photorealistic, 4K
 
 
-8. 다양한 요소를 사용하여 작성된 몇 가지 예시 프롬프트는 아래 표를 참조하세요.
+**8. 다양한 요소를 사용하여 작성된 몇 가지 예시 프롬프트는 아래 표를 참조하세요.**
 
 |Element added|Prompt|Image|Note|
 |------|---|---|---|
