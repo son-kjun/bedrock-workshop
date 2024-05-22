@@ -1,4 +1,4 @@
-# 실습3. Advanced Pattern
+# 실습 3. Advanced Pattern
 ## (1) 객체를 변경 또는 제거
 ## 실습소개
 ![replacement-app-in-use.png](images/replacement-app-in-use.png)
@@ -200,11 +200,14 @@ streamlit run image_replacement_app_kr.py --server.port 8501 --server.enableXsrf
 - [멀티모달 챗봇](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-multimodal-chatbot)
 <BR><BR><BR><BR>
 ## (3) 이미지 스타일
+## 아래 demo app의 최종본의 Lab3. Stylechange를 선택해서 이미지 스타일을 적용해보세요
+<a href="https://bit.ly/my-bedrock" target="_blank"> **https://bit.ly/my-bedrock** </a>
+
 다음의 프롬프트를 작성하고 style을 적용해보세요.
--
--
--
+- daguerreotype of robot and cowboy standing side-by-side, directly facing the camera, steampunk, western town in the background, long shot, sepia tone
+- photograph of a calico cat, cyberpunk, futuristic cityscape in the background, low angle, long shot, neon sign on building "CALICO CORP", Epic, photorealistic, 4K
 <BR><BR><BR><BR>
+
 ## 도전과제 
 ![challenge02](images/challenge02.png)
 
