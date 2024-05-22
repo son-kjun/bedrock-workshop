@@ -1,13 +1,16 @@
-# 실습 1: Bedrock Console
+# 실습 1: Bedrock Console 둘러보기
 ## 실습 소개
 이 실습에서는 Amazon Bedrock 콘솔의 몇 가지 주요 기능에 대해 살펴보겠습니다.
  
 
-1. Amazon Bedrock에 액세스할 수 있는 계정에 로그인하고 적절한 리전을 선택한 다음 Amazon Bedrock 콘솔로 이동합니다.
+1. Amazon Bedrock에 액세스할 수 있는 계정에 로그인하고 US West (Oregon) 리전을 선택합니다.
+![bedrock-welcome](images/select-region.png)
+  
+3.   다음 Amazon Bedrock 콘솔로 이동합니다.
 ![bedrock-welcome](images/bedrock-welcome.png)
  
 
-2. **Amazon Bedrock** 사이드 메뉴를 열고 Examples를 선택합니다.
+4. **Amazon Bedrock** 사이드 메뉴를 열고 Examples를 선택합니다.
 
 각 예제에서 프롬프트, 추론 구성, 샘플 응답 및 API 요청 세부 정보를 확인할 수 있습니다.
 ![bedrock-examples](images/bedrock-examples.png)
