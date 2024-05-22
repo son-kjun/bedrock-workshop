@@ -181,7 +181,7 @@ Streamlit 명령에 의해 표시되는 Network URL 및 External URL 링크를 �
 ![cloud9-preview.png](images/cloud9-preview.png)
 
 아래와 같은 웹 페이지가 표시됩니다:
-![app.png](images/app.png)
+![app01.png](images/app01.png)
 
 <BR><BR><BR><BR>
 ## 코드 없이 직접 테스트 할수 있게 demo를 미리 준비하였습니다 (아래 데모를 클릭하세요)
