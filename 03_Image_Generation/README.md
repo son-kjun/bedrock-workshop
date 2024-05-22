@@ -43,7 +43,7 @@
 <BR><BR><BR><BR>
 ## 3. 파운데이션 모델 (Foundation Model)
 
-이 기능을 제공하기 위해 Amazon Bedrock은 Stability AI의 이미지 생성을 위한 독점 기반 모델인 [Stable Diffusion XL](https://stability.ai/stablediffusion)을 지원합니다. Stable Diffusion은 확산 원리에 따라 작동하며 각각 다른 목적을 가진 여러 모델로 구성됩니다.
+이 기능을 제공하기 위해 Amazon Bedrock은 Stability AI의 이미지 생성을 위한 독점 기반 모델인 [Stable Diffusion XL](https://stability.ai/stablediffusion)을 지원합니다. Stable Diffusion은 확산 원리에 따라 작동하며 각각 다른 목적을 가진 여러 모델로 구성됩니다. Computer Vison 분야의 이미지생성형 LLM으로는 상업용으로 서비스 되는 미드저니, 오픈소스로 공개된 SDXL, 그리고 OpenAI의 DALL.E 3, 구글의 제미나이가 주로 사용되고 있습니다.
 
 Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성됩니다.
 1. CLIP 텍스트 인코더 (입력 텍스트의 토큰 임베딩 변환)
@@ -54,6 +54,7 @@ Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성�
 작동 방식은 다음 아키텍처로 설명할 수 있습니다:
 ![Stable Diffusion Architecture](./images/sd.png)
 
+<BR><BR><BR><BR>
 ## 3-1. 이미지 생성 모델에는 Stability.ai의 SDXL 이외에도 Amazon Titan Image Generator를 사용해볼수도 있습니다.
 ![titan.png](images/titan.png)
 
