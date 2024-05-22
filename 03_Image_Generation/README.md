@@ -55,7 +55,7 @@ Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성�
 ![Stable Diffusion Architecture](./images/sd.png)
 
 <BR><BR><BR><BR>
-## 3-1. 이미지 생성 모델에는 Stability.ai의 SDXL 이외에도 Amazon Titan Image Generator를 사용해볼수도 있습니다.
+## ** 이미지 생성 모델에는 Stability.ai의 SDXL 이외에도 Amazon Titan Image Generator를 사용해볼수도 있습니다.
 ![titan.png](images/titan.png)
 
 <BR><BR><BR><BR>
