@@ -23,8 +23,9 @@ Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확
 ## 라이브러리 스크립트 만들기
 먼저 Streamlit 프론트엔드와 Bedrock 백엔드를 연결하기 위한 지원 라이브러리를 생성합니다.
 
-**1. AWS Cloud9에서 workshop/labs/image_replacement 폴더로 이동하여 image_replacement_lib_kr.py 파일을 엽니다.
-2. 이미지 생성을 위한 라이브러리 코드를 구성합니다.**
+**1. AWS Cloud9에서 workshop/labs/image_replacement 폴더로 이동하여 image_replacement_lib_kr.py 파일을 엽니다.**
+
+**2. 이미지 생성을 위한 라이브러리 코드를 구성합니다.**
 ~~~python
 import os
 import boto3
@@ -100,7 +101,7 @@ with col1:
         uploaded_image_preview = glib.get_bytesio_from_bytes(uploaded_file.getvalue())
         st.image(uploaded_image_preview)
     else:
-        st.image("images/example.jpg")
+        st.image("images/example.png")
     
     
 with col2:
@@ -120,9 +121,9 @@ with col3:
             if uploaded_file:
                 image_bytes = uploaded_file.getvalue()
             else:
-                image_bytes = glib.get_bytes_from_file("images/example.jpg")
+                image_bytes = glib.get_bytes_from_file("images/example.png")
             
-            generated_image = glib.get_image_from_model(
+            generated_image = glib.get_titan_image_inpainting_request_body(
                 prompt_content=prompt_text, 
                 image_bytes=image_bytes, 
                 mask_prompt=mask_prompt,
@@ -148,8 +149,9 @@ streamlit run image_replacement_app_kr.py --server.port 8501 --server.enableXsrf
 - lamp 혹은 table 을 제거해 보세요.
 ![rep-app-03.png](images/rep-app-03.png)
 
-**7. 선택 사항으로 256x256에서 1024x1024 사이의 크기와 인치당 72픽셀의 해상도를 가진 이미지를 업로드합니다.
-8. 대체할 개체와 대체할 내용을 설정해야 합니다. Generate 버튼을 클릭하여 결과를 확인합니다.**
+**7. 선택 사항으로 256x256에서 1024x1024 사이의 크기와 인치당 72픽셀의 해상도를 가진 이미지를 업로드합니다.**
+
+** 8. 대체할 개체와 대체할 내용을 설정해야 합니다. Generate 버튼을 클릭하여 결과를 확인합니다.**
 
 
 
