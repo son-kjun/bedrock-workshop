@@ -171,9 +171,11 @@ app.png
 
 **6. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.**
 
+<BR><BR><BR><BR>
 ## 코드 없이 직접 테스트 할수 있게 demo를 미리 준비하였습니다 (아래 데모를 클릭하세요)
-<a href="https://bit.ly/my-bedrock" target="_blank"> https://bit.ly/my-bedrock </a>
+<a href="https://bit.ly/my-bedrock" target="_blank"> **https://bit.ly/my-bedrock** </a>
 
+<BR><BR><BR><BR>
 ## 도전과제 
 ![challenge01](images/challenge01.png)
 
