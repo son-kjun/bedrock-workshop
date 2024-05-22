@@ -8,6 +8,7 @@ Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확
 아래 그림을 참조하여 단계를 알아보세요:
 
 |1. 원본 이미지로 시작|2. 마스킹할 객체 지정|3. 마스킹된 영역에 무엇을 칠할지 지정합니다.|4. 원본 이미지의 마스크된 영역에 인페인팅|
+|------|---|---|---|
 |![house01.jpg](images/house01.jpg) |"Toy house"|"Log cabin"|![log-cabin.jpg](images/log-cabin.jpg)|
 
 <BR><BR><BR><BR>
