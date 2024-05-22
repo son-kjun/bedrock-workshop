@@ -198,7 +198,7 @@ streamlit run image_replacement_app_kr.py --server.port 8501 --server.enableXsrf
 - [멀티모달 챗봇](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-multimodal-chatbot)
 <BR><BR><BR><BR>
 ## (3) 이미지 스타일
-## 아래 demo app의 최종본의 Lab3. Stylechange를 선택해서 이미지 스타일을 적용해보세요
+## 아래 demo application 에서 Lab3.Bedrock Stylechange를 선택해서 이미지 스타일을 적용해보세요
 <a href="https://bit.ly/my-bedrock" target="_blank"> **https://bit.ly/my-bedrock** </a>
 
 다음의 프롬프트를 작성하고 style을 적용해보세요.
