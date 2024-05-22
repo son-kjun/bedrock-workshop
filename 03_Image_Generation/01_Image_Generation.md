@@ -14,18 +14,8 @@ Stable Diffusion은 텍스트 프롬프트에서 이미지를 생성합니다. �
 - 이미지 생성 패턴은 다음과 같은 사용 사례에 적합합니다:
   - 웹사이트, 이메일 등을 위한 사용자 지정 이미지 생성.
   - 다양한 미디어 형식의 컨셉 아트 제작
-<BR>
-<BR>
-
-## 아키텍처
-![architecture.png](images/architecture.png)
-
-
-이 애플리케이션은 두 개의 파일로 구성되어 있는데, 하나는 Streamlit front-end 용 파일이고 다른 하나는 Bedrock을 호출하기 위한 지원 라이브러리용 파일 입니다.
-<BR>
-<BR>
-<BR>
-<BR>
+<BR><BR>
+<BR><BR>
 
 ## Bedrock Console Platground를 통한 테스트
 몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.
@@ -37,6 +27,15 @@ Stable Diffusion은 텍스트 프롬프트에서 이미지를 생성합니다. �
 ![picasso.png](images/picasso.png)
 
 <BR><BR><BR><BR>
+## 아키텍처
+![architecture.png](images/architecture.png)
+
+이 애플리케이션은 두 개의 파일로 구성되어 있는데, 하나는 Streamlit front-end 용 파일이고 다른 하나는 Bedrock을 호출하기 위한 지원 라이브러리용 파일 입니다.
+<BR>
+<BR>
+<BR>
+<BR>
+
 ## 라이브러리 스크립트 만들기
 
 먼저 Streamlit front-end와 Bedrock back-end를 연결하기 위한 지원 라이브러리를 생성합니다.
