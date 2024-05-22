@@ -1,4 +1,4 @@
-# 실습 1: Bedrock Code Generation
+# 실습 1: Bedrock CodeGeneration
 ## 실습 소개
 이 실습에서는 Amazon Bedrock 에서 CodeGeneration을 위한 Claude v2 모델을 활용하여, Code Generation을 실습해봅니다.
  
@@ -29,7 +29,7 @@ create the python program to create sales.csv file
 create the python program to write date to sales.csv
 ~~~
 
-![alt text](/images/image.png)
+![alt text](images/image.png)
  
 Bedrock의 답변을 확인해봅니다.
 ![alt text](images/image-1.png) 
