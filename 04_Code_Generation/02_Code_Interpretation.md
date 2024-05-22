@@ -120,12 +120,13 @@ Def execute_query_noncompliant(request):
         connection.commit()
         connection.close()
 ~~~
-1) Bedrock을 통해 이 코드의 내용을 해석해보세요.(필수)
+
+1) Bedrock을 통해 이 코드의 내용을 해석해보세요.(필수문항)
 <br/>
 <br/>
 
-2) 해당 코드가 SQL Injection에 취약한 이유를 확인해 보세요.(필수)
+2) 해당 코드가 SQL Injection에 취약한 이유를 확인해 보세요.(필수문항)
 <br/>
 <br/>
 
-3-Advanced) 어떻게 코드를 수정해야할지 확인해보세요 (옵션)
+3) 어떻게 코드를 수정해야할지 확인해보세요 (옵션문항)
