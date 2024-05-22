@@ -173,6 +173,7 @@ app.png
 
 ## 코드 없이 직접 테스트 할수 있게 demo를 미리 준비하였습니다 (아래 데모를 클릭하세요)
 [https://bit.ly/my-bedrock](https://bit.ly/my-bedrock){:target="_blank"}
+[새 탭에서 열기](https://www.google.com/){:target="_blank"}
 
 ## 도전과제 
 ![challenge01](images/challenge01.png)
