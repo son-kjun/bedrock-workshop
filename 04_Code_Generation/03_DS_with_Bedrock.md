@@ -105,7 +105,7 @@ df 데이터 기반으로 시간에 따른 변화율을 보여주는 차트를 �
 이 파일을 향후 다른 서비스에서도 이용할 수 있게 나의 S3 버켓에 복제해달라고 해보겠습니다.
 <br/> 아래로 접속하시면 여러분의 S3 버켓명을 확인하실 수 있습니다. 아래 prompt의 버켓명을 나의 버켓명으로 대체합니다.
 <br/> https://us-west-2.console.aws.amazon.com/s3/buckets?region=us-west-2
-<br/>![alt text](FD2039BE-E406-4057-A079-CCE7B1831B9D.jpeg)
+<br/>![alt text](images/FD2039BE-E406-4057-A079-CCE7B1831B9D.jpeg)
 ```
 새로운 csv 파일을 S3 버켓 genai-workshop-studio-s3bucket-xxxxxxxxxxx 에 복사해줘
 ```
