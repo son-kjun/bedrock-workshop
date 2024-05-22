@@ -219,7 +219,4 @@ Streamlit 명령에 의해 표시되는 Network URL 및 External URL 링크를 �
 **7. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.**
 
 
-## 도전과제 
-![challenge02](images/challenge02.png)
-
 [![Next](images/next.png)](03_Advanced_Pattern.md)
