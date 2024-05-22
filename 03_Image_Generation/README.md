@@ -62,9 +62,11 @@ Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성�
 ## 4. 패턴
 이 워크숍에서는 Amazon Bedrock을 사용하여 이미지 생성에 대한 다음 패턴을 배울 수 있습니다.
 
-1. Text to Image
+**1. Text to Image**
     ![Text to Image](./images/71-txt-2-img.png)
-2. Image to Image (In-paiting)
+
+    
+**2. Image to Image (In-paiting)**
     ![Text to Image](./images/72-img-2-img.png)
 
 <BR><BR><BR><BR>
