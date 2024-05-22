@@ -164,14 +164,30 @@ with col2:
 **6. 파일을 저장합니다.**
 탁월합니다! 이제 애플리케이션을 실행할 준비가 되었습니다!
 
+## Streamlit 앱 실행
+**1. AWS Cloud9 혹은 EC2에서 bash terminal을 선택하고 디렉토리를 변경합니다.**
+~~~bash
+cd ~/environment/workshop/labs/image
+~~~
+ 
+**2. 터미널에서 streamlit 명령을 실행합니다.**
+~~~bash
+streamlit run image_app_kr.py --server.port 8080
+~~~
+Streamlit 명령에 의해 표시되는 Network URL 및 External URL 링크를 무시합니다. 대신 AWS Cloud9의 프리뷰 기능을 사용하겠습니다.
 
+**3. AWS Cloud9에서 Preview -> Preview Running Application을 선택합니다.**
+![cloud9-preview.png](images/cloud9-preview.png)
 
-**1. 몇 가지 프롬프트를 시도해보고 결과를 확인하세요.**
+아래와 같은 웹 페이지가 표시됩니다:
+app.png
+
+**4. 몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.**
 - daguerreotype of robot and cowboy standing side-by-side, directly facing the camera, steampunk, western town in the background, long shot, sepia tone
 - photograph of a calico cat, cyberpunk, futuristic cityscape in the background, low angle, long shot, neon sign on building "CALICO CORP", Epic, photorealistic, 4K
 
 <BR><BR><BR><BR>
-**2. 다양한 요소를 사용하여 작성된 몇 가지 예시 프롬프트는 아래 표를 참조하세요.**
+**5. 다양한 요소를 사용하여 작성된 몇 가지 예시 프롬프트는 아래 표를 참조하세요.**
 
 |Element added|Prompt|Image|Note|
 |------|---|---|---|
@@ -183,5 +199,15 @@ with col2:
 |Color scheme|Painting of a doctor, Impressionist style, low-angle shot, dim lighting, blue and purple color scheme|![color.png](images/color.png)|이미지의 색 구성표(기타 예: 파스텔 색상, 네온 색상, 그레이 스케일 등)|
 |Negative prompt|(Use the What shoud not be in the image field) Stethoscope|![negative.png](images/negative.png)|이미지에 포함하지 말아야 할 항목|
 |Text|Painting of a doctor, Impressionist style, low-angle shot, dim lighting, blue and purple color scheme, sign reading "The Doctor is in"|![text.png](images/text.png)|Titan Image Generator의 경우 텍스트는 큰따옴표로 묶어야 합니다. 생성된 이미지에 오타가 있을 수 있습니다.|
+
+**6. AWS Cloud9에서 미리보기 탭을 닫습니다.**
+
+**7. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.**
+
+## 코드 없이 직접 테스트 할수 있게 demo를 미리 준비하였습니다 (아래 데모를 클릭하세요)
+<a href="https://bit.ly/my-bedrock" target="_blank"> https://bit.ly/my-bedrock </a>
+
+## 도전과제 
+![challenge02](images/challenge02.png)
 
 [![Next](images/next.png)](02_Image_Pattern.md)
