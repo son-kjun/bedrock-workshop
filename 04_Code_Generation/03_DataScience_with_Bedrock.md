@@ -7,18 +7,18 @@
 
 이번 실습에서 전처리를 할 데이터는 미국 인플레이션 파일(united-states-inflation-rate-cpi.csv)입니다.</br>
 데이터는 전반적으로 아래와 같은 형태입니다. 이대로는 분석을 진행할 수 없어서
-,데이터 분석을 위한 첫번째 과정인 Data Pre Processing 작업을 해볼 것입니다.</br>Python 경험이 없어도 괜찮습니다. Bedrock에게 물어보면 됩니다.
+,데이터 분석을 위한 첫번째 과정인 Data Pre Processing 작업을 해볼 것입니다.</br>Python경험이 없어도 괜찮습니다. Bedrock에게 물어보면 됩니다.
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 </br>
 </br>
 
-1. sed는 streamlined editor로 문자열/파일을 수정(치환, 삭제, 삽입 등) 하여 출력해주는 기능을 제공합니다.<br/>
-이를 활용하여, united-states-inflation-rate-cpi.csv(출처: https://www.macrotrends.net/global-metrics/countries/USA/united-states/inflation-rate-cpi) 파일의 첫 14 레코드를 지우는 방법을 물어보겠습니다.
+**1. sed는 streamlined editor로 문자열/파일을 수정(치환, 삭제, 삽입 등) 하여 출력해주는 기능을 제공합니다.<br/>
+이를 활용하여, united-states-inflation-rate-cpi.csv(출처: https://www.macrotrends.net/global-metrics/countries/USA/united-states/inflation-rate-cpi) 파일의 첫 14 레코드를 지우는 방법을 물어보겠습니다.**
 
-```
+~~~python
 jupyter 에서 sed를 활용하여, ./united-states-inflation-rate-cpi.csv 파일의 첫 14 레코드를 지우고 싶어
-```
+~~~
 </br>
 </br>
 
@@ -154,9 +154,6 @@ Jupyter Notebook 단축키(shift + enter)를 눌러서
 
 전처리한 파일이 S3 버켓에 저장됩니다. 
 [이미지 추가 예정]
-
-
-## Demo. Amazon Q Developer로 이 작업을 해보면 어떨까요?
 
 
 ## Demo. Amazon Q Developer로 이 작업을 해보면 어떨까요?
