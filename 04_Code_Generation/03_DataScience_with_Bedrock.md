@@ -27,7 +27,7 @@ jupyter 에서 sed를 활용하여, ./united-states-inflation-rate-cpi.csv 파�
 ```
  ./united-states-inflation-rate-cpi.csv파일을 dataframe으로 로드해줘
 ```
-어떤 라이브러리를 import해야하는 지 부터해서 코드를 생성하고 각 메서드에 대해 해석합니다. 
+Claude는 어떤 라이브러리를 import해야하는지 알려주고, 동시에 코드를 생성할뿐만 아니라 각 메서드에 대해 해석합니다. 
 ![alt text](images/46944067-539D-4657-BE00-24AFA467ACFA.jpeg)
 <br/> 
 <br/> 
