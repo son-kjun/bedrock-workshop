@@ -195,8 +195,6 @@ streamlit run image_replacement_app_kr.py --server.port 8501 --server.enableXsrf
 - [이미지 검색](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-image-search)
 - [아웃페인팅](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-image-extension)
 - [이미지이해](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-image-understanding)
-
-## Advanced 도전과제
 - [멀티모달 챗봇](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-multimodal-chatbot)
 <BR><BR><BR><BR>
 ## (3) 이미지 스타일
