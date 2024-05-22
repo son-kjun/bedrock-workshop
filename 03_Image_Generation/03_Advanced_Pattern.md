@@ -78,6 +78,38 @@ def get_titan_image_inpainting_request_body(prompt, image_bytes=None, mask_promp
         body['inPaintingParams']['text'] = prompt #프롬프트가 없는 경우 마스크 프롬프트에 표시된 항목만 제거합니다.
     
     return json.dumps(body)
+
+#Titan Image Generator 응답에서 BytesIO 객체를 가져옵니다.
+def get_titan_response_image(response):
+
+    response = json.loads(response.get('body').read())
+    
+    images = response.get('images')
+    
+    image_data = base64.b64decode(images[0])
+
+    return BytesIO(image_data)
+
+
+#Amazon Titan Image Generator를 사용하여 이미지 생성
+def get_image_from_model(prompt_content, image_bytes, mask_prompt=None):
+    session = boto3.Session(
+        profile_name=os.environ.get("BWB_PROFILE_NAME")
+    ) #AWS 자격 증명에 사용할 프로필 이름 설정
+    
+    bedrock = session.client(
+        service_name='bedrock-runtime', #Bedrock 클라이언트를 생성
+        region_name=os.environ.get("BWB_REGION_NAME"),
+        endpoint_url=os.environ.get("BWB_ENDPOINT_URL")
+    ) 
+    
+    body = get_titan_image_inpainting_request_body(prompt_content, image_bytes, mask_prompt=mask_prompt)
+    
+    response = bedrock.invoke_model(body=body, modelId="amazon.titan-image-generator-v1", contentType="application/json", accept="application/json")
+    
+    output = get_titan_response_image(response)
+    
+    return output
 ~~~
 
 
@@ -123,7 +155,7 @@ with col3:
             else:
                 image_bytes = glib.get_bytes_from_file("images/example.png")
             
-            generated_image = glib.get_titan_image_inpainting_request_body(
+            generated_image = glib.get_image_from_model(
                 prompt_content=prompt_text, 
                 image_bytes=image_bytes, 
                 mask_prompt=mask_prompt,
