@@ -1,11 +1,11 @@
 # 실습 3: Bedrock으로 Data Scientist가 되어보자
 ## 실습 소개
 이 실습에서는 Amazon Bedrock 을 통해 만든 python code로
-직접 DataScientist가 되어 SageMaker Jupyter에서 데이터 전처리 작업을 해봅니다.
+직접 DataScientist가 되어 SageMaker Jupyter에서  Data Preprocessing(전처리)작업을 해볼 것입니다.
 
 이번 실습에서 전처리를 할 데이터는 미국 인플레이션 파일(united-states-inflation-rate-cpi.csv)입니다.</br>
 데이터는 전반적으로 아래와 같은 형태입니다. 이 raw data는 분석을 바로 하기에 적합하지 않아서
-,데이터 분석을 위한 첫번째 과정인 Data Pre Processing(전처리) 작업을 해볼 것입니다.</br>Python 경험이 없어도 괜찮습니다. Bedrock에게 물어보면 됩니다.
+여러가지 전처리 작업이 필요합니다.</br>**Python 경험이 없어도 괜찮습니다. Bedrock에게 물어보면 됩니다.**
 
 ![alt text](images/image-3.png)
 </br>
@@ -136,24 +136,32 @@ Jupyter에서 새로운 csv 파일을 S3 버켓  genai-workshop-studio-s3bucket-
 
 - 노트북 인스턴스명을 지정하고,(예제에서는 datascientist로 지정하였습니다)
 <br> 나머지 옵션은 그대로 두고, IAM Role은 기존에 생성되어있는 Role인 **genai-workshop-studio-SageMaker-ExecutionRole-XXXXXXXX을 선택합니다(Use existing role).**
+<br>
+
 ![alt text](images/CCB047AF-8AC2-457D-96BB-2DF4650F7526.jpeg)
 
 
 - 인스턴스 상태(Status)가 InService 일 때, 'Open Jupyter'를 눌러 노트북 인스턴스를 실행시킵니다. 
 
 
+<br>
+<br>
 
 **2. Bedrock으로 작성한 코드 파일(preprocessing_by_bedrock.ipynb)업로드하기**
 
 - Upload를 눌러 다운로드 경로에서 preprocessing_by_bedrock.ipynb 파일을 찾아 노트북 인스턴스에 업로드 하고, 업로드된 파일을 더블클릭하여  실행시킵니다. 
 ![alt text](images/7290885F-CBDE-4877-8077-F5E9FA9D397A_4_5005_c.jpeg)
 
+<br>
+<br>
 
 **3. Jupyter Notebook 단축키(shift + enter)를 눌러서 
 각 셀들이 실행되는 과정을 확인합니다.**
 
 ![alt text](images/CD6F7221-998E-43CB-BD0E-9AA47BF47BC4.jpeg)
 
+<br>
+<br>
 
 노트북 프로그램을 모두 실행한 뒤의 모습은 다음 링크에서 볼 수 있습니다.
 👉🏻  **[바로가기](https://github.com/caracalgit/bedrock-workshop/blob/main/04_Code_Generation/files/preprocessing_by_bedrock_result.ipynb)**
