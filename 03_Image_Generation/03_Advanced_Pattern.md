@@ -48,7 +48,7 @@ Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확
 
 ## (3) 이미지 스타일
 ## Demo
-<a href="http://54.205.45.29:8501/Lab_3._Style_Change" target="_blank"> **https://bit.ly/my-bedrock** </a>
+<a href="http://54.205.45.29:8501/Lab_3._Style_Change" target="_blank"> **https://bit.ly/my-bedrock/Lab_3._Style_Change** </a>
 
 다음의 프롬프트를 작성하고 style을 적용해보세요.
 - daguerreotype of robot and cowboy standing side-by-side, directly facing the camera, steampunk, western town in the background, long shot, sepia tone
