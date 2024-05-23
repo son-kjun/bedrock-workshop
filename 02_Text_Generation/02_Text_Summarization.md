@@ -3,43 +3,52 @@
 Gen AI를 이용하면 긴 컨텐츠 내용을 요약하는 것도 간단히 진행할 수 있습니다. 몇 가지 실습 사례를 통해 알아보도록 하겠습니다.
 
 
-## 6.1 기술 블로그 내용 요약
+## 1. 기술 블로그 내용 요약
 
-1. Bedrock 콘솔 메뉴에서 Playgrounds → Text 를 선택합니다.
-2. Select model 버튼을 클릭합니다.
-3. Category: Cohere, Model: Command Lite v14.7 을 선택합니다.
-4. Apply 버튼을 클릭합니다. 
-5. 다음 내용을 입력하고 > Run 버튼을 클릭해서 결과를 확인합니다. 
+1. Bedrock 콘솔 메뉴에서 **Playgrounds** → **Text** 를 선택합니다.
+2. **Select model** 버튼을 클릭합니다.
+3. Category: **AI21**, Model: **Jurassic-2 Ultra** 을 선택합니다.
+4. **Apply** 버튼을 클릭합니다. 
+5. 다음 내용을 입력하고 **Run** 버튼을 클릭해서 결과를 확인합니다. 
 
-[프롬프트 내용]
 ~~~
 Could you please read the website content at the following URL and summarize it in 1000 words?
 
 https://aws.amazon.com/ko/blogs/machine-learning/welcome-to-a-new-era-of-building-in-the-cloud-with-generative-ai-on-aws/
 ~~~
 
-## 6.2 Earning call 요약
+<img src="images/text-summ-1.png" width="600px">
 
-1. Bedrock 콘솔 메뉴에서 Getting Started → Examples 를 선택합니다.
-2. Search in examples 항목에 “summarization”을 입력해서 검색합니다. 
-3. 검색 결과에서 “Earning call summarization” 을 선택하고 Open in Playground 버튼을 클릭합니다. 
-4. > Run 버튼을 클릭해서 실행된 결과를 확인합니다. 
+6. 다른 URL로 변경해서 실행했을 때 적절하게 요약된 결과를 보여주는지 확인합니다.
 
+<br>
+<br>
 
+## 2. Earning call 요약
 
-1. 우측 Configurations 에서 Length 값을 1500으로 변경하고 다시 > Run 버튼을 클릭해서 결과를 비교해봅시다. 
+1. Bedrock 콘솔 메뉴에서 **Getting Started** → **Examples** 를 선택합니다.
+2. Search in examples 항목에 **summarization**을 입력해서 검색합니다. 
+3. 검색 결과에서 **Earning call summarization** 을 선택하고 **Open in Playground** 버튼을 클릭합니다. 
+<img src="images/text-summ-open.png">
 
+4. **Run** 버튼을 클릭해서 실행된 결과를 확인합니다. 
 
+<img src="images/text-summ-2.png" width="600px">
 
-6.3 Structured summarization
+5. 우측 Configurations 에서 **Length** 값을 **1500**으로 변경합니다.
+6. 다시 **Run** 버튼을 클릭해서 결과를 비교해봅시다. 
 
-1. Bedrock 콘솔 메뉴에서 Playgrounds → Text 를 선택합니다.
+<br>
+<br>
+
+## 3. Structured summarization
+
+1. Bedrock 콘솔 메뉴에서 **Playgrounds** → **Text** 를 선택합니다.
 2. Select model 버튼을 클릭합니다.
-3. Category: AI21 Labs, Model: Jurassic-2 Ultra 를 선택합니다.
-4. Apply 버튼을 클릭합니다. 
-5. 다음 내용을 입력하고 > Run 버튼을 클릭해서 결과를 확인합니다. 
+3. Category: **AI21 Labs**, Model: **Jurassic-2 Ultra** 를 선택합니다.
+4. **Apply** 버튼을 클릭합니다. 
+5. 다음 내용을 입력하고 **Run** 버튼을 클릭해서 결과를 확인합니다. 
 
-[프롬프트 내용]
 ~~~
 Read the document URL below, write a short and concise article about issue. It should include 5 sections:
 
@@ -48,20 +57,22 @@ Read the document URL below, write a short and concise article about issue. It s
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstances.html
 ~~~
 
-1. 원문 내용과 요약된 결과를 비교해 봅니다.
-2. Configurations 의 여러 항목들을 변경해보고 결과를 확인해 봅니다.  
+<img src="images/text-summ-3.png" width="600px">
 
+6. 원문 내용과 요약된 결과를 비교해 봅니다.
+7. Configurations 의 여러 파라미터 항목들을 변경해보고 결과를 확인해 봅니다.  
 
+<br>
+<br>
 
-## 6.4 회의록 요약
+## 4. 회의록 요약
 
-1. Bedrock 콘솔 메뉴에서 Playgrounds → Text 를 선택합니다.
-2. Select model 버튼을 클릭합니다.
-3. Category: Anthropic, Model: Claude 2 v2 를 선택합니다.
-4. Apply 버튼을 클릭합니다. 
-5. 다음 내용을 입력하고 > Run 버튼을 클릭해서 결과를 확인합니다. 
+1. Bedrock 콘솔 메뉴에서 **Playgrounds** → **Text** 를 선택합니다.
+2. **Select model** 버튼을 클릭합니다.
+3. Category: **Anthropic**, Model: **Claude 3 Sonnet** 를 선택합니다.
+4. **Apply** 버튼을 클릭합니다. 
+5. 다음 내용을 입력하고 **Run** 버튼을 클릭해서 결과를 확인합니다. 
 
-[프롬프트 내용]
 ~~~
 아래 회의록 내용을 읽고 내용을 요약해줘.
 ####
@@ -82,4 +93,8 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstances.htm
 본 안건은 야외운동기구의 설치와 유지 관리에 필요한 사항을 규정하는 사안으로 관리되지 못하고 방치된 야외운동기구에 대한 전수 조사를 주문하며 원안대로 의결하였습니다.
 
 ~~~
+
+<img src="images/text-summ-4.png" width="600px">
+
+7. 다른 회의 내용을 이용해서 회의록 작성을 실행해 봅니다. 이 기능을 업무에 사용하면 생산성 향상에 도움이 될지 고민해 봅시다. 일상 생활에서도 사용할 수 있을까요?
 
