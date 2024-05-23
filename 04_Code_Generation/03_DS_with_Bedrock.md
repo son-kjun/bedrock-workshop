@@ -120,6 +120,10 @@ Jupyter에서 새로운 csv 파일을 S3 버켓  genai-workshop-studio-s3bucket-
 
 👉🏻[Download here](https://github.com/caracalgit/bedrock-workshop/raw/41d9a5335541b30cfef344189f9642af8777d348/04_Code_Generation/files/preprocessing_by_bedrock.ipynb?download)
 
+<div>
+<a href="https://github.com/caracalgit/bedrock-workshop/raw/41d9a5335541b30cfef344189f9642af8777d348/04_Code_Generation/files/preprocessing_by_bedrock.ipynb" download="preprocessing_by_bedrock.ipynb">Download Notebook</a>
+</div>
+
 콘솔에서 SageMaker 메뉴에 접속합니다
 https://us-west-2.console.aws.amazon.com/sagemaker/home?region=us-west-2#/getting-started
 
