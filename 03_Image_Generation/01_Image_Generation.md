@@ -44,11 +44,10 @@ a beautiful and powerful mysterious sorceress, smile, sitting on a rock, lightni
 <BR><BR>
 ![picasso.png](images/picasso.png)
 
-<BR><BR><BR><BR>
+<BR><BR>
 ## Demo
 <a href="http://54.205.45.29:8501/Lab_1._Image_generation" target="_blank"> **https://bit.ly/my-bedrock** </a>
 
-<BR><BR><BR><BR>
 **Cloud9이나 EC2로 Bedrock API를 이용해서 데모와 같은 python client를 구성해보고 싶으신 경우 아래 내용을 참조하셔요**
 
 [1] [Amazon Bedrock구성](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/prerequisites/bedrock-setup)
@@ -61,9 +60,5 @@ a beautiful and powerful mysterious sorceress, smile, sitting on a rock, lightni
 
 [5] [workshop 전체 예제 코드 다운로드](https://ws-assets-prod-iad-r-icn-ced060f0d38bc0b0.s3.ap-northeast-2.amazonaws.com/10435111-3e2e-48bb-acb4-0b5111d7638e/workshop.zip)  
 
-
-<BR><BR><BR><BR>
-## 도전과제 
-![challenge01](images/challenge01.png)
 
 [![Next](images/next.png)](02_Image_Pattern.md)
