@@ -1,4 +1,4 @@
-# 1: Bedrock 핸즈온 시작하기
+# 실습 1: Bedrock 핸즈온 시작하기
 
 ## Bedrock Console 둘러보기
 Amazon Bedrock 핸즈온 과정에서 참석해주셔서 감사합니다. 
