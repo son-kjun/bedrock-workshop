@@ -38,9 +38,6 @@ Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확
 
 **8. 대체할 개체와 대체할 내용을 설정해야 합니다. Generate 버튼을 클릭하여 결과를 확인합니다.**
 
-<BR><BR><BR><BR>
-
-## 코드예제 : [codes/Lab_3.Advanced_Pattern.md](codes/Lab_3.Advanced_Pattern.md)
 
 ## (2) 이미지 생성 모델의 다양한 활용
 - [이미지검색](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-image-search)
@@ -48,8 +45,8 @@ Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확
 - [이미지이해](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-image-understanding)
 - [멀티모달 챗봇](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-multimodal-chatbot)
 <BR><BR><BR><BR>
+
 ## (3) 이미지 스타일
-<BR><BR><BR><BR>
 ## Demo
 <a href="http://54.205.45.29:8501/Lab_3._Style_Change" target="_blank"> **https://bit.ly/my-bedrock** </a>
 
@@ -62,3 +59,5 @@ Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확
 ![challenge02](images/challenge02.png)
 ![도전과제](https://simyung.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fbcfc9a33-741c-4cf8-88e2-7fc3d778fb45%2F96fec6d1-6b2f-491b-9a81-77f4212b0378%2FScreenshot_2024-05-21_at_7.32.06_PM.png?table=block&id=51d868fa-3d3e-4e85-9e5b-c60197e8bda4&spaceId=bcfc9a33-741c-4cf8-88e2-7fc3d778fb45&width=2000&userId=&cache=v2)
 
+<BR><BR><BR><BR>
+## 코드예제 : [codes/Lab_3.Advanced_Pattern.md](codes/Lab_3.Advanced_Pattern.md)
