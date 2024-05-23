@@ -32,7 +32,10 @@ jupyter 에서 sed를 활용하여, ./united-states-inflation-rate-cpi.csv 파�
 ```
 <br>
 어떤 라이브러리를 import해야하는 지 부터해서 코드를 생성하고 각 메서드에 대해 해석합니다. 
+<br>
+
 ![alt text](images/46944067-539D-4657-BE00-24AFA467ACFA.jpeg)
+
 <br/> 
 <br/> 
 
@@ -113,7 +116,7 @@ df 데이터 기반으로 시간에 따른 변화율을 보여주는 차트를 �
 <br/>![alt text](images/FD2039BE-E406-4057-A079-CCE7B1831B9D.jpeg)
 
 ```
-Jupyter에서 새로운 csv 파일을 S3 버켓  genai-workshop-studio-s3bucket-tcnf9r0hvm0j 에 복사하는 aws cli를 만들어줘
+Jupyter에서 새로운 csv 파일을 S3 버켓  genai-workshop-studio-s3bucket-XXXXXXXXX 에 복사하는 aws cli를 만들어줘
 ```
 
 
@@ -187,3 +190,6 @@ Jupyter에서 새로운 csv 파일을 S3 버켓  genai-workshop-studio-s3bucket-
 <br>
 
 ## Demo. Amazon Q Developer로 이 작업을 해보면 어떨까요?
+
+<br>
+<br>
