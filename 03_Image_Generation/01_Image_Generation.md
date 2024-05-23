@@ -42,7 +42,8 @@ photorealistic image taken with a Canon 5D Mark III, 24mm lens, a serene mountai
 > 마녀:
 a beautiful and powerful mysterious sorceress, smile, sitting on a rock, lightning magic, hat, detailed leather clothing with gemstones, dress, castle background
 
-- 아래의 프롬프트 엔지니어링 팁을 참조해서 창의적인 프롬프트를 만들어 보세요(영문만 가능합니다.)
+<BR><BR>
+**아래의 프롬프트 엔지니어링 팁을 참조해서 창의적인 프롬프트를 만들어 보세요(영문만 가능합니다.)**
   ![prompt_tip.png](images/prompt_tip.png)
 
 <BR><BR>
