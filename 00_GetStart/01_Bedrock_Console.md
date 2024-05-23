@@ -35,7 +35,8 @@ Amazon Bedrock 핸즈온 과정에서 참석해주셔서 감사합니다.
 
 * **Model access(모델 액세스)** - Amazon Bedrock에서 모델을 사용하려면 먼저 모델에 대한 액세스 권한을 요청해야 합니다. 기본 탐색 창에서 모델 액세스를 선택합니다. 
 
-
+<br>
+<br>
 
 ## Model access 추가하기
 
@@ -63,8 +64,10 @@ Amazon Bedrock에서 자격기반 정책 예제를 확인하려면 아래 문서
 Identity-based policy examples for Amazon Bedrock<br>
 https://docs.aws.amazon.com/bedrock/latest/userguide/security_iam_id-based-policy-examples.html
 
+<br>
+<br>
 
-# 3. 예제 실행해보기
+# 예제 실행해보기
 
 1. **Amazon Bedrock** 사이드 메뉴를 열고 Examples를 선택합니다.
 
@@ -78,11 +81,8 @@ https://docs.aws.amazon.com/bedrock/latest/userguide/security_iam_id-based-polic
  
 3. **Run** 을 선택하고 응답을 검토합니다.
 
-**Temperature** 매개변수를 사용하면 응답을 구성할 때 모델이 보다 "창의적"으로 응답할 수 있습니다. 온도가 0이면 무작위성이 없으며 매번 가장 가능성이 높은 단어가 선택됩니다. 응답의 다양성을 높이려면 Temperature 값을 더 높게 설정하고 동일한 요청을 여러 번 실행할 수 있습니다.
-**Response length** 매개변수는 응답에 반환할 토큰의 수를 결정합니다. 이를 사용하여 모델에서 반환되는 콘텐츠의 양을 줄이거나 늘릴 수 있습니다. 길이를 너무 낮게 설정하면 응답이 완료되기 전에 끊어질 수 있습니다.
-**Info** 링크를 통해 각 파라미터에 대한 설명을 확인할 수 있습니다.
+4. 어떠한 예제들이 있는지 찾아보고 요청한 프롬프트와 응답 결과를 확인해 봅니다.
 
- 
-4. **View API request** 를 선택하면 지정된 프롬프트 및 구성에 대한 JSON 페이로드를 확인할 수 있습니다.
-![bedrock-api](images/bedrock-api.png) 
+
+
 
