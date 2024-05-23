@@ -35,6 +35,8 @@ Bedrock의 답변을 확인해봅니다.
 ![alt text](images/image-1.png) 
 
 이와 같은 방법으로 여러가지 코드 생성을 테스트 해보겠습니다.
+<BR>
+<BR>
 
 **2. 다음과 같이 Full function 코드 생성을 실습해봅니다.** 
 
