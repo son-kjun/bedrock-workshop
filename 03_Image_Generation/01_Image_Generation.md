@@ -3,10 +3,7 @@
 **최종 결과물:**
 ![app-in-use-ko.png](images/app-in-use-ko.png)
 
-이 실습에서는 Stable Diffusion, Bedrock, Streamlit을 사용해 기본적인 이미지 생성기를 만들 것 입니다. LangChain은 주로 텍스트 생성 모델을 지원하므로, Boto3 라이브러리를 사용하여 Stable Diffusion과 상호작용 할 것 입니다.
 Stable Diffusion은 텍스트 프롬프트에서 이미지를 생성합니다. 무작위 노이즈로 시작하여 일련의 단계에 걸쳐 점차적으로 이미지를 형성합니다. 또한 프롬프트를 기반으로 기존 이미지를 변환하는 데에도 사용할 수 있으며, 이는 이후 실습에서 다루겠습니다.
-
-아래 코드 스니펫을 복사하여 지정된 Python 파일에 붙여넣어 애플리케이션 코드를 빌드할 수 있습니다.
 
 **이 실습을 실행하려면 aws account가 Stable Diffusion을 구독하고 있어야 합니다. Bedrock 콘솔을 통해 구독할 수 있습니다.**
 
