@@ -11,6 +11,7 @@
 
 Amazon Bedrock Console은 다양한 모델, 프롬프트 및 추론 매개변수를 실험해 볼 수 있는 좋은 방법 중 하나입니다. 몇 분만 시간을 내어 콘솔의 다른 기능을 살펴보세요.
 
+TODO: 아래 내용 한글화하기
 
 With Amazon Bedrock, you can explore the following capabilities:
 
