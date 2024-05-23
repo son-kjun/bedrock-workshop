@@ -2,16 +2,19 @@
 
 ## Bedrock Console 둘러보기
 Amazon Bedrock 핸즈온 과정에서 참석해주셔서 감사합니다. 
+
 본격적인 실습에 앞서 Amazon Bedrock 콘솔의 몇 가지 주요 기능에 대해 먼저 살펴보겠습니다.
  
 
-1. Amazon Bedrock에 액세스할 수 있는 계정에 로그인하고 US West (Oregon) 리전을 선택합니다.
+1. Amazon Bedrock에 액세스할 수 있는 계정에 로그인합니다.
+
+2. AWS 콘솔 상단 메뉴에서 **US West (Oregon)** 리전을 선택합니다.
 <img src="images/select-region.png" width="500">
   
-2. 다음 Amazon Bedrock 콘솔로 이동해서 **Get Started**를 선택합니다.
+3. 다음 Amazon Bedrock 콘솔로 이동해서 **Get Started**를 선택합니다.
 <img src="images/bedrock-welcome.png" width="700">
 
-Amazon Bedrock Console은 다양한 모델, 프롬프트 및 추론 매개변수를 실험해 볼 수 있는 좋은 방법 중 하나입니다. 몇 분만 시간을 내어 콘솔의 다른 기능을 살펴보세요.
+4. Amazon Bedrock Console은 다양한 모델, 프롬프트 및 추론 매개변수를 실험해 볼 수 있는 좋은 방법 중 하나입니다. 몇 분만 시간을 내어 콘솔의 다양한 기능을 살펴보세요.
 
 
 * **Getting started(시작하기)** - 탐색 창의 시작하기에서 Amazon Bedrock이 제공하는 파운데이션 모델, 예시 및 플레이그라운드에 대한 개요를 확인할 수 있습니다. Amazon Bedrock 모델에서 사용할 수 있는 프롬프트의 예시도 확인할 수 있습니다.
@@ -34,26 +37,27 @@ Amazon Bedrock Console은 다양한 모델, 프롬프트 및 추론 매개변수
 
 
 
-1. 왼쪽 메뉴에서 Foundation models > Base models 를 클릭하여 Bedrock에서 어떠한 모델들이 제공되는지 확인합니다. 
+## Model access 추가하기
+
+기본적으로 User나 Roles는 Amazon Bedrock 리소스를 생성하거나 변경할 수 있는 권한을 가지고 있지 않습니다. AWS 콘솔이나 CLI, API 등을 수행할 수 없음을 의미합니다. 모델에 대한 액세스 권한이 제공되면 해당 계정의 모든 사용자가 해당 모델을 사용할 수 있습니다.
+
+Amazon Bedrock에서 기초 모델을 사용하려면 먼저 해당 모델에 대한 액세스를 요청해야 합니다.
+
+1. Amazon Bedrock 관리 콘솔의 왼쪽 탐색 창 하단에서 모델 액세스를 선택합니다.
+
+2. 모델 액세스 페이지에서 **Modify model access(모델 액세스 관리)**를 선택합니다.
+
+3. 액세스 권한을 추가하려는 모델 옆의 체크박스를 선택합니다.
+   본 실습에서는 모든 모델을 추가하기 위해 아래 그림처럼 헤더의 체크 박스를 선택합니다.
+
+  
+
+5. **Next** 버튼을 클릭합니다.
+
+6. 모델 변경 사항을 확인한 후 **Submit** 버튼을 클릭합니다.
 
 
-Amazon Bedrock에서 지원하는 모델들
-
-* AI21 Labs - Jurassic-2 Ultra v1, Jurassic-2 Mid v1
-* Amazon - Titan Text Express, Lite, Embeddings, Multimodal Embeddings, Image Generator(preview)
-* Anthopic - Claude v1.x, v2.x, Instance v1.x
-* Cohere - Command v14.x, Command Light v14.x, Embed English v3.x, Embed Multilingual v3.x
-* Meta - Llama 2 Chat 13B v1, Llama 2 13B v1, Llama 2 70B v1
-* Stability.ai - Stable Diffusion XL v0.8, v1.x
-
-
-# 2. Model access 추가하기
-
-기본적으로 User나 Roles는 Amazon Bedrock 리소스를 생성하거나 변경할 수 있는 권한을 가지고 있지 않습니다. AWS 콘솔이나 CLI, API 등을 수행할 수 없음을 의미합니다. 사용자에게 리소스에 접근 권한을 주려면 IAM 관리자가 IAM policies를 만들고 이를 역할을 추가함으로써, 사용자가 assume roles을 할 수 있게 해야 합니다. 
-
-TODO: 모델 액세스 추가하는 과정 설명 및 이미지 추가
-
-이에 대해 더 자세히 알고 싶으면 아래 문서 내용을 참고하시기 바랍니다. 
+Amazon Bedrock에서 자격기반 정책 예제를 확인하려면 아래 문서 내용을 참고하시기 바랍니다. 
 
 Identity-based policy examples for Amazon Bedrock<br>
 https://docs.aws.amazon.com/bedrock/latest/userguide/security_iam_id-based-policy-examples.html
