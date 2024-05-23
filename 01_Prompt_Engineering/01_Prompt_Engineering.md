@@ -40,7 +40,7 @@ Amazon Bedrock에서는 AWS 콘솔을 이용해서 Bedrock FMs를 선택해서 �
 ~~~python
 import boto3
 import json
-bedrock = boto3.client(service_name='bedrock-runtime', region_name='us-east-1')
+bedrock = boto3.client(service_name='bedrock-runtime', region_name='us-west-2')
 
 body = json.dumps({
 "prompt": "What is the average lifespan of a Llama?",
