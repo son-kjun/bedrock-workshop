@@ -95,6 +95,7 @@ int main() {
 
 <br>
 Bedrock Claude는 이 코드를 전반적으로 상세하게 설명해주고, 몇 가지 개선포인트가 있지만 전반적으로 코드 디자인이 괜찮다고 알려줍니다.<br>
+
 ![alt text](images/4B8704A1-759B-42BA-8A07-9964FBA1A9A2.jpeg)
 
 <br>
