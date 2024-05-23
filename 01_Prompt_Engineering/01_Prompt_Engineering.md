@@ -1,4 +1,6 @@
-# 1. Zero-shot 프롬프트 사용해보기
+# 실습 1. 프롬프트 엔지니어링
+
+## 1. Zero-shot 프롬프트 사용해보기
 
 Amazon Bedrock에서는 AWS 콘솔을 이용해서 Bedrock FMs를 선택해서 직접 실행해보고 결과를 확인할 수 있도록 Playground를 제공합니다. 현재 3가지 종류(Text, Chat, Image)의 플레이그라운드가 제공됩니다.
 
@@ -9,7 +11,6 @@ Amazon Bedrock에서는 AWS 콘솔을 이용해서 Bedrock FMs를 선택해서 �
 4. Apply 버튼을 클릭합니다. 
 5. 다음 내용을 입력하고 > Run 버튼을 클릭해서 결과를 확인합니다. 
 
-[프롬프트 내용]
 ~~~
 이 문장들의 감정은 무엇입니까? 
 1. 아 정말 넌 도대체 말이 안통하는구나. 
@@ -73,7 +74,6 @@ Gen AI를 사용해서 원하는 결과를 얻기 위해서는 프롬프트를 �
 4. Apply 버튼을 클릭합니다. 
 5. 다음 내용을 입력하고 > Run 버튼을 클릭해서 결과를 확인합니다. 
 
-[프롬프트 내용]
 ~~~
 [INST]You are a very intelligent bot with exceptional language skills[/INST]
 A "lemurwhat" is a small, furry animal native to Tanzania. An example of a sentence that uses
@@ -92,26 +92,6 @@ the word cuteduddle is:
 그 영화는 굉장했어! // 긍정
 이 얼마나 끔찍한 공연인가! //
 ~~~
-
-# 3. 페르소나(Persona) 프롬프트 사용해보기
-
-다음 프롬프트를 입력하고 AI의 응답을 기다립니다. 
-~~~
-우리는 지금부터 롤플레이를 시작할거야. AI가 아니라 사람인 것처럼 자연스럽게 대답을 해줘. 대화의 시작부분에 누가 얘기하는지는 말하지 말아줘. 비지니스 미팅 대화를 연습하는 것을 가정하는거야. 나는 고급 수준의 영어 대화를 진행하고 싶어. 한 문장을 답하고 나의 응답을 기다려줘. 내가 응답하면 다음 대화를 진행해줘.
-~~~
-
-AI 응답을 보고 다음 프롬프트를 입력하고 응답으 
-
-~~~
-안녕하세요. 저는 무한상사의 유길동 부장이라고 합니다.
-~~~
-
-다음 프롬프트를 입력하고 AI의 응답을 기다립니다. 
-
-~~~
-네 반갑습니다. 우리 무한상사에서는 일본과 중국으로 저희 제품을 수출하기 위한 업무를 함께 할 수 있는 파트너 회사를 찾는 중입니다. 귀사와 이 부분에 대한 얘기를 나누고 싶습니다.
-~~~
-
 
 이 외에도 Chain-of-Thought, Tree of Thoughts, RAG(Retrieval Augemented Generation, Self-Consistency, Directional Stimulus 등) 다양한 프롬프트 기법이 있는데, 이에 대한 상세한 내용은 아래 사이트를 참고하시기 바랍니다.
 
