@@ -42,10 +42,6 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 |Negative prompt|(Use the What shoud not be in the image field) Stethoscope|![negative.png](images/negative.png)|이미지에 포함하지 말아야 할 항목|
 |Text|Painting of a doctor, Impressionist style, low-angle shot, dim lighting, blue and purple color scheme, sign reading "The Doctor is in"|![text.png](images/text.png)|Titan Image Generator의 경우 텍스트는 큰따옴표로 묶어야 합니다. 생성된 이미지에 오타가 있을 수 있습니다.|
 
-**6. AWS Cloud9에서 미리보기 탭을 닫습니다.**
-
-**7. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.**
-
 <BR><BR>
 ## 코드예제 : [codes/Lab_2.Image_Pattern.md](codes/Lab_2.Image_Pattern.md)
 
