@@ -21,8 +21,8 @@ Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확
 
 
 <BR><BR><BR><BR>
-## Demo
-<a href="http://54.205.45.29:8501/Lab_3._Advanced_pattern" target="_blank"> **https://bit.ly/my-bedrock** </a>
+## Demo > Lab_3_Advanced_Pattern 메뉴를 선택합니다.
+<a href="http://54.205.45.29:8501" target="_blank"> **https://bit.ly/my-bedrock** </a>
 
 **1. Generate 버튼을 클릭하여 미리 로드된 이미지에서 커튼 부분을 교체합니다.**
 ![rep-app-02.png](images/rep-app-02.png)
@@ -46,7 +46,7 @@ Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확
 
 <BR><BR>
 ## (3) 이미지 스타일
-## Demo > Lab_3_Style_Change 선택
+## Demo > Lab_3_Style_Change 메뉴를 선택 하고 다양한 스타일을 적용해 보세요
 <a href="http://54.205.45.29:8501" target="_blank"> **https://bit.ly/my-bedrock** </a>
 
 다음의 프롬프트를 작성하고 style을 적용해보세요.
@@ -55,7 +55,6 @@ Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확
 
 <BR><BR>
 ## 도전과제 
-![challenge02](images/challenge02.png)
 ![도전과제](https://simyung.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fbcfc9a33-741c-4cf8-88e2-7fc3d778fb45%2F96fec6d1-6b2f-491b-9a81-77f4212b0378%2FScreenshot_2024-05-21_at_7.32.06_PM.png?table=block&id=51d868fa-3d3e-4e85-9e5b-c60197e8bda4&spaceId=bcfc9a33-741c-4cf8-88e2-7fc3d778fb45&width=2000&userId=&cache=v2)
 
 <BR><BR>
