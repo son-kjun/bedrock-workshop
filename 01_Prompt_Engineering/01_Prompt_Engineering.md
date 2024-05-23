@@ -93,6 +93,17 @@ the word cuteduddle is:
 이 얼마나 끔찍한 공연인가! //
 ~~~
 
+<br>
+
+## 도전과제
+
+Few-shot 프롬프팅을 이용해서 원하는 형태의 결과를 얻는 예를 만들어 보세요. 모범 예시를 제공하고 이에 기반한 응답이 생성되는지 확인합니다. 업무에 활용할 수 있다면 반복되는 작업을 빠르게 마무리 할 수 있지 않을까요?
+<img src="images/prompt-challenge-1.png">
+
+<br>
+<br>
+
+
 이 외에도 Chain-of-Thought, Tree of Thoughts, RAG(Retrieval Augemented Generation, Self-Consistency, Directional Stimulus 등) 다양한 프롬프트 기법이 있는데, 이에 대한 상세한 내용은 아래 사이트를 참고하시기 바랍니다.
 
 Prompt Engineering Guide
