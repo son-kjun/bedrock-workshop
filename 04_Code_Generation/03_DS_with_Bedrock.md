@@ -23,13 +23,14 @@ jupyter 에서 sed를 활용하여, ./united-states-inflation-rate-cpi.csv 파�
 
 **2. data frame(데이터 프레임) 이란 파이썬에서 데이터 분석 시 가장 중요하게 사용하는 '데이터 구조 객체'입니다. 
 ![alt text](images/r13.10.png)
-이는 열과 행으로 이루어진 데이터 구조로, 우리가 흔히 아는 DB 테이블과 동일하다고 생각하시면 됩니다.이를 생성하기 위해서는 pandas 라이브러리를 사용할 수 있습니다. <br>
+<br>이는 열과 행으로 이루어진 데이터 구조로, 우리가 흔히 아는 DB 테이블과 동일하다고 생각하시면 됩니다.이를 생성하기 위해서는 pandas 라이브러리를 사용할 수 있습니다. <br>
 데이터 분석 작업 시, raw 데이터를 data frame 구조로 변환하여 데이터를 핸들링하게 됩니다.
 이에 대한 방법을 Bedrock에게 질문해 보겠습니다.**
 
 ```
  ./united-states-inflation-rate-cpi.csv파일을 dataframe으로 로드해줘
 ```
+<br>
 어떤 라이브러리를 import해야하는 지 부터해서 코드를 생성하고 각 메서드에 대해 해석합니다. 
 ![alt text](images/46944067-539D-4657-BE00-24AFA467ACFA.jpeg)
 <br/> 
@@ -117,6 +118,8 @@ Jupyter에서 새로운 csv 파일을 S3 버켓  genai-workshop-studio-s3bucket-
 
 
 <br/>
+<br>
+<br>
 
 ## SageMaker Jupyter Notebook에서 코드 실행해보기
 
@@ -155,8 +158,8 @@ Jupyter에서 새로운 csv 파일을 S3 버켓  genai-workshop-studio-s3bucket-
 <br>
 <br>
 
-**3. Jupyter Notebook 단축키(shift + enter)를 눌러서 
-각 셀들이 실행되는 과정을 확인합니다.**
+**3. Jupyter Notebook에서 코드 실행하기**
+- 단축키(shift + enter)를 눌러서 각 셀들이 실행되는 과정을 확인합니다.
 
 ![alt text](images/CD6F7221-998E-43CB-BD0E-9AA47BF47BC4.jpeg)
 
