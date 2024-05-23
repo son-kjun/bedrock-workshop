@@ -1,6 +1,8 @@
-# 실습 1: Bedrock Console 둘러보기
-## 실습 소개
-이 실습에서는 Amazon Bedrock 콘솔의 몇 가지 주요 기능에 대해 살펴보겠습니다.
+# 1: Bedrock 핸즈온 시작하기
+
+## Bedrock Console 둘러보기
+Amazon Bedrock 핸즈온 과정에서 참석해주셔서 감사합니다. 
+본격적인 실습에 앞서 Amazon Bedrock 콘솔의 몇 가지 주요 기능에 대해 먼저 살펴보겠습니다.
  
 
 1. Amazon Bedrock에 액세스할 수 있는 계정에 로그인하고 US West (Oregon) 리전을 선택합니다.
@@ -11,32 +13,24 @@
 
 Amazon Bedrock Console은 다양한 모델, 프롬프트 및 추론 매개변수를 실험해 볼 수 있는 좋은 방법 중 하나입니다. 몇 분만 시간을 내어 콘솔의 다른 기능을 살펴보세요.
 
-TODO: 아래 내용 한글화하기
 
-With Amazon Bedrock, you can explore the following capabilities:
+* **Getting started(시작하기)** - 탐색 창의 시작하기에서 Amazon Bedrock이 제공하는 파운데이션 모델, 예시 및 플레이그라운드에 대한 개요를 확인할 수 있습니다. Amazon Bedrock 모델에서 사용할 수 있는 프롬프트의 예시도 확인할 수 있습니다.
 
-* Text playground – A hands-on text generation application in the AWS Management Console.
-* Image playground – A hands-on image generation application in the console.
-* Chat playground – A hands-on conversation generation application in the console.
-* Examples library – Example use cases to load.
-* Amazon Bedrock API – Explore with the AWS CLI, or use the API to access the base models.
-* Embeddings – Use the API to generate embeddings from the Titan text and image models.
-* Agents for Amazon Bedrock – Build agents to perform orchestration and carry out tasks for your customers.
-* Knowledge base for Amazon Bedrock – Draw from data sources to help your agent find information for your customers.
-* Provisioned Throughput – Purchase throughput to run inference on models at discounted rates.
-* Fine-tuning and Continued Pre-training – Customize an Amazon Bedrock base model to improve its performance and create a better customer experience.
-* Model invocation logging – Collect invocation logs, model input data, and model output data for all invocations in your AWS account used in Amazon Bedrock.
-* Model versioning – Benefit from continuous updates and improvements in foundation models to enhance your applications' capabilities, accuracy, and safety.
+* **Foundation models(파운데이션 모델)** - 탐색 창의 파운데이션 모델에서 사용 가능한 기본 모델을 보고 다양한 속성별로 모델을 그룹화할 수 있습니다. 모델 보기를 필터링하고, 모델을 검색하고, 모델 제공업체에 대한 정보를 볼 수도 있습니다.
 
+* **Playgrounds(플레이그라운드)** - 콘솔 플레이그라운드를 통해 애플리케이션에서 모델을 사용하기로 결정하기 전에 모델을 실험해 볼 수 있습니다. 
 
-The following capabilities are in public preview release. These features are subject to change.
+  * 채팅 플레이그라운드 - Amazon Bedrock에서 제공하는 채팅 모델을 실험해 볼 수 있습니다.
+  * 텍스트 플레이그라운드 - Amazon Bedrock에서 제공하는 텍스트 모델을 실험해 볼 수 있습니다. 
+  * 이미지 플레이그라운드 - Amazon Bedrock에서 제공하는 이미지 모델을 실험해 볼 수 있습니다.
 
-* Batch inference – Run model inference on a large dataset of prompts. Currently available only through the API.
-* Model evaluation – Create model evaluation jobs to evaluate the responses of 1 or models to either built-in or custom prompt datasets. To evaluate a model's response you can use either human workers or automatic metrics.
+* **Safeguards(안전 가드)** - Gen AI 애플리케이션에서 필요한 안전 가드를 구성할 수 있습니다.
 
-The following capabilities are in limited preview release. To request access, contact your AWS account manager.
+* **Orchestration(오케스트레이션)** - Amazon Bedrock을 사용하면 지식 기반을 활용해 LLM의 추론 기능을 사용하여 컨텍스트에 따라 애플리케이션을 구축하는 방식을 통해 검색 증강 생성(RAG)ß 워크플로를 활성화할 수 있습니다.  
 
-* Guardrails – Implement safeguards for your generative AI applications.
+* **Assessment & deployment(평가 및 배포)** - 모델 평가를 사용하면 모델 출력을 평가 및 비교한 다음 애플리케이션에 가장 적합한 모델을 선택할 수 있습니다. 
+
+* **Model access(모델 액세스)** - Amazon Bedrock에서 모델을 사용하려면 먼저 모델에 대한 액세스 권한을 요청해야 합니다. 기본 탐색 창에서 모델 액세스를 선택합니다. 
 
 
 
