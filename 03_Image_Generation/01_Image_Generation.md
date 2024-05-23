@@ -25,6 +25,21 @@ Stable Diffusion은 텍스트 프롬프트에서 이미지를 생성합니다. �
 
 > A little (girl) with long blond hair, ((her dad)), and a little dog, the girl looks like (Emma Watson), and her dad looks like (Leonardo DiCaprio), like a (photograph), [[digital]]
 
+> 곤충에 포커스를 가진
+photorealistic image taken with a Nikon D850, 105mm macro lens, a vibrant and intricate butterfly resting on a flower
+
+> 눈덮인 산 정상: 
+photorealistic image taken with a Fujifilm GFX100, 24mm lens, a breathtaking panoramic view from the summit of a snow-covered mountain
+
+> 산호초와 바닷속:
+photorealistic image taken with a Fujifilm GFX 50S, 24mm lens, a vibrant coral reef teeming with marine life beneath the clear, turquoise waters
+
+> 백록담
+photorealistic image taken with a Canon 5D Mark III, 24mm lens, a serene mountain lake surrounded by rugged cliffs, reflecting the vivid colors of the surrounding wilderness
+
+> 마녀
+a beautiful and powerful mysterious sorceress, smile, sitting on a rock, lightning magic, hat, detailed leather clothing with gemstones, dress, castle background
+
 - 추가적인 프롬프트를 창의적으로 만들어 보세요(영문만 가능합니다.)
 <BR><BR>
 ![picasso.png](images/picasso.png)
@@ -184,6 +199,7 @@ Streamlit 명령에 의해 표시되는 Network URL 및 External URL 링크를 �
 **5. AWS Cloud9에서 미리보기 탭을 닫습니다.**
 
 **6. 터미널로 돌아가 Control-C 를 눌러 애플리케이션을 종료합니다.**
+
 
 <BR><BR><BR><BR>
 ## 코드 없이 직접 테스트 할수 있게 demo를 미리 준비하였습니다 (아래 데모를 클릭하세요)
