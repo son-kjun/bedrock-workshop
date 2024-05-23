@@ -18,7 +18,9 @@ Stable Diffusion은 텍스트 프롬프트에서 이미지를 생성합니다. �
 <BR><BR>
 
 ## Bedrock Console Playground를 통한 테스트
-다음의 몇 가지 프롬프트를 하나씩 사용해 보고 결과를 확인합니다.순차적으로 결과를 테스트 해보세요. (이미지 생성은 텍스트 생성보다 시간이 걸리므로 조금만 기다려 주셔요!!)
+![picasso.png](images/picasso.png)
+<BR>
+다음의 몇 가지 프롬프트를 베드락 콘솔에서 하나씩 사용해 보고 결과를 확인합니다.순차적으로 결과를 테스트 해보세요. (이미지 생성은 텍스트 생성보다 시간이 걸리므로 조금만 기다려 주셔요!!)
 > A cat and a person, in the style of Picasso
 
 > a beautiful mountain landscape
@@ -41,14 +43,13 @@ photorealistic image taken with a Canon 5D Mark III, 24mm lens, a serene mountai
 a beautiful and powerful mysterious sorceress, smile, sitting on a rock, lightning magic, hat, detailed leather clothing with gemstones, dress, castle background
 
 - 추가적인 프롬프트를 창의적으로 만들어 보세요(영문만 가능합니다.)
-<BR><BR>
-![picasso.png](images/picasso.png)
 
 <BR><BR>
-## Demo
+## Demo > Lab1_Image_Generation : 첫번째 데모는 베드락 플레이 그라운드와 동일한 방식으로 구성됩니다.
 <a href="http://54.205.45.29:8501/Lab_1._Image_generation" target="_blank"> **https://bit.ly/my-bedrock** </a>
 
-**Cloud9이나 EC2로 Bedrock API를 이용해서 데모와 같은 python client를 구성해보고 싶으신 경우 아래 내용을 참조하셔요**
+Demo Code는 Bedrock을 Python API방식으로 작성된 Client Code입니다.
+Cloud9이나 EC2로 Bedrock API를 이용해서 데모와 같은 python client를 구성해보고 싶으신 경우 아래 내용을 참조하셔요
 
 [1] [Amazon Bedrock구성](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/prerequisites/bedrock-setup)
 
