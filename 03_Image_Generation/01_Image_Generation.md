@@ -36,19 +36,19 @@ AWS Console > Bedrock > Image 선택
 
 > A little (girl) with long blond hair, ((her dad)), and a little dog, the girl looks like (Emma Watson), and her dad looks like (Leonardo DiCaprio), like a (photograph), [[digital]]
 
-> 곤충에 포커스를 가진
+> [곤충에 포커스를 가진]
 photorealistic image taken with a Nikon D850, 105mm macro lens, a vibrant and intricate butterfly resting on a flower
 
-> 눈덮인 산 정상: 
+> [눈덮인 산 정상]
 photorealistic image taken with a Fujifilm GFX100, 24mm lens, a breathtaking panoramic view from the summit of a snow-covered mountain
 
-> 산호초와 바닷속:
+> [산호초와 바닷속]
 photorealistic image taken with a Fujifilm GFX 50S, 24mm lens, a vibrant coral reef teeming with marine life beneath the clear, turquoise waters
 
-> 산위 호수:
+> [산위의 호수]
 photorealistic image taken with a Canon 5D Mark III, 24mm lens, a serene mountain lake surrounded by rugged cliffs, reflecting the vivid colors of the surrounding wilderness
 
-> 마녀:
+> [마녀]
 a beautiful and powerful mysterious sorceress, smile, sitting on a rock, lightning magic, hat, detailed leather clothing with gemstones, dress, castle background
 
 <BR><BR>
