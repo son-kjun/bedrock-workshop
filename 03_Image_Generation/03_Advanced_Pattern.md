@@ -3,7 +3,7 @@
 ## 실습소개
 ![replacement-app-in-use.png](images/replacement-app-in-use.png)
 
-이 실습에서는 Amazon Titan Image Generator, Amazon Bedrock 및 Streamlit을 사용하여 이미지 객체 변경 애플리케이션을 구축합니다. Titan Image Generator와 상호 작용하기 위해 Boto3 라이브러리를 사용할 것입니다.
+
 Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확한 치수를 몰라도 이미지에서 제거할 항목을 지정할 수 있습니다. Titan Image Generator는 지정된 항목을 자동으로 마스킹하여 그 자리에 다른 항목을 삽입할 수 있도록 합니다.
 아래 그림을 참조하여 단계를 알아보세요:
 
