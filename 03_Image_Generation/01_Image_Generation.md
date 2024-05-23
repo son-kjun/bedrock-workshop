@@ -50,14 +50,19 @@ a beautiful and powerful mysterious sorceress, smile, sitting on a rock, lightni
 ## Cloud9이나 EC2로 Bedrock API를 이용해서 데모와 같은 python client를 구성해보고 싶으신 경우 아래 내용을 참조하셔요
 
 [1] [Amazon Bedrock구성](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/prerequisites/bedrock-setup)
+
 [2] [AWS Cloud9구성](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/prerequisites/cloud9-setup)
+
 [3] [실습환경설정(관련패키지 설치)](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/prerequisites/lab-setup)
+
 [4] [데모코드](codes/Lab_1.Image_Generation.md)
+
 [5] [workshop 전체 예제 코드 다운로드](https://ws-assets-prod-iad-r-icn-ced060f0d38bc0b0.s3.ap-northeast-2.amazonaws.com/10435111-3e2e-48bb-acb4-0b5111d7638e/workshop.zip)  
 
 
+
 <BR><BR><BR><BR>
-## 코드 없이 직접 테스트 할수 있게 demo를 미리 준비하였습니다 (아래 데모를 클릭하세요)
+## Demo
 <a href="https://bit.ly/my-bedrock" target="_blank"> **https://bit.ly/my-bedrock** </a>
 
 <BR><BR><BR><BR>
