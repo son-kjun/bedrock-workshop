@@ -18,7 +18,7 @@ Stable Diffusion은 텍스트 프롬프트에서 이미지를 생성합니다. �
 <BR><BR>
 
 ## Bedrock Console Playground를 통한 테스트
-몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.
+다음의 몇 가지 프롬프트를 하나씩 사용해 보고 결과를 확인합니다.(이미지 생성은 텍스트 생성보다 시간이 걸리므로 조금만 기다려 주셔요!!)
 > A cat and a person, in the style of Picasso
 
 > a beautiful mountain landscape
@@ -34,10 +34,10 @@ photorealistic image taken with a Fujifilm GFX100, 24mm lens, a breathtaking pan
 > 산호초와 바닷속:
 photorealistic image taken with a Fujifilm GFX 50S, 24mm lens, a vibrant coral reef teeming with marine life beneath the clear, turquoise waters
 
-> 백록담
+> 산위 호수:
 photorealistic image taken with a Canon 5D Mark III, 24mm lens, a serene mountain lake surrounded by rugged cliffs, reflecting the vivid colors of the surrounding wilderness
 
-> 마녀
+> 마녀:
 a beautiful and powerful mysterious sorceress, smile, sitting on a rock, lightning magic, hat, detailed leather clothing with gemstones, dress, castle background
 
 - 추가적인 프롬프트를 창의적으로 만들어 보세요(영문만 가능합니다.)
