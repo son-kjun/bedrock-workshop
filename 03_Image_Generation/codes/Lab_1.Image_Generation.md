@@ -1,5 +1,5 @@
 ## 아키텍처
-![architecture.png](images/architecture.png)
+![architecture.png](../images/architecture.png)
 
 이 애플리케이션은 두 개의 파일로 구성되어 있는데, 하나는 Streamlit front-end 용 파일이고 다른 하나는 Bedrock을 호출하기 위한 지원 라이브러리용 파일 입니다.
 <BR>
@@ -12,7 +12,7 @@
 먼저 Streamlit front-end와 Bedrock back-end를 연결하기 위한 지원 라이브러리를 생성합니다.
 
 **1. workshop/labs/image 폴더로 이동하여 image_lib_kr.py 파일을 엽니다.**
-![open-ko.png](images/open-ko.png)
+![open-ko.png](../images/open-ko.png)
 
 **2.import 구문을 추가 합니다.**
 - 이 구문을 사용하면 Boto3 라이브러리를 사용하여 Bedrock을 호출하고, 환경 변수를 일고, 이미지 데이터를 처리할 수 있습니다.
@@ -136,17 +136,17 @@ streamlit run image_app_kr.py --server.port 8080
 Streamlit 명령에 의해 표시되는 Network URL 및 External URL 링크를 무시합니다. 대신 AWS Cloud9의 프리뷰 기능을 사용하겠습니다.
 
 **3. AWS Cloud9에서 Preview -> Preview Running Application을 선택합니다.**
-![cloud9-preview.png](images/cloud9-preview.png)
+![cloud9-preview.png](../images/cloud9-preview.png)
 
 아래와 같은 웹 페이지가 표시됩니다:
-![app.png](images/app.png)
+![app.png](../images/app.png)
 
 **4. 몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.**
 - A cat and a person, in the style of Picasso
 - a beautiful mountain landscape
 - 추가적인 프롬프트를 창의적으로 만들어 보세요(영문만 가능합니다.)
 <BR><BR>
-![app-in-use-ko.png](images/app-in-use-ko.png)
+![app-in-use-ko.png](../images/app-in-use-ko.png)
 
 
 **5. AWS Cloud9에서 미리보기 탭을 닫습니다.**
