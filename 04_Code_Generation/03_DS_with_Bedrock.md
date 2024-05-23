@@ -118,7 +118,7 @@ Jupyter에서 새로운 csv 파일을 S3 버켓  genai-workshop-studio-s3bucket-
 본 Bedrock 을 통해 생성한 Code들을 옮겨서, ipnyb 파일로 미리 생성해 두었습니다.
 <br/> Bedrock이 알려준 코드로 데이터 전처리 작업이 가능한지 실습 해 보겠습니다.
 
-👉🏻[Download here](https://github.com/caracalgit/bedrock-workshop/raw/41d9a5335541b30cfef344189f9642af8777d348/04_Code_Generation/files/preprocessing_by_bedrock.ipynb)
+👉🏻[Download here](https://raw.githubusercontent.com/caracalgit/bedrock-workshop/main/04_Code_Generation/files/preprocessing_by_bedrock.ipynb)
 
 콘솔에서 SageMaker 메뉴에 접속합니다
 https://us-west-2.console.aws.amazon.com/sagemaker/home?region=us-west-2#/getting-started
