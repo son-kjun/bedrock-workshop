@@ -43,6 +43,7 @@ photorealistic image taken with a Canon 5D Mark III, 24mm lens, a serene mountai
 a beautiful and powerful mysterious sorceress, smile, sitting on a rock, lightning magic, hat, detailed leather clothing with gemstones, dress, castle background
 
 - 추가적인 프롬프트를 창의적으로 만들어 보세요(영문만 가능합니다.)
+  ![prompt_tip.png](images/prompt_tip.png)
 
 <BR><BR>
 ## Demo > Lab1_Image_Generation : 첫번째 데모는 베드락 플레이 그라운드와 동일한 방식으로 구성됩니다.
