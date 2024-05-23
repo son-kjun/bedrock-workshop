@@ -27,7 +27,8 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 
 > photograph of a calico cat, cyberpunk, futuristic cityscape in the background, low angle, long shot, neon sign on building "CALICO CORP", Epic, photorealistic, 4K
 
-> 추가적인 프롬프트를 창의적으로 만들어 보세요(영문만 가능합니다.)
+> 아래의 요소들을 응용하여 프롬프트를 입력해 보세요(영문만 가능합니다.)
+> 아래 프롬프트 중에는 오류가 발생하는 프롬프트가 있습니다. 오류가 발생하는 원인과 조치 방법을 생각해보세요
 
 <BR><BR>
 **다양한 요소를 사용하여 작성된 몇 가지 예시 프롬프트는 아래 표를 참조하세요.**
