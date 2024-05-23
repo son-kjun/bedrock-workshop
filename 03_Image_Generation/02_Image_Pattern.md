@@ -16,8 +16,6 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
     웹사이트, 이메일 등을 위한 맞춤형 이미지 제작
     다양한 미디어 형식의 컨셉 아트 제작
 
-이 애플리케이션은 두 개의 파일로 구성됩니다: 하나는 Streamlit 프런트엔드용이고 다른 하나는 Bedrock을 호출하기 위한 지원 라이브러리용입니다.
-
 <BR><BR>
 ## Demo > Lab_2_Image_Pattern 선택
 <a href="https://bit.ly/my-bedrock" target="_blank"> **https://bit.ly/my-bedrock** </a>
