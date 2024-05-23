@@ -107,7 +107,7 @@ df 데이터 기반으로 시간에 따른 변화율을 보여주는 차트를 �
 <br/> https://us-west-2.console.aws.amazon.com/s3/buckets?region=us-west-2
 <br/>![alt text](images/FD2039BE-E406-4057-A079-CCE7B1831B9D.jpeg)
 ```
-새로운 csv 파일을 S3 버켓 genai-workshop-studio-s3bucket-xxxxxxxxxxx 에 복사해줘
+Jupyter에서 새로운 csv 파일을 S3 버켓  genai-workshop-studio-s3bucket-tcnf9r0hvm0j 에 복사하는 aws cli를 만들어줘
 ```
 
 
