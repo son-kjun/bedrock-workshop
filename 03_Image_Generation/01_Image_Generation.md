@@ -17,7 +17,15 @@ Stable Diffusion은 텍스트 프롬프트에서 이미지를 생성합니다. �
 <BR><BR>
 <BR><BR>
 
-## Bedrock Console Playground를 통한 테스트
+## 프롬프트를 통한 이미지 생성 테스트
+~~~
+Bedrock Console의 Playground 혹은 Demo 앱을 기동해서 프롬프트를 확인해보세요.
+Demo URL클릭시 Ctrl 키를 누르고 새탭이나 새창에서 띄워주세요
+~~~~
+<BR><BR>
+## Demo > Lab1_Image_Generation
+<a href="http://54.205.45.29:8501/Lab_1._Image_generation" target="_blank"> **https://bit.ly/my-bedrock** </a>
+
 ![picasso.png](images/picasso.png)
 <BR>
 다음의 몇 가지 프롬프트를 베드락 콘솔에서 하나씩 사용해 보고 결과를 확인합니다.순차적으로 결과를 테스트 해보세요. (이미지 생성은 텍스트 생성보다 시간이 걸리므로 조금만 기다려 주셔요!!)
@@ -46,9 +54,7 @@ a beautiful and powerful mysterious sorceress, smile, sitting on a rock, lightni
 **아래의 프롬프트 엔지니어링 팁을 참조해서 창의적인 프롬프트를 만들어 보세요(영문만 가능합니다.)**
   ![prompt_tip.png](images/prompt_tip.png)
 
-<BR><BR>
-## Demo > Lab1_Image_Generation : 첫번째 데모는 베드락 플레이 그라운드와 동일한 방식으로 구성됩니다.
-<a href="http://54.205.45.29:8501/Lab_1._Image_generation" target="_blank"> **https://bit.ly/my-bedrock** </a>
+
 
 Demo Code는 Bedrock을 Python API방식으로 작성된 Client Code입니다.
 Cloud9이나 EC2로 Bedrock API를 이용해서 데모와 같은 python client를 구성해보고 싶으신 경우 아래 내용을 참조하셔요
