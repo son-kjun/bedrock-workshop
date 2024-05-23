@@ -2,8 +2,10 @@
 ## 실습 소개
 
 Code Generation을 이야기 할 때, 우리는 단순히 코드의 생성 뿐 아니라 코드를 이해할 수 있게되었다고 말할 수 있습니다. 개발자에게 프로그래밍이란 단순히 어떤 기능을 만드는데 그치지 않고, Best Practice를 준수하는 코딩을 하는 능력뿐만 아니라 동시에 다른 사람의 코드를 이해하는 능력도 못지않게 중요합니다. CodeLLM 이 가진 Code Intepretation 기능이 강조되는 이유입니다. 
+<br>
 
-**1.이번에는 코드에 대한 해석/설명을 시도해 보겠습니다.
+## Code Intepretation 
+이번에는 코드에 대한 해석/설명을 시도해 보겠습니다.
 무언가 잘못되어있거나, best practice가 아니면 알려달라고 이야기 해보겠습니다.** </br> 
 
 
@@ -91,18 +93,46 @@ int main() {
 }
 ~~~
 
-몇 가지 개선포인트가 있지만 전반적으로 코드 디자인이 괜찮다고 알려줍니다.<br>
+<br>
+Bedrock Claude는 이 코드를 전반적으로 상세하게 설명해주고, 몇 가지 개선포인트가 있지만 전반적으로 코드 디자인이 괜찮다고 알려줍니다.<br>
 ![alt text](images/4B8704A1-759B-42BA-8A07-9964FBA1A9A2.jpeg)
 
 <br>
 <br>
 
+<br/>
+
+## Debugging 연습
+
+**1. 실습 1에서 우리는 뉴진스를 네이버에서 검색해주는 프로그램을 만들었습니다. 그러나 프로그램을 실행해보니  다음과 같은 에러가 발생했다고 가정해보겠습니다. 왜 이런 에러가 발생했는지 알아내 보세요!**
+<br>
+~~~python
+Traceback (most recent call last):
+  File "/home/ec2-user/environment/demo/scrapTest.py", line 2, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+~~~
+
+
+<br/>
+
+
+
+**2. (트러블슈팅) AWS Lambda 를 사용하다가 다음 에러를 발견했다고 해보겠습니다. 원인을 알아내보세요.**
+
+~~~python
+{
+    "errorType": "Runtime.ExitError",
+    "errorMessage": "RequestId: 1234aa1b-cd50-6c78-90cd-ce1234ce9950 Error: Runtime exited with error: exit status 129"
+}
+~~~
+
+<br/>
+<br/>
+
+
 ## 도전 과제
-Amazon CodeGuru Reviewer를 사용해서 코드의 결점을 식별하여 이를 사용자에게 제공하는 서비스입니다. 내 회사의 보안팀은 Amazon CodeGuru Reviewer를 사용하여, 전사 시스템의 코드 취약점을 주기적으로 점검하고 담당자에게 전달하여, 이에 대한 조치일정 계획을 수립합니다. 
-
-![alt text](images/Screenshot-2023-10-05-at-2.20.12-PM.png)
-
-우리가 기존 레거시 시스템의 운영자라고 가정해봅시다. 전임자가 작성한 코드를 이해가 안되지만, 코드취약점 대상 서비스에 나의 담당 시스템에서 아래 코드가 SQL Injection에 취약하다고 적발되어 당장 오늘까지 내가 수정을 해야합니다. 하지만 나는 비전공자에 코딩이 처음인 사람입니다. 오늘 수정하지 않으면 집에갈 수 없습니다.
+우리가 기존 레거시 시스템의 운영자라고 가정해봅시다. 전임자가 작성한 코드를 이해가 안되지만, 코드취약점 대상 서비스에 나의 담당 시스템에서 아래 코드가 SQL Injection에 취약하다고 적발되어 당장 오늘까지 내가 수정을 해야합니다. **하지만 나는 비전공자에 코딩이 처음인 사람입니다. 오늘 수정하지 않으면 집에갈 수 없습니다.**
 
 ~~~python
 Def execute_query_noncompliant(request):
@@ -126,4 +156,10 @@ Def execute_query_noncompliant(request):
 <br/>
 <br/>
 
-**3) 어떻게 코드를 수정해야할지 확인해보세요. (옵션 문항)**
+**3) SQL Injection이 도대체 뭔지 알아내 보세요. (옵션 문항)**
+<br/>
+<br/>
+
+**4) 어떻게 코드를 수정해야할지 확인해보세요. (옵션 문항)**
+<br/>
+<br/>
