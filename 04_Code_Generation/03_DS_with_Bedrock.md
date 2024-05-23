@@ -156,7 +156,7 @@ Jupyter에서 새로운 csv 파일을 S3 버켓  genai-workshop-studio-s3bucket-
 
 
 노트북 프로그램을 모두 실행한 뒤의 모습은 다음 링크에서 볼 수 있습니다.
-👉🏻  **[바로가기](https://us-west-2.console.aws.amazon.com/sagemaker/home?region=us-west-2#/getting-started)**
+👉🏻  **[바로가기](https://github.com/caracalgit/bedrock-workshop/blob/main/04_Code_Generation/files/preprocessing_by_bedrock_result.ipynb)**
 
 
 <!--파일을 모두 실행한 뒤 
