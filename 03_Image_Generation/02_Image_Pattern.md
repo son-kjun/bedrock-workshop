@@ -8,7 +8,7 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 
 아래 코드 스니펫을 복사하여 지정된 Python 파일에 붙여넣으면 애플리케이션 코드를 작성할 수 있습니다.
 
-<BR><BR><BR><BR>
+<BR><BR>
 **사용 사례**
 
 이미지 생성 패턴은 다음과 같은 사용 사례에 적합합니다:
@@ -18,17 +18,17 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 
 이 애플리케이션은 두 개의 파일로 구성됩니다: 하나는 Streamlit 프런트엔드용이고 다른 하나는 Bedrock을 호출하기 위한 지원 라이브러리용입니다.
 
-<BR><BR><BR><BR>
+<BR><BR>
 ## Demo > Lab_2_Image_Pattern 선택
 <a href="https://bit.ly/my-bedrock" target="_blank"> **https://bit.ly/my-bedrock** </a>
-<BR><BR><BR><BR> 
+<BR><BR>
 **몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.**
 > daguerreotype of robot and cowboy standing side-by-side, directly facing the camera, steampunk, western town in the background, long shot, sepia tone
 
 > photograph of a calico cat, cyberpunk, futuristic cityscape in the background, low angle, long shot, neon sign on building "CALICO CORP", Epic, photorealistic, 4K
 
 > 추가적인 프롬프트를 창의적으로 만들어 보세요(영문만 가능합니다.)
-<BR><BR><BR><BR>
+<BR><BR>
 **5. 다양한 요소를 사용하여 작성된 몇 가지 예시 프롬프트는 아래 표를 참조하세요.**
 
 |Element added|Prompt|Image|Note|
