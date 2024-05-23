@@ -23,7 +23,7 @@ Bedrock Console의 Playground 혹은 Demo 앱을 기동해서 프롬프트를 �
 Demo URL클릭시 Ctrl 키를 누르고 새탭이나 새창에서 띄워주세요
 ~~~~
 ## Bedrock Console Playground - Image Generation
-[Bedrock console](console.aws.amazon.com/bedrock/home?region=us-east-1#/image-playground?modelId=stability.stable-diffusion-xl-v1)
+[console.aws.amazon.com/bedrock/home/image-playground](https://console.aws.amazon.com/bedrock/home/image-playground)
 <BR><BR>
 ## Demo > Lab1_Image_Generation
 <a href="http://54.205.45.29:8501/Lab_1._Image_generation" target="_blank"> **https://bit.ly/my-bedrock** </a>
