@@ -97,7 +97,7 @@ int main() {
 <br>
 <br>
 
-##도전 과제
+## 도전 과제
 Amazon CodeGuru Reviewer를 사용해서 코드의 결점을 식별하여 이를 사용자에게 제공하는 서비스입니다. 내 회사의 보안팀은 Amazon CodeGuru Reviewer를 사용하여, 전사 시스템의 코드 취약점을 주기적으로 점검하고 담당자에게 전달하여, 이에 대한 조치일정 계획을 수립합니다. 
 
 ![alt text](images/Screenshot-2023-10-05-at-2.20.12-PM.png)
