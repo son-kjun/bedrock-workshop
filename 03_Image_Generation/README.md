@@ -32,7 +32,8 @@
 
 Amazon Bedrock은 Stability AI의 이미지 생성을 위한 독점 기반 모델인 [Stable Diffusion XL](https://stability.ai/stablediffusion)을 지원합니다. Stable Diffusion은 확산 원리에 따른 디퓨전 모델을 사용하고 있으며 각각 다른 목적을 가진 여러 모델로 구성됩니다. Computer Vison 분야의 이미지생성형 LLM으로는 상업용으로 서비스 되는 미드저니, 오픈소스로 공개된 SDXL, 그리고 OpenAI의 DALL.E 3, 구글의 제미나이가 주로 사용되고 있습니다.
 
-** 금일은 다양한 분야의 직원분들이 참석하고 계시기 때문에 모델에 대한 세부 설명 및 코드에 대한 설명은 지양하고 있습니다.**
+**금일은 다양한 분야의 직원분들이 참석하고 계시기 때문에 모델에 대한 세부 설명 및 코드에 대한 설명은 지양하고 있습니다.**
+
 Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성됩니다.
 1. CLIP 텍스트 인코더 (입력 텍스트의 토큰 임베딩 변환)
 2. UNet (Diffusion 스텝)
@@ -66,7 +67,7 @@ Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성�
 [LangChain](https://python.langchain.com/v0.2/docs/introduction/) 은 Amazon Bedrock의 모델 및 벡터 데이터베이스와 같은 관련 서비스와 상호 작용할 수 있는 편리한 기능을 제공합니다. LangChain은 파이썬과 자바스크립트 라이브러리를 제공합니다. 이 워크샵에서는 파이썬 버전의 LangChain을 사용합니다.
 
 [Streamlit](https://streamlit.io/) 을 사용하면 프론트엔드 개발 기술 없이도 파이썬 코드의 웹 프론트엔드를 빠르게 만들 수 있습니다. Streamlit은 기술자와 비기술자 모두에게 보여줄 수 있는 개념 증명(PoC)을 만드는 데 유용합니다.
-** 마찬가지로 데모 생성에 필요한 오픈소스 및 코드에 대한 세부적인 설명도 오늘은 드리지는 않습니다 **
+**마찬가지로 데모 생성에 필요한 오픈소스 및 코드에 대한 세부적인 설명도 오늘은 드리지는 않습니다**
 
 [![Next](images/next.png)](01_Image_Generation.md)
 
