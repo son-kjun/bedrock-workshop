@@ -3,10 +3,11 @@
 이 실습에서는 Amazon Bedrock 에서 CodeGeneration을 위한 Claude v2 모델을 활용하여, Code Generation을 실습해봅니다.
  
 
-**이 실습을 실행하려면 aws account가 Claude v2을 구독하고 있어야 합니다. Bedrock 콘솔을 통해 구독할 수 있습니다.**
+* 이 실습을 실행하려면 aws account가 Claude v2을 구독하고 있어야 합니다. Bedrock 콘솔을 통해 구독할 수 있습니다.
 <BR>
 <BR>
 <BR>
+
 
 ## Bedrock PlayGround에서 코드 생성 실습하기
 #### 1. Amazon Bedrock 콘솔 > Example에서 'Code Generation'을  검색하여, Claude v2를 선택합니다.
@@ -34,6 +35,8 @@ Bedrock의 답변을 확인해봅니다.
 ![alt text](images/image-1.png) 
 
 이와 같은 방법으로 여러가지 코드 생성을 테스트 해보겠습니다.
+<BR>
+<BR>
 
 **2. 다음과 같이 Full function 코드 생성을 실습해봅니다.** 
 
@@ -73,7 +76,7 @@ Can you generate SQL queries for the below:
 - Calculate the monthly average sales for the year 2023
 ~~~
 
-예) ![alt text](images/1529F259-5D25-4E91-BF46-B30DF6D73B5B.jpeg)
+![alt text](images/1529F259-5D25-4E91-BF46-B30DF6D73B5B.jpeg)
 
 <br>
 <br>
@@ -135,9 +138,28 @@ Write a SQL query that fetches all the patients who were prescribed more than 5 
 
 Claude가 어떻게 SQL을 작성해 주는지 확인해보겠습니다. <br>
 
-예) 
 ![alt text](images/5A42CCBC-63F5-4BD3-A591-2C41B7AF0885.jpeg)
 
 <br>
 <br>
 <br>
+
+## 연습 코딩
+이번 연습코딩에서는 프롬프트 예시를 드리지 않습니다. 직접 Bedrock Claude에게 코딩을 해달라고 한글로 요청해봅시다.
+
+**1. 검색 포털 naver.com에서  '뉴진스'의 기사를 검색하고 기사 제목과 링크 정보를 출력하는 파이썬 어플리케이션을 만들어달라고 해보세요.**
+<br>
+<br>
+
+
+**2. 내가 우리 부서의 파트장이라고 가정했을 때, 우리부서에서 연봉 1위가 누구인지와, 그 연봉이 얼마인지를 조회하는 쿼리를 만들어봅시다.**
+<br>
+<br>
+
+
+**3. 내 고등학교 성적이 수학은 전교 1등이었는데 영어 성적은 1등이 아니었을 때가 몇학년인지 조회하는 쿼리를 만들어달라고 해보세요.**
+<br>
+<br>
+
+
+**4. 엔비디아의 주가가 떨어질때마다 내게 이메일을 보내주는 프로그램을 개발해달라고 해봅시다.**
