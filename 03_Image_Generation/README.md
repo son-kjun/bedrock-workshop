@@ -45,7 +45,9 @@ Amazon Bedrock은 Stability AI의 이미지 생성을 위한 독점 기반 모�
 
 - http://jalammar.github.io/illustrated-stable-diffusion/ 
 
-- 다중체 가설(manifold hypothesis)![image](https://github.com/son-kjun/bedrock-workshop/assets/148869296/1441fe67-dd0a-415b-b84c-393f64f393b8)
+[다중체 가설(manifold hypothesis)]
+- https://github.com/son-kjun/bedrock-workshop/assets/148869296/1441fe67-dd0a-415b-b84c-393f64f393b8
+  
 <BR><BR>
 Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성됩니다.
 1. CLIP 텍스트 인코더 (입력 텍스트의 토큰 임베딩 변환)
