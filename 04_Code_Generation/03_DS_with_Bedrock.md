@@ -193,3 +193,5 @@ Jupyter에서 새로운 csv 파일을 S3 버켓  genai-workshop-studio-s3bucket-
 
 <br>
 <br>
+<img width="1357" alt="image" src="https://github.com/son-kjun/bedrock-workshop/assets/117620342/a5a5dccc-2e3e-4915-895a-fddf13751ab3">
+
