@@ -1,45 +1,52 @@
 # 실습 3: Bedrock으로 Data Scientist가 되어보자
 ## 실습 소개
 이 실습에서는 Amazon Bedrock 을 통해 만든 python code로
-직접 DataScientist가 되어 SageMaker Jupyter에서 데이터 전처리 작업을 해봅니다.
+직접 DataScientist가 되어 SageMaker Jupyter에서  Data Preprocessing(전처리)작업을 해볼 것입니다.
 
 이번 실습에서 전처리를 할 데이터는 미국 인플레이션 파일(united-states-inflation-rate-cpi.csv)입니다.</br>
 데이터는 전반적으로 아래와 같은 형태입니다. 이 raw data는 분석을 바로 하기에 적합하지 않아서
-,데이터 분석을 위한 첫번째 과정인 Data Pre Processing(전처리) 작업을 해볼 것입니다.</br>Python 경험이 없어도 괜찮습니다. Bedrock에게 물어보면 됩니다.
+여러가지 전처리 작업이 필요합니다.</br>**Python 경험이 없어도 괜찮습니다. Bedrock에게 물어보면 됩니다.**
 
 ![alt text](images/image-3.png)
 </br>
 </br>
 
-**1. sed는 streamlined editor로 문자열/파일을 수정(치환, 삭제, 삽입 등) 하여 출력해주는 기능을 제공합니다.**<br/>
-이를 활용하여, united-states-inflation-rate-cpi.csv(출처: https://www.macrotrends.net/global-metrics/countries/USA/united-states/inflation-rate-cpi) 파일의 첫 14 레코드를 지우는 방법을 물어보겠습니다.
+**1. sed명령을 사용하여, [united-states-inflation-rate-cpi.csv](https://www.macrotrends.net/global-metrics/countries/USA/united-states/inflation-rate-cpi) 파일에서 데이터 분석에 쓸모없는 첫 14 레코드를 지우는 방법을 물어보겠습니다.**
+<br>(SED는 streamlined editor로 문자열/파일을 수정(치환, 삭제, 삽입 등) 하여 출력해주는 기능을 제공합니다.)<br/>
 
 ```
 jupyter 에서 sed를 활용하여, ./united-states-inflation-rate-cpi.csv 파일의 첫 14 레코드를 지우고 싶어
 ```
+![alt text](images/aaaaaaa.jpg)
 </br>
 </br>
 
-**2. data frame(데이터 프레임) 이란 파이썬에서 데이터 분석 시 가장 중요하게 사용하는 #데이터 구조# 객체입니다. 열은 각각의 변수를, 행은 각각의 관측치를 나타냅니다. 
-이는 열과 행으로 이루어진 데이터 구조로, 우리가 흔히 아는 DB 테이블과 동일하다고 생각하시면 됩니다.이를 생성하기 위해서는 pandas 라이브러리를 사용할 수 있습니다. 일반적으로 데이터 분석 작업 시, raw 데이터를 data frame 구조로 변환하여 데이터를 핸들링하게 됩니다.
+**2. data frame(데이터 프레임) 이란 파이썬에서 데이터 분석 시 가장 중요하게 사용하는 '데이터 구조 객체'입니다. 
+![alt text](images/r13.10.png)
+<br>이는 열과 행으로 이루어진 데이터 구조로, 우리가 흔히 아는 DB 테이블과 동일하다고 생각하시면 됩니다.이를 생성하기 위해서는 pandas 라이브러리를 사용할 수 있습니다. <br>
+데이터 분석 작업 시, raw 데이터를 data frame 구조로 변환하여 데이터를 핸들링하게 됩니다.
 이에 대한 방법을 Bedrock에게 질문해 보겠습니다.**
 
 ```
  ./united-states-inflation-rate-cpi.csv파일을 dataframe으로 로드해줘
 ```
+<br>
 어떤 라이브러리를 import해야하는 지 부터해서 코드를 생성하고 각 메서드에 대해 해석합니다. 
-![alt text](46944067-539D-4657-BE00-24AFA467ACFA.jpeg)
+<br>
+
+![alt text](images/46944067-539D-4657-BE00-24AFA467ACFA.jpeg)
+
 <br/> 
 <br/> 
 
-**3. df에 데이터가 제대로 들어갔는지 확인하는 방법을 Bedrock에게 질문해 보겠습니다.**
+**3. df(이하 data frame)에 데이터가 제대로 들어갔는지 확인하는 방법을 Bedrock에게 질문해 보겠습니다.**
 ```
 df에 처음 5개 레코드를 보여줘 
 ```
 <br/> 
 <br/> 
 
-**4. 전처리 되지 않은 데이터에 NaN 값이 있을 수 있어, 이 값을 0으로 변환시키는 방법을 Bedrock에게 질문해 보겠습니다.**
+**4. 전처리 되지 않은 데이터에 NaN(Not A Number,컴퓨터 연산 과정에서 잘못된 입력을 받았음을 나타내는 기호) 값이 있을 수 있어, 이 값을 0으로 변환시키는 방법을 Bedrock에게 질문해 보겠습니다.**
 ```
 NaN 값을 0으로 대체해줘
 ```
@@ -102,47 +109,72 @@ df 데이터 기반으로 시간에 따른 변화율을 보여주는 차트를 �
 <br/> 
 <br/> 
 
-이 파일을 향후 다른 서비스에서도 이용할 수 있게 나의 S3 버켓에 복제해달라고 해보겠습니다.
-<br/> 아래로 접속하시면 여러분의 S3 버켓명을 확인하실 수 있습니다. 아래 prompt의 버켓명을 나의 버켓명으로 대체합니다.
-<br/> https://us-west-2.console.aws.amazon.com/s3/buckets?region=us-west-2
+**13. 이 파일을 향후 다른 서비스에서도 이용할 수 있게 나의 S3 버켓에 복제해달라고 해보겠습니다.
+<br/> 아래로 접속하시면 여러분의 S3 버켓명을 확인하실 수 있습니다. 아래 prompt의 버켓명을 나의 버켓명으로 대체합니다.**
+<br/> 👉🏻  **[S3 콘솔 바로가기](https://us-west-2.console.aws.amazon.com/s3/buckets?region=us-west-2)**
+
 <br/>![alt text](images/FD2039BE-E406-4057-A079-CCE7B1831B9D.jpeg)
+
 ```
-새로운 csv 파일을 S3 버켓 genai-workshop-studio-s3bucket-xxxxxxxxxxx 에 복사해줘
+Jupyter에서 새로운 csv 파일을 S3 버켓  genai-workshop-studio-s3bucket-XXXXXXXXX 에 복사하는 aws cli를 만들어줘
 ```
 
 
 <br/>
+<br>
+<br>
 
 ## SageMaker Jupyter Notebook에서 코드 실행해보기
 
-본 Bedrock 을 통해 생성한 Code들을 옮겨서, ipnyb 파일로 미리 생성해 두었습니다.
-<br/> Bedrock이 알려준 코드로 데이터 전처리 작업이 가능한지 실습 해 보겠습니다.
+위 실습에서 Bedrock 을 통해 생성한 Python Code들을 옮겨서, 노트북 파일(preprocessing_by_bedrock.ipynb)로 미리 생성해 두었습니다.
+<br/> Bedrock이 알려준 코드로 데이터 전처리 작업이 가능한지 실습해 보겠습니다.
 
-Download here: (다운로드 링크 추가 예정)
+👉🏻 **[Download here](https://bedrock-yeonsool.s3.us-east-1.amazonaws.com/preprocessing_by_bedrock.ipynb?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAkaCXVzLWVhc3QtMSJHMEUCIQDJ4JUJ5RvcF4ZUoqo6dqg1asCYvW0v7ZY3z1p3skixmQIgRcord6y%2F50L13CJPT3J%2BdHG0k63QkftIl88bfRDhrHQq7gIIgf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARABGgw1OTIxMjg0ODY4NDIiDHNKhv6dZ5ee82QlRSrCAjpBNEHfOv1zyLUPhaDQREWPlHrD5yn5M7W3CJWq30fiAtU%2BNmWeVDZ3DQeXAuzX%2BNSGYIlIa%2BCSUDtJO3GLYyZchnRo7QIoSxWFk5E2qkcTQZOTZzi9CUf8KnPAgNLVdDuX0Dd9PaYpsdR0aoIPT8VEX4VNEZJ%2BT5FCxWgKYg8BdbzuNQ5OyE8IGvxmA5VbrMY7ZHVtSmYWSLYGRjqoKxz6ZZM2WVJNCfdOEy2uiRvEUENKoYqbEkC2h6VlskNxw85pmXV5PDMMT6mWVB6DaBNPLJKIlPj3%2BlwLotHYJKQ3mvLcBmA3y%2F%2B9jYtY7rXH4ksYGzsJNITbJsIpU8jxjJ97Uz6MjO%2Bp2V2MgZmJFUc9E2C783mE8QO81MBsy%2Fm7CWxYSYgocNa0K0ipu9wJ31fEEPg55aIF%2FfLN73Fo9Hp6ojYw%2Bbe%2FsgY6hwLFTx%2FMCM3mGr5%2FO1UKp5sd58lVigMqjsK4Lscl14cyGw9ba3knP2wcB%2F1wdZd4%2FNutFCGTN8oWrO9qkMXS8hIldW9uK5Btpws%2B3PJLz%2FLFuZswCvp3BWvBHmajqz8SL6ATduFIbubJ0OAQ0iQ9yY7Dh2M%2BQ983DxVraqU1df58ofLPmqSa%2Bw6FlvSU2xwVk8KNmX%2BijmaWUEMi0fpU3yxKqBzVg85tyvNNmSgnVrYwS0KlL5%2FUQVIEAaZZ%2FVi0GK8KLuF%2Bv7ynSlK30cZG2yneo6%2F8jSG1rAs0JhyH9C6wLQOrlNzG2bA7HUFgUDOQpSqptgV5oyLb3qk1Z6kYevYtNMqt%2FXm4HQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240524T001547Z&X-Amz-SignedHeaders=host&X-Amz-Expires=43200&X-Amz-Credential=ASIAYTXM3VW5KFJBZYE5%2F20240524%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=a54b3ed99a698c91c56069c11fdd320fcb35aa6c142aae2e0e8d7a571a5bc526)**
 
-콘솔에서 SageMaker 메뉴에 접속합니다
-https://us-west-2.console.aws.amazon.com/sagemaker/home?region=us-west-2#/getting-started
+**1. SageMaker Jupyter Notebook Instance 만들기**
+- 콘솔에서 SageMaker 메뉴에 접속합니다
+👉🏻  **[바로가기](https://us-west-2.console.aws.amazon.com/sagemaker/home?region=us-west-2#/getting-started)**
 
-좌측 패널 메뉴의 Notebook > Notebook instances > 'Create notebook instance' 버튼을 클릭합니다.
+- 좌측 패널 메뉴의 Notebook > Notebook instances > 'Create notebook instance' 버튼을 클릭합니다.
 ![alt text](images/02BE88CB-C124-4959-8366-209941B4CD65_4_5005_c.jpeg)
 
 <br/>
 
-노트북 인스턴스명을 지정하고,(예제에서는 datascientist로 지정하였습니다)
-<br>나머지 옵션은 그대로 두고, IAM Role도 기존에 생성되어있는 Role로 선택합니다(Use existing role).
+- 노트북 인스턴스명을 지정하고,(예제에서는 datascientist로 지정하였습니다)
+<br> 나머지 옵션은 그대로 두고, IAM Role은 기존에 생성되어있는 Role인 **genai-workshop-studio-SageMaker-ExecutionRole-XXXXXXXX을 선택합니다(Use existing role).**
+<br>
+
 ![alt text](images/CCB047AF-8AC2-457D-96BB-2DF4650F7526.jpeg)
 
 
-인스턴스 상태(Status)가 InService 일 때, 'Open Jupyter'를 눌러 노트북 인스턴스를 실행시킵니다. 
+- 인스턴스 상태(Status)가 InService 일 때, 'Open Jupyter'를 눌러 노트북 인스턴스를 실행시킵니다. 
 
 
+<br>
+<br>
 
-Upload를 눌러 다운로드 경로에서 preprocessing_by_bedrock.ipynb 파일을 찾아 노트북 인스턴스에 업로드 하고, 업로드된 파일을 더블클릭하여  실행시킵니다. 
+**2. Bedrock으로 작성한 코드 파일(preprocessing_by_bedrock.ipynb)업로드하기**
 
+- Upload를 눌러 다운로드 경로에서 preprocessing_by_bedrock.ipynb 파일을 찾아 노트북 인스턴스에 업로드 하고, 업로드된 파일을 더블클릭하여  실행시킵니다. 
+![alt text](images/7290885F-CBDE-4877-8077-F5E9FA9D397A_4_5005_c.jpeg)
 
-Jupyter Notebook 단축키(shift + enter)를 눌러서 
-각 셀들이 실행되는 과정을 확인합니다. 
+<br>
+<br>
+
+**3. Jupyter Notebook에서 코드 실행하기**
+- 단축키(shift + enter)를 눌러서 각 셀들이 실행되는 과정을 확인합니다.
+
 ![alt text](images/CD6F7221-998E-43CB-BD0E-9AA47BF47BC4.jpeg)
+
+<br>
+<br>
+
+노트북 프로그램을 모두 실행한 뒤의 모습은 다음 링크에서 볼 수 있습니다.
+👉🏻  **[바로가기](https://github.com/caracalgit/bedrock-workshop/blob/main/04_Code_Generation/files/preprocessing_by_bedrock_result.ipynb)**
+
+
+<!--파일을 모두 실행한 뒤 
+
 
 전처리한 파일이 노트북 인스턴스 로컬에 저장됩니다.
 
@@ -152,8 +184,12 @@ Jupyter Notebook 단축키(shift + enter)를 눌러서
 
 전처리한 파일이 S3 버켓에 저장됩니다. 
 [이미지 추가 예정]
+-->
 
 <br>
 <br>
 
 ## Demo. Amazon Q Developer로 이 작업을 해보면 어떨까요?
+
+<br>
+<br>
