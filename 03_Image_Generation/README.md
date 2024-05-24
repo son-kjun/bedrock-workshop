@@ -35,6 +35,8 @@ Amazon Bedrock은 Stability AI의 이미지 생성을 위한 독점 기반 모�
 ![sdxl.png](images/sdxl.png)
 
 **금일 Hands On Lab에서는 다양한 분야의 직원분들이 참석하셨고, 또한 시간 관계상 개별 모델에 대한 세부 설명은 드리지 않고 있습니다.**
+
+
 [모델 관련 이론]
 
 - https://stability.ai/blog/stable-diffusion-sdxl-1-announcement
