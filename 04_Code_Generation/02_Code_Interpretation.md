@@ -1,10 +1,10 @@
-# 실습 2: Bedrock Code Intepretation
+# 실습 2: Bedrock Code Interpretation
 ## 실습 소개
 
-Code Generation을 이야기 할 때, 우리는 단순히 코드의 생성 뿐 아니라 코드를 이해할 수 있게되었다고 말할 수 있습니다. 개발자에게 프로그래밍이란 단순히 어떤 기능을 만드는데 그치지 않고, Best Practice를 준수하는 코딩을 하는 능력뿐만 아니라 동시에 다른 사람의 코드를 이해하는 능력도 못지않게 중요합니다. CodeLLM 이 가진 Code Intepretation 기능이 강조되는 이유입니다. 
+Code Generation을 이야기 할 때, 우리는 단순히 코드의 생성 뿐 아니라 코드를 이해할 수 있게되었다고 말할 수 있습니다. 개발자에게 프로그래밍이란 단순히 어떤 기능을 만드는데 그치지 않고, Best Practice를 준수하는 코딩을 하는 능력뿐만 아니라 동시에 다른 사람의 코드를 이해하는 능력도 못지않게 중요합니다. CodeLLM 이 가진 Code Interpretation 기능이 강조되는 이유입니다. 
 <br>
 
-## Code Intepretation 
+## Code Interpretation 
 이번에는 코드에 대한 해석/설명을 시도해 보겠습니다.
 무언가 잘못되어있거나, best practice가 아니면 알려달라고 이야기 해보겠습니다.** </br> 
 
