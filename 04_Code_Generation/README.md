@@ -18,11 +18,19 @@ Code Generation(코드 생성) Hands-on-Lab은 Amazon Bedrock 콘솔을 통해 �
 <BR>
 <BR>
 
+![31892A7E-8015-496C-ADD1-7B6A54656FB2_1_105_c](https://github.com/son-kjun/bedrock-workshop/assets/117620342/681130e0-d263-4bf8-9115-03d891d53aba)
+
+
+<BR>
+<BR>
+
 ![alt text](images/aimage-5.png)
 
+<!--
 <BR><BR>
-
+<!--
 ![alt text](images/aimage-7.png)
+-->
 <BR><BR><BR>
 
 
