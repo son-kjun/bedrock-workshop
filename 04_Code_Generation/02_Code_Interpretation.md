@@ -133,7 +133,10 @@ ModuleNotFoundError: No module named 'bs4'
 
 
 ## 도전 과제
+
 우리가 기존 레거시 시스템의 운영자라고 가정해봅시다. 전임자가 작성한 코드를 이해가 안되지만, 코드취약점 대상 서비스에 나의 담당 시스템에서 아래 코드가 SQL Injection에 취약하다고 적발되어 당장 오늘까지 내가 수정을 해야합니다. **하지만 나는 비전공자에 코딩이 처음인 사람입니다. 오늘 수정하지 않으면 집에갈 수 없습니다.**
+
+![62AFA668-7950-45F3-82EF-73B61731E5F4_4_5005_c](https://github.com/son-kjun/bedrock-workshop/assets/117620342/4261a442-9aee-4840-b122-bcc8fc64c172)
 
 ~~~python
 Def execute_query_noncompliant(request):
@@ -164,3 +167,7 @@ Def execute_query_noncompliant(request):
 **4) 어떻게 코드를 수정해야할지 확인해보세요. (옵션 문항)**
 <br/>
 <br/>
+
+과제 제출 캡쳐 예시)
+<img width="769" alt="image" src="https://github.com/son-kjun/bedrock-workshop/assets/117620342/8252a661-0fd4-4f49-b3c1-be0b7b0ad06a">
+
