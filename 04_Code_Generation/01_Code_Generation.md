@@ -8,7 +8,6 @@
 <BR>
 <BR>
 
-
 ## Bedrock PlayGround에서 코드 생성 실습하기
 #### 1. Amazon Bedrock 콘솔 > Example에서 'Code Generation'을  검색하여, Claude v2를 선택합니다.
 ![alt text](images/27433F29-4210-435F-804F-BE83159130E8.jpeg)
