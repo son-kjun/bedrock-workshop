@@ -1,4 +1,4 @@
-# 실습 3. Advanced Pattern
+# 실습 3. Advanced Pattern ( Multi-Modal )
 ## (1) 객체를 변경 또는 제거
 ## 실습소개
 ![replacement-app-in-use.png](images/replacement-app-in-use.png)
@@ -6,6 +6,7 @@
 
 Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확한 치수를 몰라도 이미지에서 제거할 항목을 지정할 수 있습니다. Titan Image Generator는 지정된 항목을 자동으로 마스킹하여 그 자리에 다른 항목을 삽입할 수 있도록 합니다.
 아래 그림을 참조하여 단계를 알아보세요:
+* Multi=Modal : 멀티모달AI는 여러개의 데이터 형식을 가지고 수행하는 AI 
 
 |1. 원본 이미지로 시작|2. 마스킹할 객체 지정|3. 마스킹된 영역에 무엇을 칠할지 지정합니다.|4. 원본 이미지의 마스크된 영역에 인페인팅|
 |------|---|---|---|
