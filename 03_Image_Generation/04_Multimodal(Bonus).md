@@ -1,4 +1,8 @@
 # Under Construction
+<작성할 내용>
+- Multimodal을 주제로한 다양한 프롬프트(텍스트+이미지)에 대한 처리를 보여줍니다
+- 응답(Curation)에 대한 Curation을 Polly를 통해 음성 변환하고 바로 음성을 들어볼수 있게 해줍니다. --> AWS의 다양한 AI서비스를 활용해볼수 있는 응용패턴(Polly가 간단하기 때문에 적용해본...)
+- 2024-07-24 기준으로 기존 bedrock-workshop repository전체는 backup 해두었습니다.
 
 <BR><BR><BR>
 # 실습 4. Multimodal (Bonus) Pattern
