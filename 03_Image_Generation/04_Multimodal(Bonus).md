@@ -1,4 +1,6 @@
-# under construction
+# Under Construction
+
+<BR><BR><BR>
 # 실습 4. Multimodal (Bonus) Pattern
 ## 다양한 입력을 처리하기
 ## 실습소개
