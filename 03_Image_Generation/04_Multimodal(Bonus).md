@@ -20,6 +20,7 @@ multimodal-03.png
 
 Curation을 만들어서 음성을 생성해줍니다.
 음성파일을 들어봅니다.
-![image](https://github.com/user-attachments/assets/fbaa0211-a890-41f2-84f6-0c4fb2984f88)
+
+
 
 
