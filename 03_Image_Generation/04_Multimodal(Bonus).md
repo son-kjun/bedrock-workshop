@@ -29,6 +29,7 @@ LLM에는 상태나 메모리 개념이 없습니다. 모든 채팅 기록은 �
 <BR><BR><BR><BR>
 ## 4단계 : 텍스트와 이미지 프롬프트를 기반으로 Curation(설명)이 생성되었다면 이제 음성으로 만들어보세요
 ![multimodal-03.png](images/multimodal-03.png)
+
 Curation을 만들어서 그림을 설명해주는 음성을 생성해줍니다.
 음성파일을 들어봅니다.
 (* 음성 생성에는 AWS의 TTS(Text-To-Speech) 서비스인 Amazon Polly 서비스를 활용하였습니다. )
