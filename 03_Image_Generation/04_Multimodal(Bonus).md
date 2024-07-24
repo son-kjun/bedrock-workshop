@@ -31,8 +31,9 @@ LLM에는 상태나 메모리 개념이 없습니다. 모든 채팅 기록은 �
 ![multimodal-03.png](images/multimodal-03.png)
 
 Curation을 만들어서 그림을 설명해주는 음성을 생성해줍니다.
-음성파일을 들어봅니다.
-(* 음성 생성에는 AWS의 TTS(Text-To-Speech) 서비스인 Amazon Polly 서비스를 활용하였습니다. )
+그리고 나서 음성파일을 들어 보세요
+(인공지능으로 생성된 음성이 마음에 드시나요? 영어가 아직까진 조금더 자연스러운거 같습니다.)
+<BR>(* 음성 생성에는 AWS의 TTS(Text-To-Speech) 서비스인 Amazon Polly 서비스를 활용하였습니다. )
 
 
 
