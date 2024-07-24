@@ -11,7 +11,7 @@ LLM에는 상태나 메모리 개념이 없습니다. 모든 채팅 기록은 �
 이 예제에서는 LangChain을 사용하지 않고 Boto3를 사용하여 직접 챗봇을 구축합니다. LangChain을 사용하여 구축한 챗봇의 예는 [Basic Chatbot](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-image-search) 또는 [RAG Chatbot](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-image-search)랩에서 확인하실 수 있습니다. 여기서는 [Anthropic Claude Messages API](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-image-search)를 사용하겠습니다.
 
 <BR><BR><BR><BR>
-## 2단계 : Demo > Lab_3_Advanced_Pattern 메뉴를 선택합니다.
+## 2단계 : Demo > Bonus 메뉴를 선택합니다.
 데모화면에 접속하면 아래와 같은 웹페이지가 표시됩니다
 ![multimodal-02.png](images/multimodal-02.png)
 
