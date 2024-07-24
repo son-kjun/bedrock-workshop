@@ -1,7 +1,5 @@
 # 실습 4. Multimodal (Bonus) Pattern
 ## 이미지와 텍스트가 혼합된 다양한 입력을 처리하기
-## 실습소개
-
 ## 1단계
 ![multimodal-01.png](images/multimodal-01.png)
 
