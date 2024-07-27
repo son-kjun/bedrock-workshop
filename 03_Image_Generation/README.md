@@ -83,7 +83,6 @@ Stable Diffusion의 이미지는 아래 3가지 주요 모델에 의해 생성�
 
 [Streamlit](https://streamlit.io/) 을 사용하면 프론트엔드 개발 기술 없이도 파이썬 코드의 웹 프론트엔드를 빠르게 만들 수 있습니다. Streamlit은 기술자와 비기술자 모두에게 보여줄 수 있는 개념 증명(PoC)을 만드는 데 유용합니다.
 
-**데모 생성에 필요한 오픈소스 및 코드에 대한 세부적인 설명은 금일은 드리지는 않습니다**
 
 [![Next](images/next.png)](01_Image_Generation.md)
 
