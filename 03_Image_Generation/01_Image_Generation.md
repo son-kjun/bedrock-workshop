@@ -5,7 +5,7 @@
 
 Stable Diffusion은 텍스트 프롬프트에서 이미지를 생성합니다. 무작위 노이즈로 시작하여 일련의 단계에 걸쳐 점차적으로 이미지를 형성합니다. 또한 프롬프트를 기반으로 기존 이미지를 변환하는 데에도 사용할 수 있으며, 이는 이후 실습에서 다루겠습니다.
 
-**이 실습을 실행하려면 aws account가 Stable Diffusion을 구독하고 있어야 합니다. Bedrock 콘솔을 통해 구독할 수 있습니다.**
+**이 실습을 실행하려면 aws account가 Stable Diffusionr과 Titan Image Generator를 구독하고 있어야 합니다. Bedrock 콘솔을 통해 구독할 수 있습니다.**
 
 ## 사용 사례
 - 이미지 생성 패턴은 다음과 같은 사용 사례에 적합합니다:
