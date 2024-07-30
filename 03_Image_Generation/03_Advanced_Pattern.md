@@ -39,7 +39,7 @@ Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확
 
 **5. [응용]아래 이미지를 다운로드 후 업로드 한후, 자동차의 모델을 바꿔보세요** <BR>
 ![lab_cars.jpg](images/lab_cars.jpg) <BR>
-Ex) 예시 : car ---> black benz S650 
+<Font color=Blue>Ex) 예시 : car ---> black benz S650 <BR></Font>
 PS. car가 아닌 taxi로 입력하면 인식하지 못합니다. (taxi는 국가마다 모습이 틀리며, 한국의 taxi모델이 학습되어 있지 않음)
 
 <BR><BR>
