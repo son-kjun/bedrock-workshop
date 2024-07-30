@@ -1,4 +1,4 @@
-# 실습 3. Advanced Pattern
+# 실습 3. Advanced Pattern [![Next](images/next.png)](04_Multimodal(Bonus).md)
 ## (1) 객체를 변경 또는 제거
 ## 실습소개
 ![replacement-app-in-use.png](images/replacement-app-in-use.png)
