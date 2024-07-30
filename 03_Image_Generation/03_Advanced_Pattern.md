@@ -22,7 +22,7 @@ Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확
 
 <BR><BR><BR><BR>
 ## Demo > Lab_3_Advanced_Pattern 메뉴를 선택합니다.
-<a href="http://54.205.45.29:8501" target="_blank"> **https://bit.ly/my-bedrock** </a>
+<a href="[https://bit.ly/bedrock-image](https://bit.ly/bedrock-image)" target="_blank"> **https://bit.ly/bedrock-image** </a>
 
 **1. Generate 버튼을 클릭하여 미리 로드된 이미지에서 커튼 부분을 교체합니다.**
 ![rep-app-02.png](images/rep-app-02.png)
