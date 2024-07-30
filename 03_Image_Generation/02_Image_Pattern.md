@@ -1,4 +1,4 @@
-# 실습 2. 이미지 패턴 실습
+# 실습 2. 이미지 패턴 실습 [![Next](images/next.png)](03_Advanced_Pattern.md)
 ## 1. 이미지 프롬프팅
 **실습소개**
 ![app-in-use.png](images/app-in-use.png)
