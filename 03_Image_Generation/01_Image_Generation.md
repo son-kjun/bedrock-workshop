@@ -25,7 +25,7 @@ AWS Console > Bedrock > Image 선택
 ~~~
 <BR><BR>
 ## Demo > Lab1_Image_Generation
-<a href="[http://54.205.45.29:8501/Lab_1._Image_generation](http://myrpc09-lb-1317121444.us-east-1.elb.amazonaws.com)" target="_blank"> **https://bit.ly/my-bedrock** </a>
+<a href="[https://bit.ly/bedrock-image](https://bit.ly/bedrock-image)" target="_blank"> **[https://bit.ly/my-bedrock](https://bit.ly/bedrock-image)** </a>
 
 ![picasso.png](images/picasso.png)
 <BR>
