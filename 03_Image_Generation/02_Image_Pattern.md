@@ -16,7 +16,7 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 
 <BR><BR>
 ## Demo > Lab_2_Image_Pattern 선택
-<a href="https://bit.ly/my-bedrock" target="_blank"> **https://bit.ly/my-bedrock** </a>
+<a href="[https://bit.ly/bedrock-image](https://bit.ly/bedrock-image)" target="_blank"> **https://bit.ly/bedrock-image** </a>
 <BR><BR>
 **몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.**
 > daguerreotype of robot and cowboy standing side-by-side, directly facing the camera, steampunk, western town in the background, long shot, sepia tone
