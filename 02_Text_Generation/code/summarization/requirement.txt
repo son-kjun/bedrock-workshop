@@ -1,1 +1,12 @@
-
+faiss-cpu
+transformers
+Pillow
+pypdf
+jq
+anthropic
+langchain==0.1.13
+streamlit
+botocore
+boto3
+awscli
+langchain_community
