@@ -37,6 +37,9 @@ Titan Image Generator는 mask prompting을 지원합니다. 이를 통해 정확
 
 **4. 대체할 개체와 대체할 내용을 설정해야 합니다. Generate 버튼을 클릭하여 결과를 확인합니다.**
 
+**5. [응용]아래 이미지를 다운로드 후 업로드 한후, 자동차를 제거해보세요**
+![lab_cars.jpg](images/lab_cars.jpg)
+
 <BR><BR>
 ## (2) 이미지 생성 모델의 다양한 활용
 - [이미지검색](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/image-labs/bedrock-image-search)
