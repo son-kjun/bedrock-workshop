@@ -14,6 +14,8 @@ LLM에는 상태나 메모리 개념이 없습니다. 모든 채팅 기록은 �
 
 <BR><BR><BR><BR>
 ## 2단계 : Demo > Bonus 메뉴를 선택합니다.
+<a href="[https://bit.ly/bedrock-image](https://bit.ly/bedrock-image)" target="_blank"> **https://bit.ly/bedrock-image** </a>
+
 데모화면에 접속하면 아래와 같은 웹페이지가 표시됩니다
 ![multimodal-02.png](images/multimodal-02.png)
 
