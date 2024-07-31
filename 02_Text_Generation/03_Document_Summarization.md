@@ -93,6 +93,28 @@ def get_docs():
     return docs
 ~~~
 
+~~~python
+def get_summary(return_intermediate_steps=False):
+    
+    map_prompt_template = "{text}\n\n위의 내용을 Korean으로 bullet point 3개로 요약합니다:"
+    map_prompt = PromptTemplate(template=map_prompt_template, input_variables=["text"])
+    
+    combine_prompt_template = "{text}\n\n위의 내용을 Korean으로 간결하게 bullet point 5개로 요약합니다:"
+    combine_prompt = PromptTemplate(template=combine_prompt_template, input_variables=["text"])
+    
+    llm = get_llm()
+    docs = get_docs()
+    
+    chain = load_summarize_chain(llm, chain_type="map_reduce", map_prompt=map_prompt, combine_prompt=combine_prompt, return_intermediate_steps=return_intermediate_steps,verbose=True)
+    
+    if return_intermediate_steps:
+        return chain.invoke({"input_documents": docs}, return_only_outputs=True)
+    else:
+        return chain.invoke(docs, return_only_outputs=True)
+
+
+~~~
+
 6. 파일을 저장합니다.
    백킹 라이브러리가 완성되었습니다. 이제 프론트엔드 애플리케이션을 만들겠습니다.
 
