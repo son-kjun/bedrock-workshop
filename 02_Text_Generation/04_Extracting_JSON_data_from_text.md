@@ -18,7 +18,7 @@ Text to JSON을 사용하면 비정형 콘텐츠에서 계층적 데이터를 �
 
 아키텍처 관점에서 볼 때, Text to JSON 변환은 Text to Text 변환과 동일합니다. LLM에서 반환된 텍스트를 JSON 출력으로 안전하게 변환하기만 하면 됩니다.
 
-#1. 라이브러리 스크립트 만들기
+# 1. 라이브러리 스크립트 만들기
 
 Streamlit 프론트 엔드와 Bedrock 백엔드를 연결하기 위한 지원 라이브러리를 생성합니다.
 
@@ -72,7 +72,7 @@ def get_json_response(input_content): #text-to-text client 함수
 6. 파일을 저장합니다.
    * 백킹 라이브러리가 완성되었습니다. 이제 프론트엔드 애플리케이션을 만들겠습니다.
 
-#2. Streamlit 프론트엔드 앱 만들기
+# 2. Streamlit 프론트엔드 앱 만들기
 
 1. 라이브러리 파일과 같은 폴더에서 json_app_kr.py 파일을 엽니다.
  
