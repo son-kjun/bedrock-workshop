@@ -32,7 +32,7 @@ Streamlit 프론트엔드와 Bedrock 백엔드를 연결하기 위한 지원 라
 1. 먼저 Git Repository로부터 소스를 다운로드 합니다.
 
 ```
-git clone 
+git clone https://github.com/rudolph6/text_summarization.git
 ```
 
 2. **summarization** 폴더로 이동하여 summarization_lib_kr.py 파일을 엽니다.
