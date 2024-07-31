@@ -55,6 +55,15 @@ def get_llm():
 4. 함수를 추가하여 텍스트 결과를 JSON 객체로 변환을 시도합니다.
    이렇게 하면 LLM이 유효한 JSON 형식의 텍스트를 생성하지 못하는 상황을 정상적으로 처리할 수 있습니다.
 
+~~~python
+def validate_and_return_json(response_text):
+    try:
+        response_json = json.loads(response_text) #텍스트를 JSON으로 로드하려고 시도합니다.
+        return False, response_json, None #has_error, response_content, err을 반환합니다.
+    
+    except JSONDecodeError as err:
+        return True, response_text, err #has_error, response_content, err을 반환합니다.
+~~~
 
 5. 이 함수를 추가하여 Bedrock을 호출합니다.
    이 코드는 Bedrock을 호출하고 JSON 변환기에 응답을 전달합니다.
