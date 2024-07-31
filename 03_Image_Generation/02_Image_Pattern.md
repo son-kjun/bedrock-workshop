@@ -42,4 +42,8 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 <BR><BR>
 ## 코드예제 : [codes/Lab_2.Image_Pattern.md](codes/Lab_2.Image_Pattern.md)
 
+<BR><BR>
+데모에서 오류가 발생하시는 경우 (정상 호출되는 인스턴스 직접 호출) <BR>
+http://54.205.45.29:8501 <BR>
+http://54.205.45.29:18501 <BR>
 [![Next](images/next.png)](03_Advanced_Pattern.md)
