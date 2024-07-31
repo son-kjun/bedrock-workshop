@@ -93,6 +93,9 @@ def get_docs():
     return docs
 ~~~
 
+5. 이 함수를 추가하여 Bedrock을 호출합니다.
+   * 이 코드는 맵 및 리듀스 단계에 대한 프롬프트를 생성합니다. 그런 다음 문서를 맵 리듀스 요약기 체인으로 전달하여 결합된 요약을 생성합니다.
+
 ~~~python
 def get_summary(return_intermediate_steps=False):
     
@@ -112,11 +115,12 @@ def get_summary(return_intermediate_steps=False):
     else:
         return chain.invoke(docs, return_only_outputs=True)
 
-
 ~~~
 
 6. 파일을 저장합니다.
    백킹 라이브러리가 완성되었습니다. 이제 프론트엔드 애플리케이션을 만들겠습니다.
+
+   
 
 ## 2. Steamlit 프론트엔드 앱 만들기
 
