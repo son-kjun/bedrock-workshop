@@ -43,7 +43,8 @@ git clone https://github.com/rudolph6/text_summarization.git
 cd text_summarization/
 pip install -r requirement.txt
 ```
-3. summarization_lib_kr.py 파일을 엽니다.
+3. **summarization_lib_kr.py** 파일을 엽니다.
+
 4. import 구문을 추가합니다.
    * 이 명령문을 사용하면 LangChain을 사용하여 PDF 파일을 로드하고, 문서를 분할하고, Bedrock을 호출할 수 있습니다.
    * 아래 상자의 복사 버튼을 사용하면 해당 코드를 자동으로 복사할 수 있습니다
