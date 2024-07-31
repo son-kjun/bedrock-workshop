@@ -66,8 +66,8 @@ PS. car가 아닌 taxi로 입력하면 인식하지 못합니다. (taxi는 국�
 ## 코드예제 : [codes/Lab_3.Advanced_Pattern.md](codes/Lab_3.Advanced_Pattern.md)
 
 <BR><BR>
-데모에서 오류가 발생하시는 경우 (정상 호출되는 인스턴스 직접 호출)
-http://54.205.45.29:8501
+데모에서 오류가 발생하시는 경우 (정상 호출되는 인스턴스 직접 호출) <BR>
+http://54.205.45.29:8501 <BR>
 http://54.205.45.29:18501
 <BR><BR><BR>
 [![Next](images/next.png)](04_Multimodal(Bonus).md)
