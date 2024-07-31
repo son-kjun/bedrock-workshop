@@ -42,5 +42,10 @@ Curation을 만들어서 그림을 설명해주는 음성을 생성해줍니다.
 ![multi-modal.png](images/multi-modal.png)
 https://aws.amazon.com/ko/blogs/tech/amazon-bedrock-multi-modal-document-rag/
 
+<BR><BR>
+데모에서 오류가 발생하시는 경우 (정상 호출되는 인스턴스 직접 호출) <BR>
+http://54.205.45.29:8501 <BR>
+http://54.205.45.29:18501 <BR>
+
 
 
