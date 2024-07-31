@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ab92b658-e6ff-47da-9ec3-b5b5c4d28788)# 실습 4. 텍스트에서 JSON 데이터 추출하기
+# 실습 4. 텍스트에서 JSON 데이터 추출하기
 실습에서는 Bedrock, LangChain, Streamlit을 사용해 JSON 생성기를 만들어 보겠습니다.
 Text to JSON을 사용하면 비정형 콘텐츠에서 계층적 데이터를 추출할 수 있습니다. 예를 들어, 고객의 이메일에서 언급된 제품, 언급된 직원, 감정, 계좌 번호 및 프롬프트에 따라 모델이 감지할 수 있는 기타 모든 정보를 추출할 수 있습니다.
 
