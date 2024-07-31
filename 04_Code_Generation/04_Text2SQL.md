@@ -31,7 +31,7 @@ notebook instance name을 설정하고, 알맞은 인스턴스 타입을 선택�
 ![alt text](images/68043480-450B-4728-81E9-EB806B746DA5.jpeg)
 
 
-#### 4. Notebook Instance에서 Terminal을 실행시킵니다.  ![alt text](image-2.png)
+#### 4. Notebook Instance에서 Terminal을 실행시킵니다.  ![alt text](images/launch-terminal.png)
 
 #### 5. 다음 코드를 clone하여 실행시킵니다. 
 
