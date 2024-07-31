@@ -12,6 +12,9 @@ LangChain에는 모델의 토큰 한도를 초과하는 콘텐츠를 처리할 �
 ### 사용 사례
 맵-리듀스 요약 패턴은 다음과 같은 사용 사례에 적합합니다
 
+![image](https://github.com/user-attachments/assets/7b0b8093-9ce4-4961-899a-dfbb84ce79d6)
+
+
 * 긴 문서 요약
 * 통화 기록 요약
 * 고객 활동 기록 요약
