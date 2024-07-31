@@ -20,6 +20,8 @@ https://aws.amazon.com/ko/blogs/machine-learning/welcome-to-a-new-era-of-buildin
 <img src="images/text-summ-1.png" width="600px">
 
 6. 다른 URL로 변경해서 실행했을 때 적절하게 요약된 결과를 보여주는지 확인합니다.
+   * 예시. AWS Blog : Techniques for automatic summarization of documents using language models
+   https://aws.amazon.com/ko/blogs/machine-learning/techniques-for-automatic-summarization-of-documents-using-language-models/
 
 <br>
 <br>
