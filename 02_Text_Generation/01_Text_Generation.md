@@ -64,14 +64,18 @@ An AI/ML company has launched a new character recognition mobile application. Ev
 
 <img src="images/text-copy-chat.png" width="600px">
 
-10. 채팅창에 다음을 입력하고 **Run** 버튼을 클릭해서 결과를 확인합니다.
+10.  **Playground** 에서 **Chat** 을 선택합니다.
+11.  **Select model** 버튼을 클릭합니다.
+12. Category: **Anthropic**, Model: **Claude 3 Sonnet**를 선택합니다.
+13. **Apply** 버튼을 클릭합니다. 
+14.  채팅창에 다음을 입력하고 **Run** 버튼을 클릭해서 결과를 확인합니다.
 
 ~~~
 한글로 바꿔줘
 ~~~
 
-11. 응답 결과가 어떻게 바뀌었는지 확인해 봅시다.
-12. chat 기능을 이용하면 이전 대화내용에 대한 컨텍스트를 기억하고 있으므로 이전 응답에 대해 변경을 요청할 수 있습니다. 
+15. 응답 결과가 어떻게 바뀌었는지 확인해 봅시다.
+16. chat 기능을 이용하면 이전 대화내용에 대한 컨텍스트를 기억하고 있으므로 이전 응답에 대해 변경을 요청할 수 있습니다. 
     채팅창에 다음을 입력하고 **Run** 버튼을 클릭해서 결과를 확인합니다.
 
 ~~~
