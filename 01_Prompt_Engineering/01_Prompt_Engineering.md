@@ -34,7 +34,7 @@
 3. 매일 밤새서 일하니 너무 신난다. 내일도 밤 새야지
 ~~~
 
-<img src="images/prompt-1.png" width="600px">
+<img src="images/prompt-1-aug7.png" width="600px">
 
 6. Configurations의 값을 수정하고 **Run** 실행을 해봅니다. 어떻게 결과가 달라지는지 확인해 봅니다.
 
