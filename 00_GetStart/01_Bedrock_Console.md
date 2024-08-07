@@ -15,7 +15,7 @@ Amazon Bedrock 핸즈온 과정에서 참석해주셔서 감사합니다.
 <img src="images/bedrock-welcome.png" width="700">
 
 4. Amazon Bedrock Console은 다양한 모델, 프롬프트 및 추론 매개변수를 실험해 볼 수 있는 좋은 방법 중 하나입니다. 몇 분만 시간을 내어 콘솔의 다양한 기능을 살펴보세요.
-<img src="images/bedrock-home.png" width="700">
+<img src="images/bedrock-home-aug7.png" width="700">
 <br>
 
 * **Getting started(시작하기)** - 탐색 창의 시작하기에서 Amazon Bedrock이 제공하는 파운데이션 모델, 예시 및 플레이그라운드에 대한 개요를 확인할 수 있습니다. Amazon Bedrock 모델에서 사용할 수 있는 프롬프트의 예시도 확인할 수 있습니다.
