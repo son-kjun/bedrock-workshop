@@ -63,7 +63,7 @@ An AI/ML company has launched a new character recognition mobile application. Ev
 
 10.  edrock 콘솔 메뉴에의 **Playground** 에서 **Chat** 을 선택합니다.
 11.  **Select model** 버튼을 클릭합니다.
-12.  Category: **Anthropic**, Model: **Claude 3 Sonnet**를 선택합니다.
+12.  Category는 **Anthropic**, Model은 **Claude 3 Sonnet**를 선택합니다.
 13.  **Apply** 버튼을 클릭합니다.
 ~~~
 An AI/ML company has launched a new character recognition mobile application. Even young children can use it easily and it supports several languages. Please create a TV commercial to promote this application. A famous female idol singer will appear in the advertisement.
