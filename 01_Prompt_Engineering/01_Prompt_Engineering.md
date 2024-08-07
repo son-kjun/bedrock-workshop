@@ -127,7 +127,7 @@ Few-shot 프롬프팅의 또 다른 예를 알아보겠습니다.
 이 얼마나 끔찍한 공연인가! //
 ~~~
 
-<img src="images/prompt-2.png" width="600px">
+<img src="images/prompt-2-aug7.png" width="600px">
 
 <br>
 
