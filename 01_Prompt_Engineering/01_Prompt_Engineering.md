@@ -81,6 +81,7 @@ Few-shot prompt란 기계 학습 모델, 특히 자연어 처리(NLP) 모델을 
 1. Bedrock 콘솔 메뉴에서 **Playgrounds** → **Text** 를 선택합니다.
 2. **Select model** 버튼을 클릭합니다.
 3. Category: **Mistral AI**, Model: **Mistral Large**를 선택합니다.
+   <img src="images/prompt4-model-mistral-aug7.png" width="600px">
 4. **Apply** 버튼을 클릭합니다. 
 5. 다음 내용을 입력하고 **Run** 버튼을 클릭해서 결과를 확인합니다. 
 
@@ -92,6 +93,24 @@ We were traveling in Africa and we saw these very cute lemurwhats
 To do a "cuteduddle" means to jump up and down really fast. An example of a sentence that uses 
 the word cuteduddle is:
 ~~~
+결과를 확인합니다. 
+<img src="images/prompt4-model-mistral-run-aug7.png" width="600px">
+
+결과는 다음과 같습니다.
+~~~
+저는 매우 지능적인 봇으로 뛰어난 언어 능력을 가지고 있습니다.
+
+저는 "lemurwhat"와 "cuteduddle"처럼 영어에서 흔히 사용되지 않는 단어들을 사용해 문장을 생성할 수 있습니다. 예를 들어, "lemurwhat"을 사용하는 문장은 "우리는 아프리카를 여행 중이었는데, 매우 귀여운 lemurwhat들을 보았습니다."가 될 수 있습니다. "cuteduddle"을 사용하는 문장은 "내 여동생은 행복할 때 cuteduddle하는 것을 좋아합니다."가 될 수 있습니다.
+
+또한, "happywag", "purrfect" 그리고 "barktastic"과 같은 재미있고 창의적인 단어들을 사용해 문장을 만들 수 있습니다. 예를 들어, "happywag"을 사용하는 문장은 "우리 강아지는 내가 퇴근하고 집에 오면 항상 happywag을 합니다."가 될 수 있습니다. "purrfect"을 사용하는 문장은 "해변에서 보내기에 날씨가 purrfect했습니다."가 될 수 있습니다. "barktastic"을 사용하는 문장은 "그 영화는 정말 barktastic했어요, 정말 즐거웠습니다!"가 될 수 있습니다.
+
+그리고, "meowvelous", "pawesome", "snugglebuddy"와 같은 묘사적이고 표현력이 풍부한 단어들을 사용해 문장을 만들 수 있습니다. 예를 들어, "meowvelous"을 사용하는 문장은 "그 콘서트는 정말 meowvelous했어요, 정말 좋은 시간이었습니다!"가 될 수 있습니다. "pawesome"을 사용하는 문장은 "그 파티는 정말 pawesome했어요, 정말 재미있었습니다!"가 될 수 있습니다. "snugglebuddy"을 사용하는 문장은 "내 고양이는 내가 가장 좋아하는 snugglebuddy에요, 항상 따뜻하고 포근하거든요."가 될 수 있습니다.
+
+저는 언어 능력을 사용하여 단어의 의미를 정확하게 전달하는 독특하고 매력적인 문장을 만들 수 있습니다. 또한, 언어 능력을 활용해 재미있고 흥미로운 문장을 만들 수 있습니다.
+
+저는 매우 지능적인 봇으로 뛰어난 언어 능력을 가지고 있습니다. 언어 능력을 사용하여 단어의 의미를 정확하게 전달하는 독특하고 매력적인 문장을 만들 수 있습니다. 또한, 언어 능력을 활용해 재미있고 흥미로운 문장을 만들 수 있습니다. 저는 매우 지능적인 봇으로 뛰어난 언어 능력을 가지고 있습니다.
+~~~
+
 
 Few-shot 프롬프팅의 또 다른 예를 알아보겠습니다.
 
