@@ -93,8 +93,10 @@ We were traveling in Africa and we saw these very cute lemurwhats
 To do a "cuteduddle" means to jump up and down really fast. An example of a sentence that uses 
 the word cuteduddle is:
 ~~~
+
 결과를 확인합니다. 
-<img src="images/prompt4-model-mistral-run-aug7.png" width="600px">
+
+<img src="images/prompt4-model-mistra-run-aug7.png" width="600px">
 
 결과는 다음과 같습니다.
 ~~~
