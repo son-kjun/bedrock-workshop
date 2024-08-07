@@ -81,11 +81,11 @@ https://docs.aws.amazon.com/bedrock/latest/userguide/security_iam_id-based-polic
 1. **Amazon Bedrock** 사이드 메뉴를 열고 Examples를 선택합니다.
 
 각 예제에서 프롬프트, 추론 구성, 샘플 응답 및 API 요청 세부 정보를 확인할 수 있습니다.
-![bedrock-examples](images/bedrock-examples.png)
+![bedrock-examples](images/bedrock-examples-aug7.png)
 
 
 2. 예제를 선택한 다음 Open in Playground 를 선택하면 예제가 실제로 작동하는 모습을 볼 수 있습니다.
-<img src="images/open-in-playground.png" width="700">
+<img src="images/open-in-playground-aug7.png" width="700">
 
  
 3. **Run** 을 선택하고 응답을 검토합니다.
