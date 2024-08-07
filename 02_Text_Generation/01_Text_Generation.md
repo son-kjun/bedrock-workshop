@@ -94,9 +94,9 @@ An AI/ML company has launched a new character recognition mobile application. Ev
 
 ## 3. 아이디어 도출
 
-1. Bedrock 콘솔 메뉴에서 **Playgrounds** → **Text** 를 선택합니다.
+1. Bedrock 콘솔 메뉴의 **Playgrounds** 에서 **Text** 를 선택합니다.
 2. **Select model** 버튼을 클릭합니다. 
-3. Category: **Cohere**, Model: **Command**
+3. Category는 **Cohere**, Model은 **Command** 선택
 4. 다음 내용을 입력하고 **Run** 버튼을 클릭해서 결과를 확인합니다.
    
 ~~~
@@ -105,7 +105,7 @@ IT 고객사를 대상으로 Gen AI에 대한 기술 세션을 2시간 정도 �
 5. 결과를 확인해 봅시다. 원하는 결과를 얻을 수 있었나요?
 
 6. 다음과 같이 모델을 변경하고 다시 프롬프트를 실행해서 결과를 알아봅니다.
-7. Category: **Anthrophic**, Model: **Claude 2.1**
+7. Category는 **Anthrophic**, Model은 **Claude 2.1**
 
 <img src="images/model-change.png" width="450px">
 
