@@ -155,7 +155,7 @@ Q&A 프롬프트는 챗봇, 가상 비서, 고객 서비스 등 다양한 분야
 Amazon Bedrock의 주요 보안 및 개인정보 보호 기능은 무엇인가요? 한글로 답변해주세요.
 ~~~
 
-<img src="images/prompt-3.png" width="600px">
+<img src="images/prompt-3-aug7.png" width="600px">
 
 6. 모델이 답을 모르는 경우 모델에게 대응방법을 알려줄 수도 있습니다. 실행 결과를 확인합니다.
 
