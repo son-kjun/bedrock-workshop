@@ -18,6 +18,7 @@
 1. Bedrock 콘솔 메뉴에서 **Playgrounds** → **Chat** 를 선택합니다.
 2. **Select model** 버튼을 클릭합니다.
 3. Category: **Anthropic**, Model: **Claude 2 v2**를 선택합니다.
+<img src="images/choose-claud2v2-aug7.png" width="600px">   
 4. **Apply** 버튼을 클릭합니다.
 5. 다음 프롬프트를 입력하고 AI의 응답을 기다립니다.
 
@@ -30,13 +31,14 @@
 ~~~
 안녕하세요. 저는 무한상사의 유길동 부장이라고 합니다.
 ~~~
+<img src="images/prompt-1-claud2v2-aug7.png" width="600px">   
 
 7. 다음 프롬프트를 입력하고 AI의 응답을 기다립니다. 
 
 ~~~
 네 반갑습니다. 우리 무한상사에서는 일본과 중국으로 저희 제품을 수출하기 위한 업무를 함께 할 수 있는 파트너 회사를 찾는 중입니다. 귀사와 이 부분에 대한 얘기를 나누고 싶습니다.
 ~~~
-
+<img src="images/prompt-2-claud2v2-aug7.png" width="600px">   
 
 8. 이후 대화 내용을 창의적으로 떠올려서 본인의 업무에서 비지니스 대화하는 방식으로 이야기 해봅니다.
 9. 이러한 방식으로 비지니스 미팅을 하기 전에 미리 영어 대화를 시뮬레이션하고 연습할 수 있습니다.
