@@ -52,9 +52,9 @@ Amazon Bedrock 핸즈온 과정에서 참석해주셔서 감사합니다.
 
 Amazon Bedrock에서 기초 모델을 사용하려면 먼저 해당 모델에 대한 액세스를 요청해야 합니다.
 
-1. Amazon Bedrock 관리 콘솔의 왼쪽 탐색 창 하단에서 **Model access(모델 액세스)**를 선택합니다.
+1. Amazon Bedrock 관리 콘솔의 왼쪽 탐색 창 하단의 **Bedrock Configurations** 에서 **Model access(모델 액세스)** 를 선택합니다.
 
-2. 모델 액세스 페이지에서 **Modify model access(모델 액세스 관리)**를 선택합니다.
+2. 모델 액세스 페이지에서 **Modify model access(모델 액세스 관리)** 를 선택합니다.
 <img src="images/modify-model-access.png" width="700">
 
 3. 액세스 권한을 추가하려는 모델 옆의 체크박스를 선택합니다.
