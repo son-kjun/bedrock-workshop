@@ -58,17 +58,18 @@ An AI/ML company has launched a new character recognition mobile application. Ev
 8. **Apply** 버튼을 클릭합니다. 
 9. 다음 내용을 입력하고 **Run** 버튼을 클릭해서 결과를 확인합니다. 
 
+
+
+10.  **Playground** 에서 **Chat** 을 선택합니다.
+11.  **Select model** 버튼을 클릭합니다.
+12. Category: **Anthropic**, Model: **Claude 3 Sonnet**를 선택합니다.
+13. **Apply** 버튼을 클릭합니다.
 ~~~
 An AI/ML company has launched a new character recognition mobile application. Even young children can use it easily and it supports several languages. Please create a TV commercial to promote this application. A famous female idol singer will appear in the advertisement.
 ~~~
 
 <img src="images/text-copy-chat.png" width="600px">
-
-10.  **Playground** 에서 **Chat** 을 선택합니다.
-11.  **Select model** 버튼을 클릭합니다.
-12. Category: **Anthropic**, Model: **Claude 3 Sonnet**를 선택합니다.
-13. **Apply** 버튼을 클릭합니다. 
-14.  채팅창에 다음을 입력하고 **Run** 버튼을 클릭해서 결과를 확인합니다.
+15.  채팅창에 다음을 입력하고 **Run** 버튼을 클릭해서 결과를 확인합니다.
 
 ~~~
 한글로 바꿔줘
