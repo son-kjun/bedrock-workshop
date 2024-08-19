@@ -69,6 +69,12 @@
 
 플레이그라운드에서 테스트 해 볼 수 있는 것과 AWS Bedrock CLI를 이용해서 모델을 호출할 수 있으며, 또한 같은 방법으로 Bedrock API를 이용해서 생성형 AI 애플리케이션을 개발할 수도 있습니다. 
 
+CLI 실행
+<img src="images/prompt_cli_aug19.png" width="600px">
+
+CLI 결과
+<img src="images/prompt_result_aug19.png" width="600px">
+
 <br>
 <br>
 
