@@ -3,6 +3,8 @@
 ## Bedrock Console 둘러보기
 Amazon Bedrock 핸즈온 과정에서 참석해주셔서 감사합니다. 
 
+Amazon Bedrock은 AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, Stability AI, Amazon과 같은 주요 AI 회사의 고성능 FM을 쉽게 이용하여 최신의 생성형 AI 혁신을 빠르게 조정하고 활용할 수 있도록 도와줍니다. 
+
 본격적인 실습에 앞서 Amazon Bedrock 콘솔의 몇 가지 주요 기능에 대해 먼저 살펴보겠습니다.
  
 
