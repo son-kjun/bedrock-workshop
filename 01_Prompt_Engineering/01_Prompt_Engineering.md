@@ -223,3 +223,7 @@ https://www.promptingguide.ai/
 
 Guide to Anthropic's prompt engineering resources 
 https://docs.anthropic.com/en/docs/intro-to-claude
+
+Few-shot 관련 블로그 참조
+
+https://aws.amazon.com/ko/blogs/tech/voithru-gpt-to-claude-3/
