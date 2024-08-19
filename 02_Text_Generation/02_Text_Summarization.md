@@ -37,8 +37,9 @@ https://aws.amazon.com/ko/blogs/machine-learning/welcome-to-a-new-era-of-buildin
 
 <img src="images/text-summ-2.png" width="600px">
 
-5. 우측 Configurations 에서 **Length** 값을 **1500**으로 변경합니다.
-6. 다시 **Run** 버튼을 클릭해서 결과를 비교해봅시다. 
+5. 우측 맨 위의 **Load examples** 에서 **Earning call summarization** 을 다시 로드하거나 Text 창에서 Summarize the above conversation 하위에 요약된 문장을 지웁니다.
+6. 우측 Configurations 에서 **Length** 값을 **100**으로 변경합니다.
+7. 다시 **Run** 버튼을 클릭해서 결과를 비교해봅시다. 
 
 <br>
 <br>
