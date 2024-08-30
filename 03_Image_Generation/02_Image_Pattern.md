@@ -4,6 +4,15 @@
 ![app-in-use.png](images/app-in-use.png)
 
 
+
+[1] [실습환경설정(관련패키지 설치)](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/prerequisites/lab-setup)
+
+[2] [데모코드](codes/Lab_1.Image_Generation.md)
+
+
+
+
+
 Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니다. 무작위 노이즈로 시작하여 일련의 단계에 걸쳐 점차적으로 이미지를 형성합니다. 또한 프롬프트를 기반으로 기존 이미지를 변형하는 데에도 사용할 수 있으며, 이는 나중에 실습에서 시도해 보겠습니다.
 
 <BR><BR>
