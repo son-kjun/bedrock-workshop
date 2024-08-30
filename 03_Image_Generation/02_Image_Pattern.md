@@ -51,6 +51,10 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 <BR><BR>
 ## 코드예제 : [codes/Lab_2.Image_Pattern.md](codes/Lab_2.Image_Pattern.md)
 
+<BR><BR>
+## 도전과제 
+![도전과제](https://simyung.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fbcfc9a33-741c-4cf8-88e2-7fc3d778fb45%2F96fec6d1-6b2f-491b-9a81-77f4212b0378%2FScreenshot_2024-05-21_at_7.32.06_PM.png?table=block&id=51d868fa-3d3e-4e85-9e5b-c60197e8bda4&spaceId=bcfc9a33-741c-4cf8-88e2-7fc3d778fb45&width=2000&userId=&cache=v2)
+
 <!--데모에서 오류가 발생하시는 경우 (정상 호출되는 인스턴스 직접 호출) <BR>
 http://54.205.45.29:8501 <BR>
 http://54.205.45.29:18501 <BR><BR><BR>-->
