@@ -1,7 +1,10 @@
 ** 실습용 에셋 다운로드 및 구성 **
 ** AWS Cloud9 IDE에서 bash terminal을 선택합니다. **
+
 ![alt text](images/cloud9-terminal.png)
- 
+
+
+
 
 터미널에 다음을 붙여넣고 실행하여 코드를 다운로드하고 압축을 풉니다.
 ~~~python
@@ -11,12 +14,9 @@ unzip workshop.zip
 ~~~
   
 완료되면 터미널에 압축 해제 결과가 표시됩니다:
-~~~python
-Terminal results from zip download & unzip
-~~~
-
+<BR>
 ![alt text](images/zip.png)
- 
+<BR> 
 
 실습에 필요한 종속성을 설치합니다.
 ~~~python
