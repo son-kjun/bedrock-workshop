@@ -40,7 +40,7 @@ daguerreotype of robot and cowboy standing side-by-side, directly facing the cam
 ~~~python
 photograph of a calico cat, cyberpunk, futuristic cityscape in the background, low angle, long shot, neon sign on building "CALICO CORP", Epic, photorealistic, 4K
 ~~~
-(한국어 번역: 카메라를 정면으로 바라보며 나란히 서 있는 로봇과 카우보이의 다게레오타입, 스팀펑크, 배경의 서부 마을, 긴 샷, 세피아 톤)
+(한국어 번역: 옥양목 고양이 사진, 사이버 펑크, 배경의 미래 도시 풍경, 낮은 각도, 긴 샷, "CALICO CORP" 건물의 네온 사인, Epic, 포토리얼리스틱, 4K)
 
 
 <!-- 아래 프롬프트 중에는 오류가 발생하는 프롬프트가 있습니다. 오류가 발생하는 원인과 조치 방법을 생각해보세요--> 
