@@ -3,11 +3,13 @@
 **실습소개**
 ![app-in-use.png](images/app-in-use.png)
 
-[0] [Cloud9 바로가기 ](https://us-west-2.console.aws.amazon.com/cloud9control/home?region=us-west-2#/)
+[1] [Cloud9 바로가기 ](https://us-west-2.console.aws.amazon.com/cloud9control/home?region=us-west-2#/)
 
-[1] [실습환경설정(관련패키지 설치)](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/prerequisites/lab-setup)
+[2] [Cloud9 셋팅하기](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/prerequisites/cloud9-setup)
 
-[2] [데모코드](codes/Lab_1.Image_Generation.md)
+[3] [실습 관련패키지 설치](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/prerequisites/lab-setup)
+
+[4] [데모코드](codes/Lab_1.Image_Generation.md)
 
 
 
