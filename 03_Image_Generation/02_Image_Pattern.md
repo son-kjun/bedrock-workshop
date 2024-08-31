@@ -5,7 +5,7 @@
 
 [1] [Cloud9 바로가기 ](https://us-west-2.console.aws.amazon.com/cloud9control/home?region=us-west-2#/)
 
-[2] [Cloud9 셋팅하기](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/prerequisites/cloud9-setup)
+[2] [Cloud9 셋팅하기](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/prerequisites/cloud9-setup](https://github.com/son-kjun/bedrock-workshop/blob/main/03_Image_Generation/cloud9settings.md)
 
 [3] [실습 관련패키지 설치](https://catalog.us-east-1.prod.workshops.aws/workshops/10435111-3e2e-48bb-acb4-0b5111d7638e/ko-KR/prerequisites/lab-setup)
 
