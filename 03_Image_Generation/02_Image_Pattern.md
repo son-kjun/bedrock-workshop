@@ -28,7 +28,7 @@ Titan Image Generator는 텍스트 프롬프트에서 이미지를 생성합니�
 
 <BR><BR>
 ## Demo > Lab_2_Image_Pattern 선택
-**[[https://bit.ly/bedrock-image](http://myrpc09-lb-443169224.us-east-1.elb.amazonaws.com/)](http://myrpc09-lb-443169224.us-east-1.elb.amazonaws.com/)** 
+**http://myrpc09-lb-443169224.us-east-1.elb.amazonaws.com** 
 <BR><BR>
 **몇 가지 프롬프트를 사용해 보고 결과를 확인합니다.**
 **아래의 요소들을 응용하여 프롬프트를 입력해 보세요(영문만 가능합니다.)**
