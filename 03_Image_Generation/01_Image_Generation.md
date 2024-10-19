@@ -25,7 +25,7 @@ AWS Console > Bedrock > Image 선택
 ~~~
 <BR><BR>
 ## Demo > Lab1_Image_Generation
-**[http://myrpc09-lb-443169224.us-east-1.elb.amazonaws.com/)](http://myrpc09-lb-443169224.us-east-1.elb.amazonaws.com/)** 
+**http://myrpc09-lb-443169224.us-east-1.elb.amazonaws.com** 
 
 ![picasso.png](images/picasso.png)
 <BR>
