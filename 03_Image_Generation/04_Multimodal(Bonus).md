@@ -14,7 +14,7 @@ LLM에는 상태나 메모리 개념이 없습니다. 모든 채팅 기록은 �
 
 <BR><BR><BR><BR>
 ## 2단계 : Demo > Bonus 메뉴를 선택합니다.
-<a href="[https://bit.ly/bedrock-image](https://bit.ly/bedrock-image)" target="_blank"> **https://bit.ly/bedrock-image** </a>
+**http://myrpc09-lb-443169224.us-east-1.elb.amazonaws.com** 
 
 데모화면에 접속하면 아래와 같은 웹페이지가 표시됩니다
 ![multimodal-02.png](images/multimodal-02.png)
@@ -43,9 +43,7 @@ Curation을 만들어서 그림을 설명해주는 음성을 생성해줍니다.
 https://aws.amazon.com/ko/blogs/tech/amazon-bedrock-multi-modal-document-rag/
 
 <BR><BR>
-데모에서 오류가 발생하시는 경우 (정상 호출되는 인스턴스 직접 호출) <BR>
-http://54.205.45.29:8501 <BR>
-http://54.205.45.29:18501 <BR>
+
 
 
 
