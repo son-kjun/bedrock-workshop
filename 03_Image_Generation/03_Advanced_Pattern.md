@@ -52,7 +52,7 @@ PS. car가 아닌 taxi로 입력하면 인식하지 못합니다. (taxi는 국�
 <BR><BR>
 ## (3) 이미지 스타일
 ## Demo > Lab_3_Style_Change 메뉴를 선택 하고 다양한 스타일을 적용해 보세요
-<a href="http://54.205.45.29:8501" target="_blank"> **https://bit.ly/my-bedrock** </a>
+**http://myrpc09-lb-443169224.us-east-1.elb.amazonaws.com** 
 
 다음의 프롬프트를 작성하고 style을 적용해보세요.
 - daguerreotype of robot and cowboy standing side-by-side, directly facing the camera, steampunk, western town in the background, long shot, sepia tone
