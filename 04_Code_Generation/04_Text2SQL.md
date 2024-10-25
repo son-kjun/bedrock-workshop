@@ -12,7 +12,7 @@ Code Generation 을 통해 우리는 Python 과 같은 일반 프로그래밍 �
 
 
 
-#### 2. SageMaker Console(https://console.aws.amazon.com/sagemaker)을 열고 Notebook을 하나 생성합니다. 
+#### 2. SageMaker Console(https://console.aws.amazon.com/sagemaker) 을 열고 Notebook을 하나 생성합니다. 
 ![alt text](images/C470224F-B696-4C80-AD05-71C8944CDCAB.jpeg)
 
 notebook instance name을 설정하고, 알맞은 인스턴스 타입을 선택합니다. (예시에서는 ml.g4dn.xlarge 사용 )
@@ -25,7 +25,7 @@ notebook instance name을 설정하고, 알맞은 인스턴스 타입을 선택�
 
 
 
-#### 3.IAM Role에서 AmazonAthenaFullAccess, AWSGludConsoleFullAccess를 추가합니다. 
+#### 3.IAM Role에서 AmazonAthenaFullAccess, AWSGlueConsoleFullAccess를 추가합니다. 
 ![alt text](images/CE36D6E7-4BEF-475D-B1BC-62A8EA3B09D6.jpeg)
 ![alt text](images/5359E412-190A-459A-9E34-E9E04A645E95.jpeg)
 ![alt text](images/68043480-450B-4728-81E9-EB806B746DA5.jpeg)
