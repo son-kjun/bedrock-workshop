@@ -15,9 +15,9 @@
 
 ## 페르소나 프롬프트 사용 예 - 비지니스 영어 시뮬레이션
 
-1. Bedrock 콘솔 메뉴에서 **Playgrounds** → **Chat** 를 선택합니다.
+1. Bedrock 콘솔 메뉴에서 **Playgrounds** → **Chat/Text** 를 선택합니다.
 2. **Select model** 버튼을 클릭합니다.
-3. Category: **Anthropic**, Model: **Claude 2 v2**를 선택합니다.
+3. Category: **Anthropic**, Model: **Claude 3 Sonnet**를 선택합니다.
 <img src="images/choose-claud2v2-aug7.png" width="600px">   
 4. **Apply** 버튼을 클릭합니다.
 5. 다음 프롬프트를 입력하고 AI의 응답을 기다립니다.
