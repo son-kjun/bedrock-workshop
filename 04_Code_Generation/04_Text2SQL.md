@@ -7,18 +7,19 @@ Code Generation 을 통해 우리는 Python 과 같은 일반 프로그래밍 �
 
 ## 환경셋팅 
 
-#### 1. 다음 실습은 Calude 3.7 Sonnet 과 Titan Embeddings G1 - Text models를 사용하므로, model access에서 두 모델에 대한 사용 요청을 합니다. 
+#### 1. 다음 실습은 Calude 3.0 Sonnet 과 Titan Embeddings G1 - Text models를 사용하므로, model access에서 두 모델에 대한 사용 요청을 합니다. 
 <!--![alt text](images/35830B02-44F6-4F2B-A180-3F71A112673A.jpeg)-->
-![alt text](images/64DFFA52-B5EE-4F5D-B69D-12CA1C436132.jpeg)
+<!--![alt text](images/64DFFA52-B5EE-4F5D-B69D-12CA1C436132.jpeg)-->
 
 
 
-#### 2. SageMaker AI Console(https://console.aws.amazon.com/sagemaker) 을 열고 Notebook을 하나 생성합니다. 
+#### 2. [SageMaker AI Console](https://console.aws.amazon.com/sagemaker) 을 열고 Notebook을 하나 생성합니다. 
 <!--![alt text](images/C470224F-B696-4C80-AD05-71C8944CDCAB.jpeg)-->
 ![alt text](images/0B8C9D3D-80B3-4DEC-9DBA-FBB5494F9A11.jpeg)
 
 
 notebook instance name을 설정하고, 알맞은 인스턴스 타입을 선택합니다. (예시에서는 ml.g4dn.xlarge 사용 )
+노트북 생성에는 5분 정도 소요될 수 있습니다. 
 ![alt text](images/F7004C1C-D767-4919-AE99-ACADA13E3BDB.jpeg)
 
 미리 생성되어있는 기본 IAM Role을 선택합니다.
@@ -28,7 +29,9 @@ notebook instance name을 설정하고, 알맞은 인스턴스 타입을 선택�
 
 
 
-#### 3.IAM Role에서 AmazonAthenaFullAccess, AWSGlueConsoleFullAccess를 추가합니다. 
+#### 3.[IAM Role](https://us-east-1.console.aws.amazon.com/iam/home?region=us-west-2#/home) 에서 
+미리 만들어져있는 IAM Role인 
+genai-workshop-studio-SageMakerExecutionRole-XXXXXXXXX에 AmazonAthenaFullAccess, AWSGlueConsoleFullAccess를 추가합니다. 
 ![alt text](images/CE36D6E7-4BEF-475D-B1BC-62A8EA3B09D6.jpeg)
 ![alt text](images/5359E412-190A-459A-9E34-E9E04A645E95.jpeg)
 ![alt text](images/68043480-450B-4728-81E9-EB806B746DA5.jpeg)
