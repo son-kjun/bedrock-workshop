@@ -13,8 +13,10 @@ Code Generation 을 통해 우리는 Python 과 같은 일반 프로그래밍 �
 
 
 
-#### 2. SageMaker Console(https://console.aws.amazon.com/sagemaker) 을 열고 Notebook을 하나 생성합니다. 
-![alt text](images/C470224F-B696-4C80-AD05-71C8944CDCAB.jpeg)
+#### 2. SageMaker AI Console(https://console.aws.amazon.com/sagemaker) 을 열고 Notebook을 하나 생성합니다. 
+<!--![alt text](images/C470224F-B696-4C80-AD05-71C8944CDCAB.jpeg)-->
+![alt text](images/0B8C9D3D-80B3-4DEC-9DBA-FBB5494F9A11.jpeg)
+
 
 notebook instance name을 설정하고, 알맞은 인스턴스 타입을 선택합니다. (예시에서는 ml.g4dn.xlarge 사용 )
 ![alt text](images/F7004C1C-D767-4919-AE99-ACADA13E3BDB.jpeg)
